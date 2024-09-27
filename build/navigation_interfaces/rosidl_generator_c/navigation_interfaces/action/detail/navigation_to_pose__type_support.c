@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "navigation_interfaces/action/detail/navigation_to_pose__type_support.h"
-#include "navigation_interfaces/action/detail/navigation_to_pose__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "navigation_interfaces/action/detail/navigation_to_pose__functions.h"
+#include "navigation_interfaces/action/detail/navigation_to_pose__struct.h"
 
 #ifdef __cplusplus
 extern "C"

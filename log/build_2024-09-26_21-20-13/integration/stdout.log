@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/integration/integration.egg-info/PKG-INFO
+writing dependency_links to ../../build/integration/integration.egg-info/dependency_links.txt
+writing entry points to ../../build/integration/integration.egg-info/entry_points.txt
+writing requirements to ../../build/integration/integration.egg-info/requires.txt
+writing top-level names to ../../build/integration/integration.egg-info/top_level.txt
+reading manifest file '../../build/integration/integration.egg-info/SOURCES.txt'
+writing manifest file '../../build/integration/integration.egg-info/SOURCES.txt'
+running build
+running build_py
+copying integration/task_one.py -> /home/fai/nao_ws/build/integration/build/lib/integration
+copying integration/integration_interface.py -> /home/fai/nao_ws/build/integration/build/lib/integration
+running install
+running install_lib
+copying /home/fai/nao_ws/build/integration/build/lib/integration/task_one.py -> /home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration
+copying /home/fai/nao_ws/build/integration/build/lib/integration/integration_interface.py -> /home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration
+byte-compiling /home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration/task_one.py to task_one.cpython-312.pyc
+byte-compiling /home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration/integration_interface.py to integration_interface.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/integration/integration.egg-info to /home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration-0.0.0-py3.12.egg-info
+running install_scripts
+Installing integration_interface script to /home/fai/nao_ws/install/integration/lib/integration
+Installing task_one script to /home/fai/nao_ws/install/integration/lib/integration
+writing list of installed files to '/home/fai/nao_ws/build/integration/install.log'

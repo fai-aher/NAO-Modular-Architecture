@@ -1,0 +1,232 @@
+[0.025s] Invoking command in '/home/fai/nao_ws/build/navigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fai/nao_ws/src/navigation_interfaces -DCMAKE_INSTALL_PREFIX=/home/fai/nao_ws/install/navigation_interfaces
+[0.176s] -- The C compiler identification is GNU 13.2.0
+[0.331s] -- The CXX compiler identification is GNU 13.2.0
+[0.371s] -- Detecting C compiler ABI info
+[0.640s] -- Detecting C compiler ABI info - done
+[0.671s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.674s] -- Detecting C compile features
+[0.675s] -- Detecting C compile features - done
+[0.697s] -- Detecting CXX compiler ABI info
+[0.978s] -- Detecting CXX compiler ABI info - done
+[1.022s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.022s] -- Detecting CXX compile features
+[1.026s] -- Detecting CXX compile features - done
+[1.034s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.470s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.779s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.232s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.240s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.643s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.544s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.430s] -- Found PythonExtra: /usr/bin/python3  
+[12.890s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[13.558s] -- Configuring done (13.5s)
+[14.102s] -- Generating done (0.4s)
+[14.128s] -- Build files have been written to: /home/fai/nao_ws/build/navigation_interfaces
+[14.236s] Invoked command in '/home/fai/nao_ws/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fai/nao_ws/src/navigation_interfaces -DCMAKE_INSTALL_PREFIX=/home/fai/nao_ws/install/navigation_interfaces
+[14.242s] Invoking command in '/home/fai/nao_ws/build/navigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/navigation_interfaces -- -j4 -l4
+[14.727s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[14.755s] [  2%] Built target ament_cmake_python_copy_navigation_interfaces
+[17.052s] [  2%] Built target navigation_interfaces__rosidl_generator_type_description
+[17.144s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.251s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.144s] running egg_info
+[18.154s] creating navigation_interfaces.egg-info
+[18.221s] writing navigation_interfaces.egg-info/PKG-INFO
+[18.222s] writing dependency_links to navigation_interfaces.egg-info/dependency_links.txt
+[18.222s] writing top-level names to navigation_interfaces.egg-info/top_level.txt
+[18.222s] writing manifest file 'navigation_interfaces.egg-info/SOURCES.txt'
+[18.430s] reading manifest file 'navigation_interfaces.egg-info/SOURCES.txt'
+[18.431s] writing manifest file 'navigation_interfaces.egg-info/SOURCES.txt'
+[18.621s] [  8%] Built target ament_cmake_python_build_navigation_interfaces_egg
+[22.299s] [ 11%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigation_interfaces/action/detail/navigation_to_pose__description.c.o[0m
+[24.056s] [ 14%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigation_interfaces/action/detail/navigation_to_pose__type_support.c.o[0m
+[24.753s] [ 14%] Built target navigation_interfaces__cpp
+[24.882s] [ 17%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigation_interfaces/action/detail/navigation_to_pose__functions.c.o[0m
+[27.995s] [ 20%] [32m[1mLinking C shared library libnavigation_interfaces__rosidl_generator_c.so[0m
+[28.132s] [ 20%] Built target navigation_interfaces__rosidl_generator_c
+[28.163s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[31.029s] [ 26%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_interfaces/action/navigation_to_pose__type_support.cpp.o[0m
+[35.127s] [ 29%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_cpp.so[0m
+[35.450s] [ 29%] Built target navigation_interfaces__rosidl_typesupport_cpp
+[35.483s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[36.653s] [ 35%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation_interfaces/action/navigation_to_pose__type_support.cpp.o[0m
+[36.873s] [ 38%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_c.so[0m
+[36.990s] [ 38%] Built target navigation_interfaces__rosidl_typesupport_c
+[37.015s] [ 41%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[38.728s] [ 44%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation_interfaces/action/detail/dds_fastrtps/navigation_to_pose__type_support.cpp.o[0m
+[43.150s] [ 47%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[43.415s] [ 47%] Built target navigation_interfaces__rosidl_typesupport_fastrtps_cpp
+[43.451s] [ 50%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[44.797s] [ 52%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation_interfaces/action/detail/navigation_to_pose__type_support.cpp.o[0m
+[48.589s] [ 55%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[48.845s] [ 55%] Built target navigation_interfaces__rosidl_typesupport_introspection_cpp
+[48.880s] [ 58%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[49.743s] [ 61%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation_interfaces/action/detail/navigation_to_pose__type_support.c.o[0m
+[49.884s] [ 64%] [32m[1mLinking C shared library libnavigation_interfaces__rosidl_typesupport_introspection_c.so[0m
+[49.934s] [ 64%] Built target navigation_interfaces__rosidl_typesupport_introspection_c
+[49.949s] [ 67%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[50.902s] [ 70%] [32mBuilding CXX object CMakeFiles/navigation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation_interfaces/action/detail/navigation_to_pose__type_support_c.cpp.o[0m
+[52.139s] [ 73%] [32m[1mLinking CXX shared library libnavigation_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[52.219s] [ 73%] Built target navigation_interfaces__rosidl_typesupport_fastrtps_c
+[52.247s] [ 73%] Built target navigation_interfaces
+[52.279s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[53.672s] [ 76%] Built target navigation_interfaces__py
+[53.703s] [ 79%] [32mBuilding C object CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o[0m
+[54.104s] [ 82%] [32m[1mLinking C shared library libnavigation_interfaces__rosidl_generator_py.so[0m
+[54.200s] [ 82%] Built target navigation_interfaces__rosidl_generator_py
+[54.237s] [ 85%] [32mBuilding C object CMakeFiles/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[54.510s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[54.565s] [ 88%] Built target navigation_interfaces_s__rosidl_typesupport_fastrtps_c
+[54.600s] [ 91%] [32mBuilding C object CMakeFiles/navigation_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[54.862s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.so[0m
+[54.913s] [ 94%] Built target navigation_interfaces_s__rosidl_typesupport_c
+[54.945s] [ 97%] [32mBuilding C object CMakeFiles/navigation_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[55.238s] [100%] [32m[1mLinking C shared module rosidl_generator_py/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[55.291s] [100%] Built target navigation_interfaces_s__rosidl_typesupport_introspection_c
+[55.309s] Invoked command in '/home/fai/nao_ws/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/navigation_interfaces -- -j4 -l4
+[55.391s] Invoking command in '/home/fai/nao_ws/build/navigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/navigation_interfaces
+[55.403s] -- Install configuration: ""
+[55.403s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/ament_index/resource_index/rosidl_interfaces/navigation_interfaces
+[55.403s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/action/NavigationToPose.json
+[55.403s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[55.404s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[55.404s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_generator_c__visibility_control.h
+[55.404s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action
+[55.404s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/navigation_to_pose.h
+[55.404s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail
+[55.405s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__description.c
+[55.405s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__type_support.h
+[55.405s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__functions.c
+[55.405s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__functions.h
+[55.405s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__type_support.c
+[55.406s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__struct.h
+[55.406s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/library_path.sh
+[55.406s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/library_path.dsv
+[55.406s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_c.so
+[55.407s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_c.so" to ""
+[55.407s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[55.408s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[55.408s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[55.408s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action
+[55.408s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail
+[55.408s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__rosidl_typesupport_fastrtps_c.h
+[55.408s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_c.so
+[55.409s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[55.409s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[55.409s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[55.409s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[55.409s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action
+[55.410s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail
+[55.410s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__rosidl_typesupport_introspection_c.h
+[55.410s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__type_support.c
+[55.410s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_c.so
+[55.411s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[55.411s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_c.so
+[55.411s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_c.so" to ""
+[55.411s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[55.412s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[55.412s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[55.412s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action
+[55.412s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/navigation_to_pose.hpp
+[55.412s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail
+[55.412s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__type_support.hpp
+[55.413s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__traits.hpp
+[55.413s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__builder.hpp
+[55.413s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__struct.hpp
+[55.413s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[55.413s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[55.413s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[55.414s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action
+[55.414s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail
+[55.414s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[55.414s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/dds_fastrtps
+[55.414s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[55.415s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[55.415s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[55.415s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action
+[55.415s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail
+[55.415s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__type_support.cpp
+[55.416s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/action/detail/navigation_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[55.416s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_cpp.so
+[55.416s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[55.416s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_cpp.so
+[55.417s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_cpp.so" to ""
+[55.417s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/pythonpath.sh
+[55.417s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/pythonpath.dsv
+[55.418s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info
+[55.418s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[55.418s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[55.418s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[55.419s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[55.419s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces
+[55.419s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[55.419s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.so
+[55.419s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/__init__.py
+[55.420s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[55.420s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[55.420s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.so
+[55.420s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_c.c
+[55.420s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/action
+[55.420s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/action/_navigation_to_pose.py
+[55.421s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/action/_navigation_to_pose_s.c
+[55.421s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/action/__init__.py
+[55.499s] Listing '/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces'...
+[55.499s] Compiling '/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/__init__.py'...
+[55.499s] Listing '/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/action'...
+[55.499s] Compiling '/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/action/__init__.py'...
+[55.500s] Compiling '/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/action/_navigation_to_pose.py'...
+[55.507s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[55.508s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[55.508s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.so
+[55.509s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[55.509s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.so
+[55.510s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.so" to ""
+[55.510s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_py.so
+[55.511s] -- Set non-toolchain portion of runtime path of "/home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_py.so" to ""
+[55.511s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/action/NavigationToPose.idl
+[55.511s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/action/NavigationToPose.action
+[55.511s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/ament_index/resource_index/package_run_dependencies/navigation_interfaces
+[55.511s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/ament_index/resource_index/parent_prefix_path/navigation_interfaces
+[55.512s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/ament_prefix_path.sh
+[55.512s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/ament_prefix_path.dsv
+[55.512s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/path.sh
+[55.512s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/path.dsv
+[55.512s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.bash
+[55.512s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.sh
+[55.513s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.zsh
+[55.513s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.dsv
+[55.513s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.dsv
+[55.513s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/ament_index/resource_index/packages/navigation_interfaces
+[55.514s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cExport.cmake
+[55.514s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cExport-noconfig.cmake
+[55.514s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[55.514s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[55.514s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[55.515s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[55.515s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cExport.cmake
+[55.515s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[55.515s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cppExport.cmake
+[55.515s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[55.516s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[55.516s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[55.516s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[55.516s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cppExport.cmake
+[55.516s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[55.517s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_pyExport.cmake
+[55.517s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[55.517s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake-extras.cmake
+[55.517s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.517s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.518s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[55.518s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[55.518s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[55.518s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[55.518s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfacesConfig.cmake
+[55.519s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfacesConfig-version.cmake
+[55.519s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.xml
+[55.525s] Invoked command in '/home/fai/nao_ws/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/navigation_interfaces

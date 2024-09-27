@@ -3,7 +3,6 @@
 import rclpy
 from integration.integration_interface import IntegrationInterface
 from transitions import Machine
-import asyncio
 
 class TaskOne:
     # Define states
@@ -16,15 +15,14 @@ class TaskOne:
         # Initialize the state machine
         self.machine = Machine(model=self, states=TaskOne.states, initial='say_greeting')
 
-        # Define transitions
-        self.machine.add_transition(trigger='greeted', source='say_greeting', dest='raise_hands', after='raise_hands_action')
-        self.machine.add_transition(trigger='hands_raised', source='raise_hands', dest='say_goodbye', after='say_goodbye_action')
+        # Define transitions with synchronous callbacks
+        self.machine.add_transition(trigger='greeted', source='say_greeting', dest='raise_hands')
+        self.machine.add_transition(trigger='hands_raised', source='raise_hands', dest='say_goodbye')
         self.machine.add_transition(trigger='goodbye_said', source='say_goodbye', dest='task_completed')
-        self.machine.add_transition(trigger='failed', source='*', dest='task_failed')
+        self.machine.add_transition(trigger='failed', source='*', dest='task_failed', after='task_failed_action')
 
     def run(self):
         try:
-            asyncio.run(self.node.wait_until_ready())
             self.say_greeting_action()
         except Exception as e:
             self.node.get_logger().error(f"Task failed: {e}")
@@ -32,44 +30,40 @@ class TaskOne:
 
     def say_greeting_action(self):
         self.node.get_logger().info("State: Saying Greeting")
-        try:
-            asyncio.run(self.node.speak_async("Hello! I am NAO, pleased to meet you."))
+        success = self.node.speak("Hello! I am NAO, pleased to meet you. I am currently being completely controlled by a Modular Software Architecture, The technology stack includes: ROS2, Ubuntu 24.04, Python3 and the middleware Qi!")
+
+        if success:
             self.greeted()
-        except Exception as e:
-            self.node.get_logger().error(f"Greeting error: {e}")
+        else:
+            self.node.get_logger().error("Speak action failed.")
             self.failed()
 
     def raise_hands_action(self):
         self.node.get_logger().info("State: Raising Hands")
-        try:
-            response = asyncio.run(self.node.raise_hands_async())
-            if hasattr(response, 'success') and response.success:
-                self.node.get_logger().info("Hands raised successfully.")
-                self.hands_raised()
-            else:
-                self.node.get_logger().error("Failed to raise hands.")
-                self.failed()
-        except Exception as e:
-            self.node.get_logger().error(f"Raise hands error: {e}")
+        success = self.node.raise_hands()
+        if success:
+            self.hands_raised()
+        else:
+            self.node.get_logger().error("Failed to raise hands.")
             self.failed()
 
     def say_goodbye_action(self):
         self.node.get_logger().info("State: Saying Goodbye")
-        try:
-            asyncio.run(self.node.speak_async("Goodbye! Have a nice day."))
+        success = self.node.speak("Goodbye! Have a nice day.")
+        if success:
             self.goodbye_said()
-        except Exception as e:
-            self.node.get_logger().error(f"Goodbye error: {e}")
+        else:
+            self.node.get_logger().error("Goodbye action failed.")
             self.failed()
 
-    def task_completed(self):
+    def task_completed_action(self):
         self.node.get_logger().info("Task Completed Successfully.")
 
-    def task_failed(self):
+    def task_failed_action(self):
         self.node.get_logger().info("Task Failed.")
 
-def main():
-    rclpy.init()
+def main(args=None):
+    rclpy.init(args=args)
     task = TaskOne()
     task.run()
     rclpy.shutdown()

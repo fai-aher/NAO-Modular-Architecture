@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "manipulation_interfaces/srv/detail/move_arm__struct.h"
+#include "manipulation_interfaces/srv/detail/move_arm__type_support.h"
 #include "manipulation_interfaces/srv/detail/move_arm__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "manipulation_interfaces/srv/detail/move_arm__type_support.h"
+#include "manipulation_interfaces/srv/detail/move_arm__struct.h"
 
 #ifdef __cplusplus
 extern "C"
