@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: nao-qi-ros2-package
+Version: 0.0.1
+Summary: ROS2 package to communicate with NAO robot using qi SDK and Python 3
+Maintainer: fai
+Maintainer-email: f.hernandezt@uniandes.edu.co

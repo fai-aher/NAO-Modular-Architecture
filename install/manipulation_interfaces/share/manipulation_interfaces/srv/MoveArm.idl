@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from manipulation_interfaces/srv/MoveArm.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module manipulation_interfaces {
+  module srv {
+    struct MoveArm_Request {
+      geometry_msgs::msg::Point target_position;
+    };
+    struct MoveArm_Response {
+      boolean success;
+    };
+  };
+};

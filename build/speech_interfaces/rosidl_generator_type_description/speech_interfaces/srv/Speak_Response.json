@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "speech_interfaces/srv/Speak_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "speech_interfaces/srv/Speak_Response",
+      "hash_string": "RIHS01_2016e99c8bec62d3f4061897a4193379dedf17af90dad3ec91f904942ceae976"
+    }
+  ]
+}

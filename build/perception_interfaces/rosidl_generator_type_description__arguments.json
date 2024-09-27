@@ -1,0 +1,13 @@
+{
+  "package_name": "perception_interfaces",
+  "output_dir": "/home/fai/nao_ws/build/perception_interfaces/rosidl_generator_type_description/perception_interfaces",
+  "idl_tuples": [
+    "/home/fai/nao_ws/build/perception_interfaces/rosidl_adapter/perception_interfaces:srv/DetectObjects.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

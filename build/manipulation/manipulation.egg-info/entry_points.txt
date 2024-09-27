@@ -1,0 +1,2 @@
+[console_scripts]
+manipulation_node = manipulation.manipulation_node:main

@@ -1,0 +1,797 @@
+[0.184s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.184s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cc9601778c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cc9601775c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cc9601775c0>>, mixin_verb=('build',))
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.242s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fai/nao_ws'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/integration' with type 'ros.ament_python' and name 'integration'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manipulation' with type 'ros.ament_python' and name 'manipulation'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation_interfaces) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation_interfaces) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation_interfaces) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation_interfaces) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation_interfaces) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation_interfaces) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation_interfaces) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulation_interfaces) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manipulation_interfaces' with type 'ros.ament_cmake' and name 'manipulation_interfaces'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_qi_ros2_package) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_qi_ros2_package) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_qi_ros2_package) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_qi_ros2_package) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_qi_ros2_package) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_qi_ros2_package) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_qi_ros2_package) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_qi_ros2_package) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_qi_ros2_package) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nao_qi_ros2_package' with type 'ros.ament_python' and name 'nao_qi_ros2_package'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_tasks) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_tasks) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_tasks) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_tasks) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_tasks) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_tasks) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_tasks) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_tasks) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nao_tasks' with type 'ros.ament_python' and name 'nao_tasks'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation' with type 'ros.ament_python' and name 'navigation'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_interfaces) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_interfaces) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_interfaces) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_interfaces) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_interfaces) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_interfaces) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_interfaces) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_interfaces) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_interfaces' with type 'ros.ament_cmake' and name 'navigation_interfaces'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception' with type 'ros.ament_python' and name 'perception'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_interfaces) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_interfaces) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_interfaces) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_interfaces) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_interfaces) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_interfaces) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_interfaces) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_interfaces) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_interfaces' with type 'ros.ament_cmake' and name 'perception_interfaces'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/speech' with type 'ros.ament_python' and name 'speech'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech_interfaces) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech_interfaces) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech_interfaces) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech_interfaces) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech_interfaces) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech_interfaces) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech_interfaces) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/speech_interfaces) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/speech_interfaces' with type 'ros.ament_cmake' and name 'speech_interfaces'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/web_controller' with type 'ros.ament_python' and name 'web_controller'
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.344s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/fai/nao_ws/install
+[0.347s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'manipulation_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'manipulation_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'manipulation_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'manipulation_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'manipulation_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'manipulation_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'manipulation_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'manipulation_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'manipulation_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'manipulation_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/manipulation_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/manipulation_interfaces', 'merge_install': False, 'path': '/home/fai/nao_ws/src/manipulation_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'nao_qi_ros2_package' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'nao_qi_ros2_package' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'nao_qi_ros2_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'nao_qi_ros2_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'nao_qi_ros2_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'nao_qi_ros2_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'nao_qi_ros2_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'nao_qi_ros2_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'nao_qi_ros2_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'nao_qi_ros2_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/nao_qi_ros2_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/nao_qi_ros2_package', 'merge_install': False, 'path': '/home/fai/nao_ws/src/nao_qi_ros2_package', 'symlink_install': False, 'test_result_base': None}
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'navigation_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'navigation_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'navigation_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'navigation_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'navigation_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'navigation_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'navigation_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'navigation_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'navigation_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.427s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/navigation_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/navigation_interfaces', 'merge_install': False, 'path': '/home/fai/nao_ws/src/navigation_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'perception_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'perception_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'perception_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'perception_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'perception_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'perception_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'perception_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'perception_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'perception_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'perception_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/perception_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/perception_interfaces', 'merge_install': False, 'path': '/home/fai/nao_ws/src/perception_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'speech_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'speech_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'speech_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'speech_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'speech_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'speech_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'speech_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'speech_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'speech_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'speech_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/speech_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/speech_interfaces', 'merge_install': False, 'path': '/home/fai/nao_ws/src/speech_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'web_controller' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'web_controller' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'web_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'web_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'web_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'web_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'web_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'web_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'web_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'web_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/web_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/web_controller', 'merge_install': False, 'path': '/home/fai/nao_ws/src/web_controller', 'symlink_install': False, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'integration' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'integration' build argument 'cmake_target' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'integration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'integration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'integration' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'integration' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'integration' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'integration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'integration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'integration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/integration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/integration', 'merge_install': False, 'path': '/home/fai/nao_ws/src/integration', 'symlink_install': False, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'manipulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'manipulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/manipulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/manipulation', 'merge_install': False, 'path': '/home/fai/nao_ws/src/manipulation', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'nao_tasks' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'nao_tasks' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'nao_tasks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'nao_tasks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'nao_tasks' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'nao_tasks' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'nao_tasks' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nao_tasks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'nao_tasks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'nao_tasks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/nao_tasks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/nao_tasks', 'merge_install': False, 'path': '/home/fai/nao_ws/src/nao_tasks', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/navigation', 'merge_install': False, 'path': '/home/fai/nao_ws/src/navigation', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/perception', 'merge_install': False, 'path': '/home/fai/nao_ws/src/perception', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'speech' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'speech' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'speech' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'speech' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'speech' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'speech' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'speech' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'speech' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'speech' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'speech' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fai/nao_ws/build/speech', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fai/nao_ws/install/speech', 'merge_install': False, 'path': '/home/fai/nao_ws/src/speech', 'symlink_install': False, 'test_result_base': None}
+[0.437s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.439s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fai/nao_ws/src/manipulation_interfaces' with build type 'ament_cmake'
+[0.439s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fai/nao_ws/src/manipulation_interfaces'
+[0.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.453s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fai/nao_ws/src/navigation_interfaces' with build type 'ament_cmake'
+[0.454s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fai/nao_ws/src/navigation_interfaces'
+[0.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fai/nao_ws/src/speech_interfaces' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fai/nao_ws/src/speech_interfaces'
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fai/nao_ws/src/perception_interfaces' with build type 'ament_cmake'
+[0.469s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fai/nao_ws/src/perception_interfaces'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/build/manipulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/manipulation_interfaces -- -j4 -l4
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/build/navigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/navigation_interfaces -- -j4 -l4
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/build/speech_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/speech_interfaces -- -j4 -l4
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/build/perception_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/perception_interfaces -- -j4 -l4
+[2.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/build/perception_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/perception_interfaces -- -j4 -l4
+[3.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/navigation_interfaces -- -j4 -l4
+[3.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/build/speech_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/speech_interfaces -- -j4 -l4
+[3.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/build/perception_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/perception_interfaces
+[3.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/build/manipulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/manipulation_interfaces -- -j4 -l4
+[3.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/build/navigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/navigation_interfaces
+[3.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/build/speech_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/speech_interfaces
+[3.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_interfaces)
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces' for CMake module files
+[3.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/build/manipulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/manipulation_interfaces
+[3.401s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces' for CMake config files
+[3.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_interfaces', 'cmake_prefix_path')
+[3.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/cmake_prefix_path.ps1'
+[3.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/cmake_prefix_path.dsv'
+[3.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/cmake_prefix_path.sh'
+[3.413s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/lib'
+[3.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_interfaces', 'ld_library_path_lib')
+[3.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/ld_library_path_lib.ps1'
+[3.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/ld_library_path_lib.dsv'
+[3.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/ld_library_path_lib.sh'
+[3.421s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/bin'
+[3.424s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/lib/pkgconfig/perception_interfaces.pc'
+[3.424s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages'
+[3.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_interfaces', 'pythonpath')
+[3.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/pythonpath.ps1'
+[3.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/pythonpath.dsv'
+[3.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/pythonpath.sh'
+[3.431s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/bin'
+[3.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.ps1'
+[3.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/build/perception_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/perception_interfaces
+[3.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.dsv'
+[3.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.sh'
+[3.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.bash'
+[3.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.zsh'
+[3.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/perception_interfaces/share/colcon-core/packages/perception_interfaces)
+[3.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_interfaces)
+[3.473s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces' for CMake module files
+[3.475s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces' for CMake config files
+[3.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_interfaces', 'cmake_prefix_path')
+[3.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/cmake_prefix_path.ps1'
+[3.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/cmake_prefix_path.dsv'
+[3.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/cmake_prefix_path.sh'
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/lib'
+[3.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_interfaces', 'ld_library_path_lib')
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/ld_library_path_lib.ps1'
+[3.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/ld_library_path_lib.dsv'
+[3.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/ld_library_path_lib.sh'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/bin'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/lib/pkgconfig/navigation_interfaces.pc'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages'
+[3.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_interfaces', 'pythonpath')
+[3.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/pythonpath.ps1'
+[3.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/pythonpath.dsv'
+[3.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/pythonpath.sh'
+[3.509s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/bin'
+[3.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.ps1'
+[3.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.dsv'
+[3.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.sh'
+[3.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.bash'
+[3.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/navigation_interfaces
+[3.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.zsh'
+[3.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/navigation_interfaces/share/colcon-core/packages/navigation_interfaces)
+[3.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(speech_interfaces)
+[3.547s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces' for CMake module files
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces' for CMake config files
+[3.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/build/speech_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/speech_interfaces
+[3.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech_interfaces', 'cmake_prefix_path')
+[3.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/cmake_prefix_path.ps1'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/cmake_prefix_path.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/cmake_prefix_path.sh'
+[3.567s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/lib'
+[3.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech_interfaces', 'ld_library_path_lib')
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/ld_library_path_lib.ps1'
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/ld_library_path_lib.dsv'
+[3.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/ld_library_path_lib.sh'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/bin'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/lib/pkgconfig/speech_interfaces.pc'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages'
+[3.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech_interfaces', 'pythonpath')
+[3.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/pythonpath.ps1'
+[3.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/pythonpath.dsv'
+[3.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/pythonpath.sh'
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/bin'
+[3.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.ps1'
+[3.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.dsv'
+[3.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.sh'
+[3.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.bash'
+[3.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.zsh'
+[3.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/speech_interfaces/share/colcon-core/packages/speech_interfaces)
+[3.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_interfaces)
+[3.587s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces' for CMake module files
+[3.590s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces' for CMake config files
+[3.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_interfaces', 'cmake_prefix_path')
+[3.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/cmake_prefix_path.ps1'
+[3.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/cmake_prefix_path.dsv'
+[3.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/cmake_prefix_path.sh'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/lib'
+[3.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_interfaces', 'ld_library_path_lib')
+[3.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/ld_library_path_lib.ps1'
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/ld_library_path_lib.dsv'
+[3.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/ld_library_path_lib.sh'
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/bin'
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/lib/pkgconfig/perception_interfaces.pc'
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages'
+[3.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_interfaces', 'pythonpath')
+[3.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/pythonpath.ps1'
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/pythonpath.dsv'
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/hook/pythonpath.sh'
+[3.603s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception_interfaces/bin'
+[3.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.ps1'
+[3.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.dsv'
+[3.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.sh'
+[3.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.bash'
+[3.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.zsh'
+[3.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/perception_interfaces/share/colcon-core/packages/perception_interfaces)
+[3.609s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fai/nao_ws/src/nao_qi_ros2_package' with build type 'ament_python'
+[3.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('nao_qi_ros2_package', 'ament_prefix_path')
+[3.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/hook/ament_prefix_path.ps1'
+[3.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/hook/ament_prefix_path.dsv'
+[3.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/hook/ament_prefix_path.sh'
+[3.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulation_interfaces)
+[3.627s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces' for CMake module files
+[3.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/build/manipulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/manipulation_interfaces
+[3.631s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces' for CMake config files
+[3.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation_interfaces', 'cmake_prefix_path')
+[3.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/cmake_prefix_path.ps1'
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/cmake_prefix_path.dsv'
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/cmake_prefix_path.sh'
+[3.636s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/lib'
+[3.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation_interfaces', 'ld_library_path_lib')
+[3.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/ld_library_path_lib.ps1'
+[3.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/ld_library_path_lib.dsv'
+[3.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/ld_library_path_lib.sh'
+[3.641s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/bin'
+[3.641s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/lib/pkgconfig/manipulation_interfaces.pc'
+[3.642s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages'
+[3.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation_interfaces', 'pythonpath')
+[3.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/pythonpath.ps1'
+[3.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/pythonpath.dsv'
+[3.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/pythonpath.sh'
+[3.645s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/bin'
+[3.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.ps1'
+[3.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.dsv'
+[3.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.sh'
+[3.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.bash'
+[3.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.zsh'
+[3.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/manipulation_interfaces/share/colcon-core/packages/manipulation_interfaces)
+[4.166s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fai/nao_ws/src/nao_qi_ros2_package'
+[4.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_interfaces)
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces' for CMake module files
+[4.178s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces' for CMake config files
+[4.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_interfaces', 'cmake_prefix_path')
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/cmake_prefix_path.ps1'
+[4.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/cmake_prefix_path.dsv'
+[4.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/cmake_prefix_path.sh'
+[4.184s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/lib'
+[4.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_interfaces', 'ld_library_path_lib')
+[4.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/ld_library_path_lib.ps1'
+[4.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/ld_library_path_lib.dsv'
+[4.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/ld_library_path_lib.sh'
+[4.187s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/bin'
+[4.187s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/lib/pkgconfig/navigation_interfaces.pc'
+[4.187s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages'
+[4.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_interfaces', 'pythonpath')
+[4.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/pythonpath.ps1'
+[4.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/pythonpath.dsv'
+[4.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/hook/pythonpath.sh'
+[4.190s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation_interfaces/bin'
+[4.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.ps1'
+[4.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.dsv'
+[4.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.sh'
+[4.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.bash'
+[4.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.zsh'
+[4.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/navigation_interfaces/share/colcon-core/packages/navigation_interfaces)
+[4.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(speech_interfaces)
+[4.199s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces' for CMake module files
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces' for CMake config files
+[4.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech_interfaces', 'cmake_prefix_path')
+[4.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/cmake_prefix_path.ps1'
+[4.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/cmake_prefix_path.dsv'
+[4.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/cmake_prefix_path.sh'
+[4.208s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/lib'
+[4.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech_interfaces', 'ld_library_path_lib')
+[4.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/ld_library_path_lib.ps1'
+[4.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/ld_library_path_lib.dsv'
+[4.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/ld_library_path_lib.sh'
+[4.211s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/bin'
+[4.212s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/lib/pkgconfig/speech_interfaces.pc'
+[4.212s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages'
+[4.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech_interfaces', 'pythonpath')
+[4.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/pythonpath.ps1'
+[4.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/pythonpath.dsv'
+[4.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/hook/pythonpath.sh'
+[4.216s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech_interfaces/bin'
+[4.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.ps1'
+[4.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.dsv'
+[4.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.sh'
+[4.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.bash'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.zsh'
+[4.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/speech_interfaces/share/colcon-core/packages/speech_interfaces)
+[4.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulation_interfaces)
+[4.222s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces' for CMake module files
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces' for CMake config files
+[4.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation_interfaces', 'cmake_prefix_path')
+[4.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/cmake_prefix_path.ps1'
+[4.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/cmake_prefix_path.dsv'
+[4.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/cmake_prefix_path.sh'
+[4.232s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/lib'
+[4.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation_interfaces', 'ld_library_path_lib')
+[4.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/ld_library_path_lib.ps1'
+[4.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/ld_library_path_lib.dsv'
+[4.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/ld_library_path_lib.sh'
+[4.235s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/bin'
+[4.235s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/lib/pkgconfig/manipulation_interfaces.pc'
+[4.236s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages'
+[4.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation_interfaces', 'pythonpath')
+[4.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/pythonpath.ps1'
+[4.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/pythonpath.dsv'
+[4.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/hook/pythonpath.sh'
+[4.240s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation_interfaces/bin'
+[4.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.ps1'
+[4.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.dsv'
+[4.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.sh'
+[4.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.bash'
+[4.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.zsh'
+[4.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/manipulation_interfaces/share/colcon-core/packages/manipulation_interfaces)
+[4.249s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fai/nao_ws/src/web_controller' with build type 'ament_python'
+[4.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_controller', 'ament_prefix_path')
+[4.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/web_controller/share/web_controller/hook/ament_prefix_path.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/web_controller/share/web_controller/hook/ament_prefix_path.dsv'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/web_controller/share/web_controller/hook/ament_prefix_path.sh'
+[4.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.259s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fai/nao_ws/src/integration' with build type 'ament_python'
+[4.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('integration', 'ament_prefix_path')
+[4.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/integration/share/integration/hook/ament_prefix_path.ps1'
+[4.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/integration/share/integration/hook/ament_prefix_path.dsv'
+[4.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/integration/share/integration/hook/ament_prefix_path.sh'
+[4.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.274s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fai/nao_ws/src/manipulation' with build type 'ament_python'
+[4.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation', 'ament_prefix_path')
+[4.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation/share/manipulation/hook/ament_prefix_path.ps1'
+[4.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/manipulation/share/manipulation/hook/ament_prefix_path.dsv'
+[4.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation/share/manipulation/hook/ament_prefix_path.sh'
+[4.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.825s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fai/nao_ws/src/web_controller'
+[4.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.249s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fai/nao_ws/src/manipulation'
+[5.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.671s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fai/nao_ws/src/integration'
+[5.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/src/nao_qi_ros2_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/nao_qi_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nao_qi_ros2_package build --build-base /home/fai/nao_ws/build/nao_qi_ros2_package/build install --record /home/fai/nao_ws/build/nao_qi_ros2_package/install.log --single-version-externally-managed install_data
+[7.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/src/manipulation': CMAKE_PREFIX_PATH=/home/fai/nao_ws/install/manipulation_interfaces:/home/fai/nao_ws/install/speech_interfaces:/home/fai/nao_ws/install/perception_interfaces:/home/fai/nao_ws/install/navigation_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fai/nao_ws/install/manipulation_interfaces/lib:/home/fai/nao_ws/install/speech_interfaces/lib:/home/fai/nao_ws/install/perception_interfaces/lib:/home/fai/nao_ws/install/navigation_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/fai/nao_ws/build/manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manipulation build --build-base /home/fai/nao_ws/build/manipulation/build install --record /home/fai/nao_ws/build/manipulation/install.log --single-version-externally-managed install_data
+[7.573s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_qi_ros2_package' for CMake module files
+[7.575s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_qi_ros2_package' for CMake config files
+[7.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/src/nao_qi_ros2_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/nao_qi_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nao_qi_ros2_package build --build-base /home/fai/nao_ws/build/nao_qi_ros2_package/build install --record /home/fai/nao_ws/build/nao_qi_ros2_package/install.log --single-version-externally-managed install_data
+[7.576s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_qi_ros2_package/lib'
+[7.577s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_qi_ros2_package/bin'
+[7.577s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_qi_ros2_package/lib/pkgconfig/nao_qi_ros2_package.pc'
+[7.577s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages'
+[7.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('nao_qi_ros2_package', 'pythonpath')
+[7.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/hook/pythonpath.ps1'
+[7.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/hook/pythonpath.dsv'
+[7.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/hook/pythonpath.sh'
+[7.581s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_qi_ros2_package/bin'
+[7.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nao_qi_ros2_package)
+[7.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/package.ps1'
+[7.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/package.dsv'
+[7.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/package.sh'
+[7.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/package.bash'
+[7.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package/package.zsh'
+[7.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/nao_qi_ros2_package/share/colcon-core/packages/nao_qi_ros2_package)
+[7.591s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fai/nao_ws/src/nao_tasks' with build type 'ament_python'
+[7.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('nao_tasks', 'ament_prefix_path')
+[7.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/hook/ament_prefix_path.ps1'
+[7.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/hook/ament_prefix_path.dsv'
+[7.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/hook/ament_prefix_path.sh'
+[7.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.182s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fai/nao_ws/src/nao_tasks'
+[8.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/src/web_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/web_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/web_controller build --build-base /home/fai/nao_ws/build/web_controller/build install --record /home/fai/nao_ws/build/web_controller/install.log --single-version-externally-managed install_data
+[8.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/src/integration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/integration build --build-base /home/fai/nao_ws/build/integration/build install --record /home/fai/nao_ws/build/integration/install.log --single-version-externally-managed install_data
+[9.151s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation' for CMake module files
+[9.152s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation' for CMake config files
+[9.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/src/manipulation' returned '0': CMAKE_PREFIX_PATH=/home/fai/nao_ws/install/manipulation_interfaces:/home/fai/nao_ws/install/speech_interfaces:/home/fai/nao_ws/install/perception_interfaces:/home/fai/nao_ws/install/navigation_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fai/nao_ws/install/manipulation_interfaces/lib:/home/fai/nao_ws/install/speech_interfaces/lib:/home/fai/nao_ws/install/perception_interfaces/lib:/home/fai/nao_ws/install/navigation_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/fai/nao_ws/build/manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/manipulation build --build-base /home/fai/nao_ws/build/manipulation/build install --record /home/fai/nao_ws/build/manipulation/install.log --single-version-externally-managed install_data
+[9.154s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation/lib'
+[9.155s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation/bin'
+[9.155s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation/lib/pkgconfig/manipulation.pc'
+[9.155s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages'
+[9.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulation', 'pythonpath')
+[9.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation/share/manipulation/hook/pythonpath.ps1'
+[9.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/manipulation/share/manipulation/hook/pythonpath.dsv'
+[9.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/manipulation/share/manipulation/hook/pythonpath.sh'
+[9.160s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/manipulation/bin'
+[9.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulation)
+[9.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation/share/manipulation/package.ps1'
+[9.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/manipulation/share/manipulation/package.dsv'
+[9.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation/share/manipulation/package.sh'
+[9.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation/share/manipulation/package.bash'
+[9.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/manipulation/share/manipulation/package.zsh'
+[9.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/manipulation/share/colcon-core/packages/manipulation)
+[9.165s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fai/nao_ws/src/navigation' with build type 'ament_python'
+[9.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'ament_prefix_path')
+[9.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation/share/navigation/hook/ament_prefix_path.ps1'
+[9.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/navigation/share/navigation/hook/ament_prefix_path.dsv'
+[9.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation/share/navigation/hook/ament_prefix_path.sh'
+[9.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.887s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fai/nao_ws/src/navigation'
+[9.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.927s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/integration' for CMake module files
+[9.929s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/integration' for CMake config files
+[9.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/src/integration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/integration build --build-base /home/fai/nao_ws/build/integration/build install --record /home/fai/nao_ws/build/integration/install.log --single-version-externally-managed install_data
+[9.932s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/integration/lib'
+[9.932s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/integration/bin'
+[9.932s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/integration/lib/pkgconfig/integration.pc'
+[9.933s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/integration/lib/python3.12/site-packages'
+[9.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('integration', 'pythonpath')
+[9.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/integration/share/integration/hook/pythonpath.ps1'
+[9.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/integration/share/integration/hook/pythonpath.dsv'
+[9.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/integration/share/integration/hook/pythonpath.sh'
+[9.936s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/integration/bin'
+[9.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(integration)
+[9.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/integration/share/integration/package.ps1'
+[9.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/integration/share/integration/package.dsv'
+[9.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/integration/share/integration/package.sh'
+[9.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/integration/share/integration/package.bash'
+[9.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/integration/share/integration/package.zsh'
+[9.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/integration/share/colcon-core/packages/integration)
+[9.943s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fai/nao_ws/src/perception' with build type 'ament_python'
+[9.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'ament_prefix_path')
+[9.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception/share/perception/hook/ament_prefix_path.ps1'
+[9.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/perception/share/perception/hook/ament_prefix_path.dsv'
+[9.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception/share/perception/hook/ament_prefix_path.sh'
+[9.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.439s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fai/nao_ws/src/perception'
+[10.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.447s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/web_controller' for CMake module files
+[10.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/src/web_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/web_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/web_controller build --build-base /home/fai/nao_ws/build/web_controller/build install --record /home/fai/nao_ws/build/web_controller/install.log --single-version-externally-managed install_data
+[10.450s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/web_controller' for CMake config files
+[10.451s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/web_controller/lib'
+[10.451s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/web_controller/bin'
+[10.452s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/web_controller/lib/pkgconfig/web_controller.pc'
+[10.452s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages'
+[10.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_controller', 'pythonpath')
+[10.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/web_controller/share/web_controller/hook/pythonpath.ps1'
+[10.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/web_controller/share/web_controller/hook/pythonpath.dsv'
+[10.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/web_controller/share/web_controller/hook/pythonpath.sh'
+[10.455s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/web_controller/bin'
+[10.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_controller)
+[10.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/web_controller/share/web_controller/package.ps1'
+[10.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/web_controller/share/web_controller/package.dsv'
+[10.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/web_controller/share/web_controller/package.sh'
+[10.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/web_controller/share/web_controller/package.bash'
+[10.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/web_controller/share/web_controller/package.zsh'
+[10.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/web_controller/share/colcon-core/packages/web_controller)
+[10.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/src/nao_tasks': CMAKE_PREFIX_PATH=/home/fai/nao_ws/install/speech_interfaces:/home/fai/nao_ws/install/navigation_interfaces:/home/fai/nao_ws/install/manipulation_interfaces:/home/fai/nao_ws/install/perception_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fai/nao_ws/install/speech_interfaces/lib:/home/fai/nao_ws/install/navigation_interfaces/lib:/home/fai/nao_ws/install/manipulation_interfaces/lib:/home/fai/nao_ws/install/perception_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/fai/nao_ws/build/nao_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nao_tasks build --build-base /home/fai/nao_ws/build/nao_tasks/build install --record /home/fai/nao_ws/build/nao_tasks/install.log --single-version-externally-managed install_data
+[10.466s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fai/nao_ws/src/speech' with build type 'ament_python'
+[10.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech', 'ament_prefix_path')
+[10.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech/share/speech/hook/ament_prefix_path.ps1'
+[10.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/speech/share/speech/hook/ament_prefix_path.dsv'
+[10.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech/share/speech/hook/ament_prefix_path.sh'
+[10.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.125s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fai/nao_ws/src/speech'
+[11.126s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.126s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/src/navigation': CMAKE_PREFIX_PATH=/home/fai/nao_ws/install/navigation_interfaces:/home/fai/nao_ws/install/speech_interfaces:/home/fai/nao_ws/install/perception_interfaces:/home/fai/nao_ws/install/manipulation_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fai/nao_ws/install/navigation_interfaces/lib:/home/fai/nao_ws/install/speech_interfaces/lib:/home/fai/nao_ws/install/perception_interfaces/lib:/home/fai/nao_ws/install/manipulation_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/fai/nao_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/fai/nao_ws/build/navigation/build install --record /home/fai/nao_ws/build/navigation/install.log --single-version-externally-managed install_data
+[12.652s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_tasks' for CMake module files
+[12.653s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_tasks' for CMake config files
+[12.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/src/nao_tasks' returned '0': CMAKE_PREFIX_PATH=/home/fai/nao_ws/install/speech_interfaces:/home/fai/nao_ws/install/navigation_interfaces:/home/fai/nao_ws/install/manipulation_interfaces:/home/fai/nao_ws/install/perception_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fai/nao_ws/install/speech_interfaces/lib:/home/fai/nao_ws/install/navigation_interfaces/lib:/home/fai/nao_ws/install/manipulation_interfaces/lib:/home/fai/nao_ws/install/perception_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/fai/nao_ws/build/nao_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nao_tasks build --build-base /home/fai/nao_ws/build/nao_tasks/build install --record /home/fai/nao_ws/build/nao_tasks/install.log --single-version-externally-managed install_data
+[12.656s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_tasks/lib'
+[12.656s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_tasks/bin'
+[12.656s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_tasks/lib/pkgconfig/nao_tasks.pc'
+[12.657s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages'
+[12.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('nao_tasks', 'pythonpath')
+[12.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/hook/pythonpath.ps1'
+[12.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/hook/pythonpath.dsv'
+[12.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/hook/pythonpath.sh'
+[12.668s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/nao_tasks/bin'
+[12.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nao_tasks)
+[12.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/package.ps1'
+[12.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/package.dsv'
+[12.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/package.sh'
+[12.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/package.bash'
+[12.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/nao_tasks/share/nao_tasks/package.zsh'
+[12.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/nao_tasks/share/colcon-core/packages/nao_tasks)
+[12.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/src/perception': CMAKE_PREFIX_PATH=/home/fai/nao_ws/install/perception_interfaces:/home/fai/nao_ws/install/speech_interfaces:/home/fai/nao_ws/install/navigation_interfaces:/home/fai/nao_ws/install/manipulation_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fai/nao_ws/install/perception_interfaces/lib:/home/fai/nao_ws/install/speech_interfaces/lib:/home/fai/nao_ws/install/navigation_interfaces/lib:/home/fai/nao_ws/install/manipulation_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/fai/nao_ws/build/perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/perception build --build-base /home/fai/nao_ws/build/perception/build install --record /home/fai/nao_ws/build/perception/install.log --single-version-externally-managed install_data
+[12.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fai/nao_ws/src/speech': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/speech/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/speech build --build-base /home/fai/nao_ws/build/speech/build install --record /home/fai/nao_ws/build/speech/install.log --single-version-externally-managed install_data
+[13.663s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation' for CMake module files
+[13.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/src/navigation' returned '0': CMAKE_PREFIX_PATH=/home/fai/nao_ws/install/navigation_interfaces:/home/fai/nao_ws/install/speech_interfaces:/home/fai/nao_ws/install/perception_interfaces:/home/fai/nao_ws/install/manipulation_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fai/nao_ws/install/navigation_interfaces/lib:/home/fai/nao_ws/install/speech_interfaces/lib:/home/fai/nao_ws/install/perception_interfaces/lib:/home/fai/nao_ws/install/manipulation_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/fai/nao_ws/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/fai/nao_ws/build/navigation/build install --record /home/fai/nao_ws/build/navigation/install.log --single-version-externally-managed install_data
+[13.666s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation' for CMake config files
+[13.668s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation/lib'
+[13.668s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation/bin'
+[13.668s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation/lib/pkgconfig/navigation.pc'
+[13.669s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages'
+[13.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'pythonpath')
+[13.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation/share/navigation/hook/pythonpath.ps1'
+[13.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/navigation/share/navigation/hook/pythonpath.dsv'
+[13.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/navigation/share/navigation/hook/pythonpath.sh'
+[13.674s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/navigation/bin'
+[13.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[13.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation/share/navigation/package.ps1'
+[13.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/navigation/share/navigation/package.dsv'
+[13.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation/share/navigation/package.sh'
+[13.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation/share/navigation/package.bash'
+[13.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/navigation/share/navigation/package.zsh'
+[13.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/navigation/share/colcon-core/packages/navigation)
+[13.998s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception' for CMake module files
+[13.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/src/perception' returned '0': CMAKE_PREFIX_PATH=/home/fai/nao_ws/install/perception_interfaces:/home/fai/nao_ws/install/speech_interfaces:/home/fai/nao_ws/install/navigation_interfaces:/home/fai/nao_ws/install/manipulation_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fai/nao_ws/install/perception_interfaces/lib:/home/fai/nao_ws/install/speech_interfaces/lib:/home/fai/nao_ws/install/navigation_interfaces/lib:/home/fai/nao_ws/install/manipulation_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/fai/nao_ws/build/perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/perception build --build-base /home/fai/nao_ws/build/perception/build install --record /home/fai/nao_ws/build/perception/install.log --single-version-externally-managed install_data
+[14.000s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception' for CMake config files
+[14.000s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception/lib'
+[14.001s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception/bin'
+[14.001s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception/lib/pkgconfig/perception.pc'
+[14.001s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception/lib/python3.12/site-packages'
+[14.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception', 'pythonpath')
+[14.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception/share/perception/hook/pythonpath.ps1'
+[14.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/perception/share/perception/hook/pythonpath.dsv'
+[14.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/perception/share/perception/hook/pythonpath.sh'
+[14.003s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/perception/bin'
+[14.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception)
+[14.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception/share/perception/package.ps1'
+[14.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/perception/share/perception/package.dsv'
+[14.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception/share/perception/package.sh'
+[14.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception/share/perception/package.bash'
+[14.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/perception/share/perception/package.zsh'
+[14.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/perception/share/colcon-core/packages/perception)
+[14.277s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech' for CMake module files
+[14.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fai/nao_ws/src/speech' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/speech/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/speech build --build-base /home/fai/nao_ws/build/speech/build install --record /home/fai/nao_ws/build/speech/install.log --single-version-externally-managed install_data
+[14.280s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech' for CMake config files
+[14.282s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech/lib'
+[14.282s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech/bin'
+[14.282s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech/lib/pkgconfig/speech.pc'
+[14.283s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech/lib/python3.12/site-packages'
+[14.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('speech', 'pythonpath')
+[14.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech/share/speech/hook/pythonpath.ps1'
+[14.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fai/nao_ws/install/speech/share/speech/hook/pythonpath.dsv'
+[14.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fai/nao_ws/install/speech/share/speech/hook/pythonpath.sh'
+[14.286s] Level 1:colcon.colcon_core.environment:checking '/home/fai/nao_ws/install/speech/bin'
+[14.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(speech)
+[14.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech/share/speech/package.ps1'
+[14.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fai/nao_ws/install/speech/share/speech/package.dsv'
+[14.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech/share/speech/package.sh'
+[14.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech/share/speech/package.bash'
+[14.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/fai/nao_ws/install/speech/share/speech/package.zsh'
+[14.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fai/nao_ws/install/speech/share/colcon-core/packages/speech)
+[14.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.292s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.293s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.293s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.304s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.331s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.332s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fai/nao_ws/install/local_setup.ps1'
+[14.333s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fai/nao_ws/install/_local_setup_util_ps1.py'
+[14.335s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fai/nao_ws/install/setup.ps1'
+[14.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fai/nao_ws/install/local_setup.sh'
+[14.340s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fai/nao_ws/install/_local_setup_util_sh.py'
+[14.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fai/nao_ws/install/setup.sh'
+[14.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fai/nao_ws/install/local_setup.bash'
+[14.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fai/nao_ws/install/setup.bash'
+[14.348s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fai/nao_ws/install/local_setup.zsh'
+[14.349s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fai/nao_ws/install/setup.zsh'

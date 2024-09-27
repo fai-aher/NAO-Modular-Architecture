@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/manipulation/manipulation.egg-info
+writing ../../build/manipulation/manipulation.egg-info/PKG-INFO
+writing dependency_links to ../../build/manipulation/manipulation.egg-info/dependency_links.txt
+writing entry points to ../../build/manipulation/manipulation.egg-info/entry_points.txt
+writing requirements to ../../build/manipulation/manipulation.egg-info/requires.txt
+writing top-level names to ../../build/manipulation/manipulation.egg-info/top_level.txt
+writing manifest file '../../build/manipulation/manipulation.egg-info/SOURCES.txt'
+reading manifest file '../../build/manipulation/manipulation.egg-info/SOURCES.txt'
+writing manifest file '../../build/manipulation/manipulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fai/nao_ws/build/manipulation/build
+creating /home/fai/nao_ws/build/manipulation/build/lib
+creating /home/fai/nao_ws/build/manipulation/build/lib/manipulation
+copying manipulation/manipulation_node.py -> /home/fai/nao_ws/build/manipulation/build/lib/manipulation
+copying manipulation/__init__.py -> /home/fai/nao_ws/build/manipulation/build/lib/manipulation
+running install
+running install_lib
+creating /home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages/manipulation
+copying /home/fai/nao_ws/build/manipulation/build/lib/manipulation/manipulation_node.py -> /home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages/manipulation
+copying /home/fai/nao_ws/build/manipulation/build/lib/manipulation/__init__.py -> /home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages/manipulation
+byte-compiling /home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages/manipulation/manipulation_node.py to manipulation_node.cpython-312.pyc
+byte-compiling /home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages/manipulation/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/fai/nao_ws/install/manipulation/share/ament_index
+creating /home/fai/nao_ws/install/manipulation/share/ament_index/resource_index
+creating /home/fai/nao_ws/install/manipulation/share/ament_index/resource_index/packages
+copying resource/manipulation -> /home/fai/nao_ws/install/manipulation/share/ament_index/resource_index/packages
+copying package.xml -> /home/fai/nao_ws/install/manipulation/share/manipulation
+running install_egg_info
+Copying ../../build/manipulation/manipulation.egg-info to /home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages/manipulation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing manipulation_node script to /home/fai/nao_ws/install/manipulation/lib/manipulation
+writing list of installed files to '/home/fai/nao_ws/build/manipulation/install.log'

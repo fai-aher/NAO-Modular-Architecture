@@ -1,0 +1,2 @@
+[console_scripts]
+task_one = nao_tasks.task_one:main

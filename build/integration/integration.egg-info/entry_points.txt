@@ -1,0 +1,3 @@
+[console_scripts]
+integration_interface = integration.integration_interface:main
+task_one = integration.task_one:main

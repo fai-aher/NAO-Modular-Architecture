@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/nao_tasks/nao_tasks.egg-info/PKG-INFO
+../../build/nao_tasks/nao_tasks.egg-info/SOURCES.txt
+../../build/nao_tasks/nao_tasks.egg-info/dependency_links.txt
+../../build/nao_tasks/nao_tasks.egg-info/entry_points.txt
+../../build/nao_tasks/nao_tasks.egg-info/requires.txt
+../../build/nao_tasks/nao_tasks.egg-info/top_level.txt
+../../build/nao_tasks/nao_tasks.egg-info/zip-safe
+nao_tasks/__init__.py
+resource/nao_tasks
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

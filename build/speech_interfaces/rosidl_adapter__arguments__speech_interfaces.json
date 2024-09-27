@@ -1,0 +1,7 @@
+{
+  "package_name": "speech_interfaces",
+  "non_idl_tuples": [
+    "/home/fai/nao_ws/src/speech_interfaces:srv/Speak.srv",
+    "/home/fai/nao_ws/src/speech_interfaces:srv/PlaySong.srv"
+  ]
+}

@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/nao_tasks/nao_tasks.egg-info
+writing ../../build/nao_tasks/nao_tasks.egg-info/PKG-INFO
+writing dependency_links to ../../build/nao_tasks/nao_tasks.egg-info/dependency_links.txt
+writing entry points to ../../build/nao_tasks/nao_tasks.egg-info/entry_points.txt
+writing requirements to ../../build/nao_tasks/nao_tasks.egg-info/requires.txt
+writing top-level names to ../../build/nao_tasks/nao_tasks.egg-info/top_level.txt
+writing manifest file '../../build/nao_tasks/nao_tasks.egg-info/SOURCES.txt'
+reading manifest file '../../build/nao_tasks/nao_tasks.egg-info/SOURCES.txt'
+writing manifest file '../../build/nao_tasks/nao_tasks.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fai/nao_ws/build/nao_tasks/build
+creating /home/fai/nao_ws/build/nao_tasks/build/lib
+creating /home/fai/nao_ws/build/nao_tasks/build/lib/nao_tasks
+copying nao_tasks/__init__.py -> /home/fai/nao_ws/build/nao_tasks/build/lib/nao_tasks
+running install
+running install_lib
+creating /home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages/nao_tasks
+copying /home/fai/nao_ws/build/nao_tasks/build/lib/nao_tasks/__init__.py -> /home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages/nao_tasks
+byte-compiling /home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages/nao_tasks/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/fai/nao_ws/install/nao_tasks/share/ament_index
+creating /home/fai/nao_ws/install/nao_tasks/share/ament_index/resource_index
+creating /home/fai/nao_ws/install/nao_tasks/share/ament_index/resource_index/packages
+copying resource/nao_tasks -> /home/fai/nao_ws/install/nao_tasks/share/ament_index/resource_index/packages
+copying package.xml -> /home/fai/nao_ws/install/nao_tasks/share/nao_tasks
+running install_egg_info
+Copying ../../build/nao_tasks/nao_tasks.egg-info to /home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages/nao_tasks-0.0.0-py3.12.egg-info
+running install_scripts
+Installing task_one script to /home/fai/nao_ws/install/nao_tasks/lib/nao_tasks
+writing list of installed files to '/home/fai/nao_ws/build/nao_tasks/install.log'

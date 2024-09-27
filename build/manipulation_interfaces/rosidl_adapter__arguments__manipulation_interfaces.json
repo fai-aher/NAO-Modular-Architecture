@@ -1,0 +1,6 @@
+{
+  "package_name": "manipulation_interfaces",
+  "non_idl_tuples": [
+    "/home/fai/nao_ws/src/manipulation_interfaces:srv/MoveArm.srv"
+  ]
+}

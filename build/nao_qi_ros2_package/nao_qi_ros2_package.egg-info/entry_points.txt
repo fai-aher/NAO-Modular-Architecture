@@ -1,0 +1,2 @@
+[console_scripts]
+nao_talker = nao_qi_ros2_package.nao_talker:main

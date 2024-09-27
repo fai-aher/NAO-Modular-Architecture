@@ -1,0 +1,12 @@
+{
+  "package_name": "speech_interfaces",
+  "output_dir": "/home/fai/nao_ws/build/speech_interfaces/rosidl_generator_type_description/speech_interfaces",
+  "idl_tuples": [
+    "/home/fai/nao_ws/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/Speak.idl",
+    "/home/fai/nao_ws/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/PlaySong.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}
