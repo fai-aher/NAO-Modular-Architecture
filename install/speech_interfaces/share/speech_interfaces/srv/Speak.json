@@ -153,6 +153,16 @@
               "nested_type_name": ""
             },
             "default_value": ""
+          },
+          {
+            "name": "animated",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
           }
         ]
       },
@@ -176,7 +186,7 @@
   "type_hashes": [
     {
       "type_name": "speech_interfaces/srv/Speak",
-      "hash_string": "RIHS01_14388faa2a9704e83e498190b94101e8f2b11a2a601dc558888ce71646fe166e"
+      "hash_string": "RIHS01_11852e40e318a86404058af86d061e3fe0fbfa20c55f31bcdecbd36317c5c050"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",
@@ -188,11 +198,11 @@
     },
     {
       "type_name": "speech_interfaces/srv/Speak_Event",
-      "hash_string": "RIHS01_128a751a1f34c4bea9dde87e0db20cbe54248c8bcfc21e5b78c6e82c9f958e01"
+      "hash_string": "RIHS01_e8a697ee2f99e5ff838b2fa3ef00a1dcd9c021688abeb960af7f2a31aaf65e44"
     },
     {
       "type_name": "speech_interfaces/srv/Speak_Request",
-      "hash_string": "RIHS01_f67863cb3e8afd701fcf406239efb4ce3d117604b3e5e2098d1c8b1d659d550f"
+      "hash_string": "RIHS01_5e53b491a6222f1d56638bc139c86b521651f94fbbc7d9ce0c6e22de9ca06fa3"
     },
     {
       "type_name": "speech_interfaces/srv/Speak_Response",

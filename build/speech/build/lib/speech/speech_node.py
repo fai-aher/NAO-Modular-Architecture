@@ -27,6 +27,7 @@ class SpeechNode(Node):
                 self.session.connect(f"tcp://{self.nao_ip}:{self.nao_port}")
                 self.tts = self.session.service('ALTextToSpeech')
                 self.audio = self.session.service('ALAudioPlayer')
+                self.animated_speech = self.session.service("ALAnimatedSpeech")
                 self.get_logger().info('Connected to NAOqi.')
                 connected = True
             except RuntimeError as e:
@@ -37,10 +38,15 @@ class SpeechNode(Node):
     def speak_callback(self, request, response):
         try:
             text = request.text
-            self.get_logger().info(f"Speaking: {text}")
-            if self.tts is not None:
-                self.tts.say(text)
+            animated = request.animated
+            self.get_logger().info(f"Received speak request: {text}, animated: {animated}")
+            if self.tts:
+                if animated:
+                    self.animated_speech.say(text)
+                else:
+                    self.tts.say(text)
                 response.success = True
+                self.get_logger().info("Speech executed successfully.")
             else:
                 self.get_logger().error("ALTextToSpeech service not available.")
                 response.success = False

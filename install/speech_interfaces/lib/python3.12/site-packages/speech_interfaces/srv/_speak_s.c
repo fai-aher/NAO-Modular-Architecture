@@ -68,6 +68,15 @@ bool speech_interfaces__srv__speak__request__convert_from_py(PyObject * _pymsg, 
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
+  {  // animated
+    PyObject * field = PyObject_GetAttrString(_pymsg, "animated");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->animated = (Py_True == field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -101,6 +110,17 @@ PyObject * speech_interfaces__srv__speak__request__convert_to_py(void * raw_ros_
     }
     {
       int rc = PyObject_SetAttrString(_pymessage, "text", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // animated
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->animated ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "animated", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -1,0 +1,221 @@
+[0.047s] Invoking command in '/home/fai/nao_ws/build/manipulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/manipulation_interfaces -- -j4 -l4
+[0.195s] [  1%] Built target manipulation_interfaces__rosidl_generator_type_description
+[0.231s] [  1%] Built target ament_cmake_python_copy_manipulation_interfaces
+[0.331s] [  3%] Built target manipulation_interfaces__cpp
+[0.416s] [ 25%] Built target manipulation_interfaces__rosidl_generator_c
+[0.589s] [ 34%] Built target manipulation_interfaces__rosidl_typesupport_cpp
+[0.661s] [ 43%] Built target manipulation_interfaces__rosidl_typesupport_introspection_c
+[0.687s] [ 53%] Built target manipulation_interfaces__rosidl_typesupport_fastrtps_c
+[0.860s] [ 62%] Built target manipulation_interfaces__rosidl_typesupport_c
+[0.913s] [ 71%] Built target manipulation_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.991s] [ 81%] Built target manipulation_interfaces__rosidl_typesupport_introspection_cpp
+[1.094s] [ 81%] Built target manipulation_interfaces
+[1.201s] [ 82%] Built target manipulation_interfaces__py
+[1.392s] [ 90%] Built target manipulation_interfaces__rosidl_generator_py
+[1.579s] [ 93%] Built target manipulation_interfaces_s__rosidl_typesupport_c
+[1.583s] [ 96%] Built target manipulation_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.594s] [100%] Built target manipulation_interfaces_s__rosidl_typesupport_introspection_c
+[1.940s] running egg_info
+[2.010s] writing manipulation_interfaces.egg-info/PKG-INFO
+[2.011s] writing dependency_links to manipulation_interfaces.egg-info/dependency_links.txt
+[2.015s] writing top-level names to manipulation_interfaces.egg-info/top_level.txt
+[2.216s] reading manifest file 'manipulation_interfaces.egg-info/SOURCES.txt'
+[2.218s] writing manifest file 'manipulation_interfaces.egg-info/SOURCES.txt'
+[2.315s] [100%] Built target ament_cmake_python_build_manipulation_interfaces_egg
+[2.360s] Invoked command in '/home/fai/nao_ws/build/manipulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/manipulation_interfaces -- -j4 -l4
+[3.058s] Invoking command in '/home/fai/nao_ws/build/manipulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/manipulation_interfaces
+[3.076s] -- Install configuration: ""
+[3.076s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/ament_index/resource_index/rosidl_interfaces/manipulation_interfaces
+[3.076s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/MoveArm.json
+[3.077s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/StandUp.json
+[3.077s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetPosture.json
+[3.077s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetMode.json
+[3.078s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[3.078s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[3.078s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/set_posture.h
+[3.079s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/stand_up.h
+[3.080s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/move_arm.h
+[3.080s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/set_mode.h
+[3.080s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[3.080s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.h
+[3.081s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.c
+[3.081s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.h
+[3.081s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__struct.h
+[3.081s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__functions.c
+[3.082s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.c
+[3.082s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__functions.c
+[3.082s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__functions.h
+[3.087s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__functions.h
+[3.087s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__functions.h
+[3.088s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.h
+[3.088s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__description.c
+[3.088s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__struct.h
+[3.088s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__description.c
+[3.089s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__struct.h
+[3.089s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__struct.h
+[3.089s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.c
+[3.090s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__functions.h
+[3.090s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__description.c
+[3.090s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.h
+[3.091s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__functions.c
+[3.091s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__functions.c
+[3.091s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__description.c
+[3.092s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.c
+[3.092s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[3.092s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.092s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/environment/library_path.sh
+[3.093s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/environment/library_path.dsv
+[3.093s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_generator_c.so
+[3.093s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[3.094s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[3.094s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[3.094s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[3.095s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__rosidl_typesupport_fastrtps_c.h
+[3.095s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__rosidl_typesupport_fastrtps_c.h
+[3.095s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__rosidl_typesupport_fastrtps_c.h
+[3.095s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[3.096s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.096s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.098s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[3.098s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[3.098s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[3.099s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__rosidl_typesupport_introspection_c.h
+[3.099s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.c
+[3.099s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__rosidl_typesupport_introspection_c.h
+[3.099s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__rosidl_typesupport_introspection_c.h
+[3.100s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.c
+[3.100s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+[3.100s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.c
+[3.100s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.c
+[3.101s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[3.101s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.101s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_introspection_c.so
+[3.102s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_c.so
+[3.102s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[3.103s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[3.103s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/move_arm.hpp
+[3.104s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/stand_up.hpp
+[3.104s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/set_posture.hpp
+[3.104s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[3.105s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__struct.hpp
+[3.105s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.hpp
+[3.106s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__traits.hpp
+[3.106s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__traits.hpp
+[3.106s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__builder.hpp
+[3.106s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__struct.hpp
+[3.106s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.hpp
+[3.107s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.hpp
+[3.107s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__struct.hpp
+[3.107s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__traits.hpp
+[3.107s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__builder.hpp
+[3.108s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__builder.hpp
+[3.108s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__builder.hpp
+[3.108s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.hpp
+[3.108s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__traits.hpp
+[3.109s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__struct.hpp
+[3.109s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/set_mode.hpp
+[3.109s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[3.109s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.110s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[3.110s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[3.110s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[3.110s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__rosidl_typesupport_fastrtps_cpp.hpp
+[3.111s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__rosidl_typesupport_fastrtps_cpp.hpp
+[3.111s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__rosidl_typesupport_fastrtps_cpp.hpp
+[3.111s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[3.111s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/dds_fastrtps
+[3.112s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[3.112s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.112s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.112s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[3.113s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[3.113s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[3.113s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[3.114s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__rosidl_typesupport_introspection_cpp.hpp
+[3.114s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.cpp
+[3.114s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.cpp
+[3.114s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__rosidl_typesupport_introspection_cpp.hpp
+[3.115s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.cpp
+[3.115s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.cpp
+[3.115s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__rosidl_typesupport_introspection_cpp.hpp
+[3.115s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.116s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_cpp.so
+[3.116s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/environment/pythonpath.sh
+[3.116s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/environment/pythonpath.dsv
+[3.119s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info
+[3.120s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[3.122s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[3.123s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[3.123s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[3.123s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces
+[3.124s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv
+[3.124s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_mode_s.c
+[3.124s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_stand_up.py
+[3.124s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_move_arm.py
+[3.125s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/__init__.py
+[3.125s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_posture.py
+[3.125s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_mode.py
+[3.126s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_move_arm_s.c
+[3.126s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_posture_s.c
+[3.126s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_stand_up_s.c
+[3.126s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.127s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_c.so
+[3.127s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.127s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.131s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/__init__.py
+[3.131s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.c
+[3.132s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.179s] Listing '/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces'...
+[3.179s] Listing '/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv'...
+[3.187s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.188s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.189s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_c.so
+[3.190s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_generator_py.so
+[3.190s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/MoveArm.idl
+[3.191s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/StandUp.idl
+[3.191s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetPosture.idl
+[3.191s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetMode.idl
+[3.191s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/MoveArm.srv
+[3.192s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/StandUp.srv
+[3.192s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetPosture.srv
+[3.193s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetMode.srv
+[3.193s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/ament_index/resource_index/package_run_dependencies/manipulation_interfaces
+[3.193s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/ament_index/resource_index/parent_prefix_path/manipulation_interfaces
+[3.193s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/environment/ament_prefix_path.sh
+[3.194s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/environment/ament_prefix_path.dsv
+[3.194s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/environment/path.sh
+[3.194s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/environment/path.dsv
+[3.199s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/local_setup.bash
+[3.200s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/local_setup.sh
+[3.200s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/local_setup.zsh
+[3.200s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/local_setup.dsv
+[3.200s] -- Installing: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.dsv
+[3.201s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/ament_index/resource_index/packages/manipulation_interfaces
+[3.201s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_cExport.cmake
+[3.201s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.201s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.202s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.205s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.205s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.206s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_cExport.cmake
+[3.207s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.209s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_cppExport.cmake
+[3.210s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.210s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.212s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.213s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.213s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_cppExport.cmake
+[3.213s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.214s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_pyExport.cmake
+[3.214s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.214s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.214s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.214s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.215s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.215s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.215s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.216s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.216s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfacesConfig.cmake
+[3.217s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfacesConfig-version.cmake
+[3.217s] -- Up-to-date: /home/fai/nao_ws/install/manipulation_interfaces/share/manipulation_interfaces/package.xml
+[3.711s] Invoked command in '/home/fai/nao_ws/build/manipulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/manipulation_interfaces

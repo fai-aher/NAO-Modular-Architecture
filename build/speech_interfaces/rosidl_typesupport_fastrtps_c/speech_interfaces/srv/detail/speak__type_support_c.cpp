@@ -64,6 +64,11 @@ bool cdr_serialize_speech_interfaces__srv__Speak_Request(
     cdr << str->data;
   }
 
+  // Field name: animated
+  {
+    cdr << (ros_message->animated ? true : false);
+  }
+
   return true;
 }
 
@@ -88,6 +93,13 @@ bool cdr_deserialize_speech_interfaces__srv__Speak_Request(
     }
   }
 
+  // Field name: animated
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->animated = tmp ? true : false;
+  }
+
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -110,6 +122,13 @@ size_t get_serialized_size_speech_interfaces__srv__Speak_Request(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->text.size + 1);
+
+  // Field name: animated
+  {
+    size_t item_size = sizeof(ros_message->animated);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -145,6 +164,13 @@ size_t max_serialized_size_speech_interfaces__srv__Speak_Request(
     }
   }
 
+  // Field name: animated
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -154,7 +180,7 @@ size_t max_serialized_size_speech_interfaces__srv__Speak_Request(
     using DataType = speech_interfaces__srv__Speak_Request;
     is_plain =
       (
-      offsetof(DataType, text) +
+      offsetof(DataType, animated) +
       last_member_size
       ) == ret_val;
   }
@@ -180,6 +206,11 @@ bool cdr_serialize_key_speech_interfaces__srv__Speak_Request(
     cdr << str->data;
   }
 
+  // Field name: animated
+  {
+    cdr << (ros_message->animated ? true : false);
+  }
+
   return true;
 }
 
@@ -202,6 +233,13 @@ size_t get_serialized_size_key_speech_interfaces__srv__Speak_Request(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->text.size + 1);
+
+  // Field name: animated
+  {
+    size_t item_size = sizeof(ros_message->animated);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -235,6 +273,13 @@ size_t max_serialized_size_key_speech_interfaces__srv__Speak_Request(
     }
   }
 
+  // Field name: animated
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -243,7 +288,7 @@ size_t max_serialized_size_key_speech_interfaces__srv__Speak_Request(
     using DataType = speech_interfaces__srv__Speak_Request;
     is_plain =
       (
-      offsetof(DataType, text) +
+      offsetof(DataType, animated) +
       last_member_size
       ) == ret_val;
   }

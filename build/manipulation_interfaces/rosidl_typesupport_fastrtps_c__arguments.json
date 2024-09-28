@@ -3,7 +3,10 @@
   "output_dir": "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_fastrtps_c/manipulation_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/MoveArm.idl"
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/MoveArm.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/StandUp.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetPosture.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetMode.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -82,6 +85,9 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/MoveArm.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/StandUp.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/SetPosture.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/SetMode.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",

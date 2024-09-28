@@ -490,6 +490,222 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__type_support.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__type_support.c.s
 .PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__type_support.c.s
 
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.o: rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.o
+
+# target to build an object file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.o
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.i: rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.i
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.s: rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.s
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.o: rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.o
+
+# target to build an object file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.o
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.i: rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.i
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.s: rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.s
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.o: rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.o
+
+# target to build an object file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.i: rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.i
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.s: rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.s
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.o: rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.o
+
+# target to build an object file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.o
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.i: rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.i
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.s: rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.s
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.o: rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.o
+
+# target to build an object file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.o
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.i: rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.i
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.s: rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.s
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.o: rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.o
+
+# target to build an object file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.i: rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.i
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.s: rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.s
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.o: rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.o
+
+# target to build an object file
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.o
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.i: rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.i
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.s: rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.s
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.o: rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.o
+
+# target to build an object file
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.o
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.i: rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.i
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.s: rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.s
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.o: rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.o
+
+# target to build an object file
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.i: rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.i
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.i
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.s: rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.s
+.PHONY : rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.s
+
 rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.c.o
 .PHONY : rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.o
 
@@ -586,6 +802,78 @@ rosidl_generator_py/manipulation_interfaces/srv/_move_arm_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_move_arm_s.c.s
 .PHONY : rosidl_generator_py/manipulation_interfaces/srv/_move_arm_s.c.s
 
+rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.o: rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.o
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.o
+
+# target to build an object file
+rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.o
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.o
+
+rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.i: rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.i
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.i
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.i
+
+rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.s: rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.s
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.s
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.s
+
+rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.o: rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.o
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.o
+
+# target to build an object file
+rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.o
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.o
+
+rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.i: rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.i
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.i
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.i
+
+rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.s: rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.s
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.s
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.s
+
+rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.o: rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.o
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.o
+
+# target to build an object file
+rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.o
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.o
+
+rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.i: rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.i
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.i
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.i
+
+rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.s: rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.s
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.s
+.PHONY : rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.s
+
 rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.o: rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.o
 
@@ -609,6 +897,78 @@ rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.s: rosid
 rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.s
+
+rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.o: rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o
+
+rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.i: rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.i
+
+rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.s: rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.s
+
+rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.o: rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o
+
+rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.i: rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.i
+
+rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.s: rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.s
+
+rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.o: rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o
+
+rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.i: rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.i
+
+rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.s: rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.s
 
 rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.o: rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.o
@@ -634,6 +994,78 @@ rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.cpp.s
 
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.o: rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.o
+
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.i: rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.i
+
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.s: rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.s
+
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.o: rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.o
+
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.i: rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.i
+
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.s: rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.s
+
+rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.o: rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.o
+
+rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.i: rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.i
+
+rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.s: rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.o: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.o
 
@@ -657,6 +1089,78 @@ rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_
 rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.o: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.i: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.s: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.o: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.i: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.s: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.o: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.i: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.s: rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/move_arm__type_support.o: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/move_arm__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/move_arm__type_support.o
@@ -682,6 +1186,78 @@ rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/move_arm__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/move_arm__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.o: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.i: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.s: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.o: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.i: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.s: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.o: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.i: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.s: rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.s
+
 rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__type_support.o: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__type_support.o
 
@@ -706,6 +1282,78 @@ rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__type_support.c.s
 
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.o: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o
+
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.i: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.i
+
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.s: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.s
+
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.o: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o
+
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.i: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.i
+
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.s: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.s
+
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.o: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o
+
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.i: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.i
+
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.s: rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.s
+
 rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.o: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.o
 
@@ -729,6 +1377,78 @@ rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm
 rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.o: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.i: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.s: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.o: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.i: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.s: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.o: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.i: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.s: rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.s
 
 # Help Target
 help:
@@ -771,6 +1491,33 @@ help:
 	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__type_support.o"
 	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__type_support.i"
 	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__type_support.s"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.o"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.i"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.s"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.o"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.i"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.s"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.o"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.i"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.s"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.o"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.i"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.s"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.o"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.i"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.s"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.o"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.i"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.s"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.o"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.i"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.s"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.o"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.i"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.s"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.o"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.i"
+	@echo "... rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.s"
 	@echo "... rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.s"
@@ -783,24 +1530,87 @@ help:
 	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_move_arm_s.o"
 	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_move_arm_s.i"
 	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_move_arm_s.s"
+	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.o"
+	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.i"
+	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.s"
+	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.o"
+	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.i"
+	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.s"
+	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.o"
+	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.i"
+	@echo "... rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.s"
 	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.o"
 	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.i"
 	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.s"
+	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.o"
+	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.i"
+	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.s"
+	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.o"
+	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.i"
+	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.s"
+	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.o"
+	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.i"
+	@echo "... rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.s"
 	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.o"
 	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.i"
 	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.s"
+	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.o"
+	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.i"
+	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.s"
+	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.o"
+	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.i"
+	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.s"
+	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.o"
+	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.i"
+	@echo "... rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/move_arm__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/move_arm__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/move_arm__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.s"
 .PHONY : help
 
 

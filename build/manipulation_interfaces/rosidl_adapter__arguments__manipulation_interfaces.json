@@ -1,6 +1,9 @@
 {
   "package_name": "manipulation_interfaces",
   "non_idl_tuples": [
-    "/home/fai/nao_ws/src/manipulation_interfaces:srv/MoveArm.srv"
+    "/home/fai/nao_ws/src/manipulation_interfaces:srv/MoveArm.srv",
+    "/home/fai/nao_ws/src/manipulation_interfaces:srv/StandUp.srv",
+    "/home/fai/nao_ws/src/manipulation_interfaces:srv/SetPosture.srv",
+    "/home/fai/nao_ws/src/manipulation_interfaces:srv/SetMode.srv"
   ]
 }

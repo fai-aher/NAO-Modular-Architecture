@@ -235,4 +235,13 @@ CMakeFiles/manipulation_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__functions.h
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__functions.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__struct.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__struct.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__struct.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.h

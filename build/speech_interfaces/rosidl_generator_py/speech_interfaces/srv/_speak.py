@@ -63,17 +63,20 @@ class Speak_Request(metaclass=Metaclass_Speak_Request):
 
     __slots__ = [
         '_text',
+        '_animated',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
         'text': 'string',
+        'animated': 'boolean',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -86,6 +89,7 @@ class Speak_Request(metaclass=Metaclass_Speak_Request):
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.text = kwargs.get('text', str())
+        self.animated = kwargs.get('animated', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -119,6 +123,8 @@ class Speak_Request(metaclass=Metaclass_Speak_Request):
             return False
         if self.text != other.text:
             return False
+        if self.animated != other.animated:
+            return False
         return True
 
     @classmethod
@@ -138,6 +144,19 @@ class Speak_Request(metaclass=Metaclass_Speak_Request):
                 isinstance(value, str), \
                 "The 'text' field must be of type 'str'"
         self._text = value
+
+    @builtins.property
+    def animated(self):
+        """Message field 'animated'."""
+        return self._animated
+
+    @animated.setter
+    def animated(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, bool), \
+                "The 'animated' field must be of type 'bool'"
+        self._animated = value
 
 
 # Import statements for member types

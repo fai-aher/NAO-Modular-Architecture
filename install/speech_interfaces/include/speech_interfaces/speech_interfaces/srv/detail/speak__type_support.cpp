@@ -38,7 +38,7 @@ void Speak_Request_fini_function(void * message_memory)
   typed_message->~Speak_Request();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Speak_Request_message_member_array[1] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Speak_Request_message_member_array[2] = {
   {
     "text",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
@@ -56,13 +56,31 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Speak_Request
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "animated",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(speech_interfaces::srv::Speak_Request, animated),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Speak_Request_message_members = {
   "speech_interfaces::srv",  // message namespace
   "Speak_Request",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(speech_interfaces::srv::Speak_Request),
   false,  // has_any_key_member_
   Speak_Request_message_member_array,  // message members

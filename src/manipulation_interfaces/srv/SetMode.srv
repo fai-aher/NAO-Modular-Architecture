@@ -1,0 +1,4 @@
+# SetMode.srv
+string mode
+---
+bool success

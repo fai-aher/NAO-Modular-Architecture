@@ -1,0 +1,26 @@
+[2.487s] Invoking command in '/home/fai/nao_ws/src/integration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/integration build --build-base /home/fai/nao_ws/build/integration/build install --record /home/fai/nao_ws/build/integration/install.log --single-version-externally-managed install_data
+[3.376s] running egg_info
+[3.455s] writing ../../build/integration/integration.egg-info/PKG-INFO
+[3.460s] writing dependency_links to ../../build/integration/integration.egg-info/dependency_links.txt
+[3.461s] writing entry points to ../../build/integration/integration.egg-info/entry_points.txt
+[3.461s] writing requirements to ../../build/integration/integration.egg-info/requires.txt
+[3.461s] writing top-level names to ../../build/integration/integration.egg-info/top_level.txt
+[3.603s] reading manifest file '../../build/integration/integration.egg-info/SOURCES.txt'
+[3.605s] writing manifest file '../../build/integration/integration.egg-info/SOURCES.txt'
+[3.606s] running build
+[3.606s] running build_py
+[3.607s] copying integration/tasks/demo_task.py -> /home/fai/nao_ws/build/integration/build/lib/integration/tasks
+[3.609s] running install
+[3.628s] running install_lib
+[3.693s] copying /home/fai/nao_ws/build/integration/build/lib/integration/tasks/demo_task.py -> /home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration/tasks
+[3.694s] byte-compiling /home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration/tasks/demo_task.py to demo_task.cpython-312.pyc
+[3.700s] running install_data
+[3.701s] running install_egg_info
+[3.767s] removing '/home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration-0.0.0-py3.12.egg-info' (and everything under it)
+[3.767s] Copying ../../build/integration/integration.egg-info to /home/fai/nao_ws/install/integration/lib/python3.12/site-packages/integration-0.0.0-py3.12.egg-info
+[3.769s] running install_scripts
+[4.186s] Installing demo_task script to /home/fai/nao_ws/install/integration/lib/integration
+[4.186s] Installing integration_interface script to /home/fai/nao_ws/install/integration/lib/integration
+[4.187s] Installing task_one script to /home/fai/nao_ws/install/integration/lib/integration
+[4.187s] writing list of installed files to '/home/fai/nao_ws/build/integration/install.log'
+[4.587s] Invoked command in '/home/fai/nao_ws/src/integration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/home/fai/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/fai/nao_ws/install/speech/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_tasks/lib/python3.12/site-packages:/home/fai/nao_ws/install/integration/lib/python3.12/site-packages:/home/fai/nao_ws/install/perception/lib/python3.12/site-packages:/home/fai/nao_ws/install/navigation/lib/python3.12/site-packages:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/fai/nao_ws/install/manipulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/integration build --build-base /home/fai/nao_ws/build/integration/build install --record /home/fai/nao_ws/build/integration/install.log --single-version-externally-managed install_data

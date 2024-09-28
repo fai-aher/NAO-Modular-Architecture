@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'integration_interface = integration.integration_interface:main',
-            'task_one = integration.task_one:main',
+            'task_one = integration.tasks.task_one:main',
+            'demo_task = integration.tasks.demo_task:main',
         ],
     },
 )

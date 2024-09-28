@@ -24,16 +24,32 @@ namespace srv
 namespace builder
 {
 
+class Init_Speak_Request_animated
+{
+public:
+  explicit Init_Speak_Request_animated(::speech_interfaces::srv::Speak_Request & msg)
+  : msg_(msg)
+  {}
+  ::speech_interfaces::srv::Speak_Request animated(::speech_interfaces::srv::Speak_Request::_animated_type arg)
+  {
+    msg_.animated = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::speech_interfaces::srv::Speak_Request msg_;
+};
+
 class Init_Speak_Request_text
 {
 public:
   Init_Speak_Request_text()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::speech_interfaces::srv::Speak_Request text(::speech_interfaces::srv::Speak_Request::_text_type arg)
+  Init_Speak_Request_animated text(::speech_interfaces::srv::Speak_Request::_text_type arg)
   {
     msg_.text = std::move(arg);
-    return std::move(msg_);
+    return Init_Speak_Request_animated(msg_);
   }
 
 private:

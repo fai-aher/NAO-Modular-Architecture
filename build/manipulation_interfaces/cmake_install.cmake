@@ -51,6 +51,18 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/StandUp.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/SetPosture.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/SetMode.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/manipulation_interfaces/manipulation_interfaces" TYPE DIRECTORY FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -367,7 +379,31 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/StandUp.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/SetPosture.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/SetMode.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/src/manipulation_interfaces/srv/MoveArm.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/src/manipulation_interfaces/srv/StandUp.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/src/manipulation_interfaces/srv/SetPosture.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/src/manipulation_interfaces/srv/SetMode.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

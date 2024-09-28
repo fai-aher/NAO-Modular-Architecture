@@ -2,3 +2,15 @@ from manipulation_interfaces.srv._move_arm import MoveArm  # noqa: F401
 from manipulation_interfaces.srv._move_arm import MoveArm_Event  # noqa: F401
 from manipulation_interfaces.srv._move_arm import MoveArm_Request  # noqa: F401
 from manipulation_interfaces.srv._move_arm import MoveArm_Response  # noqa: F401
+from manipulation_interfaces.srv._set_mode import SetMode  # noqa: F401
+from manipulation_interfaces.srv._set_mode import SetMode_Event  # noqa: F401
+from manipulation_interfaces.srv._set_mode import SetMode_Request  # noqa: F401
+from manipulation_interfaces.srv._set_mode import SetMode_Response  # noqa: F401
+from manipulation_interfaces.srv._set_posture import SetPosture  # noqa: F401
+from manipulation_interfaces.srv._set_posture import SetPosture_Event  # noqa: F401
+from manipulation_interfaces.srv._set_posture import SetPosture_Request  # noqa: F401
+from manipulation_interfaces.srv._set_posture import SetPosture_Response  # noqa: F401
+from manipulation_interfaces.srv._stand_up import StandUp  # noqa: F401
+from manipulation_interfaces.srv._stand_up import StandUp_Event  # noqa: F401
+from manipulation_interfaces.srv._stand_up import StandUp_Request  # noqa: F401
+from manipulation_interfaces.srv._stand_up import StandUp_Response  # noqa: F401

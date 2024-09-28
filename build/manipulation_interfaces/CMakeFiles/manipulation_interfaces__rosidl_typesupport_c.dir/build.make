@@ -76,6 +76,9 @@ rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: /op
 rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
 rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: /opt/ros/jazzy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: rosidl_adapter/manipulation_interfaces/srv/MoveArm.idl
+rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: rosidl_adapter/manipulation_interfaces/srv/StandUp.idl
+rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: rosidl_adapter/manipulation_interfaces/srv/SetPosture.idl
+rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: rosidl_adapter/manipulation_interfaces/srv/SetMode.idl
 rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -144,6 +147,15 @@ rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp: /op
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/fai/nao_ws/build/manipulation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
+rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp: rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp
+
+rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp: rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp
+
+rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp: rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp
+
 CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.o: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.o: rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp
 CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.o: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/compiler_depend.ts
@@ -158,14 +170,62 @@ CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp -o CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.s
 
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o: rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fai/nao_ws/build/manipulation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o -MF CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o.d -o CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o -c /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp
+
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp > CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.i
+
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp -o CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.s
+
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o: rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fai/nao_ws/build/manipulation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o -MF CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o.d -o CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o -c /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp
+
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp > CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.i
+
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp -o CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.s
+
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o: rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fai/nao_ws/build/manipulation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o -MF CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o.d -o CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o -c /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp
+
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp > CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.i
+
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fai/nao_ws/build/manipulation_interfaces/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp -o CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.s
+
 # Object files for target manipulation_interfaces__rosidl_typesupport_c
 manipulation_interfaces__rosidl_typesupport_c_OBJECTS = \
-"CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.o"
+"CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.o" \
+"CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o" \
+"CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o" \
+"CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o"
 
 # External object files for target manipulation_interfaces__rosidl_typesupport_c
 manipulation_interfaces__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 
 libmanipulation_interfaces__rosidl_typesupport_c.so: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.o
+libmanipulation_interfaces__rosidl_typesupport_c.so: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o
+libmanipulation_interfaces__rosidl_typesupport_c.so: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o
+libmanipulation_interfaces__rosidl_typesupport_c.so: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o
 libmanipulation_interfaces__rosidl_typesupport_c.so: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/build.make
 libmanipulation_interfaces__rosidl_typesupport_c.so: libmanipulation_interfaces__rosidl_generator_c.so
 libmanipulation_interfaces__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
@@ -180,7 +240,7 @@ libmanipulation_interfaces__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/libbuilt
 libmanipulation_interfaces__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libmanipulation_interfaces__rosidl_typesupport_c.so: /opt/ros/jazzy/lib/librcutils.so
 libmanipulation_interfaces__rosidl_typesupport_c.so: CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/fai/nao_ws/build/manipulation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libmanipulation_interfaces__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/fai/nao_ws/build/manipulation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libmanipulation_interfaces__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +252,9 @@ CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/clean:
 .PHONY : CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/clean
 
 CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp
+CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp
 	cd /home/fai/nao_ws/build/manipulation_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fai/nao_ws/src/manipulation_interfaces /home/fai/nao_ws/src/manipulation_interfaces /home/fai/nao_ws/build/manipulation_interfaces /home/fai/nao_ws/build/manipulation_interfaces /home/fai/nao_ws/build/manipulation_interfaces/CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/depend
 

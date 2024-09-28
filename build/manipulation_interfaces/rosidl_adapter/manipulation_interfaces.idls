@@ -1,1 +1,4 @@
 /home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/MoveArm.idl
+/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/StandUp.idl
+/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetPosture.idl
+/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetMode.idl

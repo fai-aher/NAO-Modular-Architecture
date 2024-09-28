@@ -10,7 +10,9 @@ setup.py
 ../../build/integration/integration.egg-info/zip-safe
 integration/__init__.py
 integration/integration_interface.py
-integration/task_one.py
+integration/tasks/__init__.py
+integration/tasks/demo_task.py
+integration/tasks/task_one.py
 resource/integration
 test/test_copyright.py
 test/test_flake8.py

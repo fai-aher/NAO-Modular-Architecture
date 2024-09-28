@@ -13,6 +13,9 @@ find_package(geometry_msgs REQUIRED)
 # Generate services
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/MoveArm.srv"
+  "srv/StandUp.srv"
+  "srv/SetPosture.srv"
+  "srv/SetMode.srv"
   DEPENDENCIES geometry_msgs
 )
 

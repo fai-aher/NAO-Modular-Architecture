@@ -25,6 +25,7 @@ speech_interfaces__srv__Speak_Request__init(speech_interfaces__srv__Speak_Reques
     speech_interfaces__srv__Speak_Request__fini(msg);
     return false;
   }
+  // animated
   return true;
 }
 
@@ -36,6 +37,7 @@ speech_interfaces__srv__Speak_Request__fini(speech_interfaces__srv__Speak_Reques
   }
   // text
   rosidl_runtime_c__String__fini(&msg->text);
+  // animated
 }
 
 bool
@@ -48,6 +50,10 @@ speech_interfaces__srv__Speak_Request__are_equal(const speech_interfaces__srv__S
   if (!rosidl_runtime_c__String__are_equal(
       &(lhs->text), &(rhs->text)))
   {
+    return false;
+  }
+  // animated
+  if (lhs->animated != rhs->animated) {
     return false;
   }
   return true;
@@ -67,6 +73,8 @@ speech_interfaces__srv__Speak_Request__copy(
   {
     return false;
   }
+  // animated
+  output->animated = input->animated;
   return true;
 }
 

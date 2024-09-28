@@ -2,7 +2,7 @@
 
 import rclpy
 from rclpy.node import Node
-from manipulation_interfaces.srv import MoveArm
+from manipulation_interfaces.srv import MoveArm, StandUp, SetPosture, SetMode
 from geometry_msgs.msg import Point
 import qi  # NAOqi SDK
 
@@ -10,6 +10,10 @@ class ManipulationNode(Node):
     def __init__(self):
         super().__init__('manipulation_node')
         self.srv = self.create_service(MoveArm, 'move_arm', self.move_arm_callback)
+        self.stand_up_srv = self.create_service(StandUp, 'stand_up', self.stand_up_callback)
+        self.set_posture_srv = self.create_service(SetPosture, 'set_posture', self.set_posture_callback)
+        self.set_mode_srv = self.create_service(SetMode, 'set_mode', self.set_mode_callback)
+
         self.get_logger().info('Manipulation node started.')
 
         # Initialize NAOqi session
@@ -43,6 +47,55 @@ class ManipulationNode(Node):
             self.get_logger().error(f"Failed to move arm: {e}")
             response.success = False
         return response
+    
+    def stand_up_callback(self, request, response):
+        try:
+            self.get_logger().info("Received StandUp request.")
+            self.posture.goToPosture("Stand", 0.5)
+            response.success = True
+            self.get_logger().info("NAO stood up successfully.")
+        except Exception as e:
+            self.get_logger().error(f"Failed to stand up: {e}")
+            response.success = False
+        return response
+    
+    def set_posture_callback(self, request, response):
+        try:
+            posture = request.posture_name
+            self.get_logger().info(f"Received SetPosture request: {posture}")
+            self.posture.goToPosture(posture, 0.5)
+            response.success = True
+            self.get_logger().info(f"Posture '{posture}' executed successfully.")
+        except Exception as e:
+            self.get_logger().error(f"Failed to set posture '{posture}': {e}")
+            response.success = False
+        return response
+    
+    def set_mode_callback(self, request, response):
+        try:
+            mode = request.mode.lower()
+            self.get_logger().info(f"Received SetMode request: {mode}")
+            if mode == 'rest':
+                # First, go to 'Sit' posture
+                self.posture.goToPosture("Crouch", 0.5)
+                self.get_logger().info("Posture set to 'Sit'.")
+                # Then, relax joints
+                self.motion.setStiffnesses("Body", 0.0)  # Relax joints
+                self.get_logger().info("NAO is now in rest mode.")
+                response.success = True
+            elif mode == 'wake':
+                self.motion.setStiffnesses("Body", 1.0)  # Activate joints
+                self.posture.goToPosture("StandInit", 0.5)
+                self.get_logger().info("NAO is now in wake up mode.")
+                response.success = True
+            else:
+                self.get_logger().error(f"Unknown mode: {mode}")
+                response.success = False
+        except Exception as e:
+            self.get_logger().error(f"Failed to set mode '{mode}': {e}")
+            response.success = False
+        return response
+
 
 def main(args=None):
     rclpy.init(args=args)

@@ -2,7 +2,10 @@
   "package_name": "manipulation_interfaces",
   "output_dir": "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces",
   "idl_tuples": [
-    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/MoveArm.idl"
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/MoveArm.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/StandUp.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetPosture.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetMode.idl"
   ],
   "include_paths": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",

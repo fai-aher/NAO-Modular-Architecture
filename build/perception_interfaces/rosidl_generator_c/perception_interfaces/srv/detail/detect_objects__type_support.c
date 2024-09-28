@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "perception_interfaces/srv/detail/detect_objects__functions.h"
-#include "perception_interfaces/srv/detail/detect_objects__struct.h"
 #include "perception_interfaces/srv/detail/detect_objects__type_support.h"
+#include "perception_interfaces/srv/detail/detect_objects__struct.h"
+#include "perception_interfaces/srv/detail/detect_objects__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

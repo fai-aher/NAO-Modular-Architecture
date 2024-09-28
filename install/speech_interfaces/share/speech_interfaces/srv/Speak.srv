@@ -1,3 +1,5 @@
+# Speak.srv
 string text
+bool animated
 ---
 bool success

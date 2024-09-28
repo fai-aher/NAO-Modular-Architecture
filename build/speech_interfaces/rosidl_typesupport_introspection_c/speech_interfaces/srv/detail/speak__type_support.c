@@ -35,7 +35,7 @@ void speech_interfaces__srv__Speak_Request__rosidl_typesupport_introspection_c__
   speech_interfaces__srv__Speak_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember speech_interfaces__srv__Speak_Request__rosidl_typesupport_introspection_c__Speak_Request_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember speech_interfaces__srv__Speak_Request__rosidl_typesupport_introspection_c__Speak_Request_message_member_array[2] = {
   {
     "text",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -53,13 +53,31 @@ static rosidl_typesupport_introspection_c__MessageMember speech_interfaces__srv_
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "animated",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(speech_interfaces__srv__Speak_Request, animated),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers speech_interfaces__srv__Speak_Request__rosidl_typesupport_introspection_c__Speak_Request_message_members = {
   "speech_interfaces__srv",  // message namespace
   "Speak_Request",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(speech_interfaces__srv__Speak_Request),
   false,  // has_any_key_member_
   speech_interfaces__srv__Speak_Request__rosidl_typesupport_introspection_c__Speak_Request_message_member_array,  // message members

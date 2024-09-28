@@ -67,6 +67,9 @@ include CMakeFiles/manipulation_interfaces.dir/compiler_depend.make
 include CMakeFiles/manipulation_interfaces.dir/progress.make
 
 CMakeFiles/manipulation_interfaces: /home/fai/nao_ws/src/manipulation_interfaces/srv/MoveArm.srv
+CMakeFiles/manipulation_interfaces: /home/fai/nao_ws/src/manipulation_interfaces/srv/StandUp.srv
+CMakeFiles/manipulation_interfaces: /home/fai/nao_ws/src/manipulation_interfaces/srv/SetPosture.srv
+CMakeFiles/manipulation_interfaces: /home/fai/nao_ws/src/manipulation_interfaces/srv/SetMode.srv
 CMakeFiles/manipulation_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/manipulation_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/manipulation_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl

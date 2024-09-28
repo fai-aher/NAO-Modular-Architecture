@@ -28,6 +28,7 @@ extern "C"
 typedef struct speech_interfaces__srv__Speak_Request
 {
   rosidl_runtime_c__String text;
+  bool animated;
 } speech_interfaces__srv__Speak_Request;
 
 // Struct for a sequence of speech_interfaces__srv__Speak_Request.

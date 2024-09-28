@@ -42,6 +42,7 @@ struct Speak_Request_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->text = "";
+      this->animated = false;
     }
   }
 
@@ -52,6 +53,7 @@ struct Speak_Request_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->text = "";
+      this->animated = false;
     }
   }
 
@@ -59,12 +61,21 @@ struct Speak_Request_
   using _text_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _text_type text;
+  using _animated_type =
+    bool;
+  _animated_type animated;
 
   // setters for named parameter idiom
   Type & set__text(
     const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
     this->text = _arg;
+    return *this;
+  }
+  Type & set__animated(
+    const bool & _arg)
+  {
+    this->animated = _arg;
     return *this;
   }
 
@@ -111,6 +122,9 @@ struct Speak_Request_
   bool operator==(const Speak_Request_ & other) const
   {
     if (this->text != other.text) {
+      return false;
+    }
+    if (this->animated != other.animated) {
       return false;
     }
     return true;
