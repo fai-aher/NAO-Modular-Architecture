@@ -12,7 +12,7 @@ find_package(geometry_msgs REQUIRED)
 
 # Generate services
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "action/NavigationToPose.action"
+  "srv/MoveRobot.srv"
   DEPENDENCIES geometry_msgs
 )
 

@@ -1,2 +1,2 @@
-action/NavigationToPose.action
-action/NavigationToPose.idl
+srv/MoveRobot.idl
+srv/MoveRobot.srv

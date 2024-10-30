@@ -16,6 +16,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/StandUp.srv"
   "srv/SetPosture.srv"
   "srv/SetMode.srv"
+  "srv/ToggleAwareness.srv"
   DEPENDENCIES geometry_msgs
 )
 

@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "manipulation_interfaces/srv/detail/set_mode__functions.h"
-#include "manipulation_interfaces/srv/detail/set_mode__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "manipulation_interfaces/srv/detail/set_mode__type_support.h"
+#include "manipulation_interfaces/srv/detail/set_mode__struct.h"
 
 #ifdef __cplusplus
 extern "C"

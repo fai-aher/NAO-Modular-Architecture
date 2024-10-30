@@ -73,11 +73,13 @@ include /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__
 /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_stand_up.py
 /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_set_posture.py
 /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_set_mode.py
+/home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness.py
 /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/__init__.py
 /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_move_arm_s.c
 /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c
 /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c
 /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c
+/home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness_s.c
 
 rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -96,6 +98,7 @@ rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl
 rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/manipulation_interfaces/srv/StandUp.idl
 rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/manipulation_interfaces/srv/SetPosture.idl
 rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/manipulation_interfaces/srv/SetMode.idl
+rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/manipulation_interfaces/srv/ToggleAwareness.idl
 rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -182,6 +185,9 @@ rosidl_generator_py/manipulation_interfaces/srv/_set_posture.py: rosidl_generato
 rosidl_generator_py/manipulation_interfaces/srv/_set_mode.py: rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulation_interfaces/srv/_set_mode.py
 
+rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness.py: rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness.py
+
 rosidl_generator_py/manipulation_interfaces/srv/__init__.py: rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulation_interfaces/srv/__init__.py
 
@@ -197,6 +203,9 @@ rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c: rosidl_generat
 rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c: rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c
 
+rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness_s.c: rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness_s.c
+
 manipulation_interfaces__py: /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py
 manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.c
 manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -210,6 +219,8 @@ manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_se
 manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c
 manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_stand_up.py
 manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c
+manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness.py
+manipulation_interfaces__py: rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness_s.c
 manipulation_interfaces__py: /home/fai/nao_ws/build/manipulation_interfaces/manipulation_interfaces__py/CMakeFiles/manipulation_interfaces__py.dir/build.make
 .PHONY : manipulation_interfaces__py
 

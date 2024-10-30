@@ -1,0 +1,37 @@
+[5.066s] Invoking command in '/home/fai/nao_ws/src/nao_qi_ros2_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/nao_qi_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nao_qi_ros2_package build --build-base /home/fai/nao_ws/build/nao_qi_ros2_package/build install --record /home/fai/nao_ws/build/nao_qi_ros2_package/install.log --single-version-externally-managed install_data
+[6.027s] running egg_info
+[6.028s] creating ../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info
+[6.100s] writing ../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/PKG-INFO
+[6.102s] writing dependency_links to ../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/dependency_links.txt
+[6.102s] writing entry points to ../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/entry_points.txt
+[6.107s] writing requirements to ../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/requires.txt
+[6.108s] writing top-level names to ../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/top_level.txt
+[6.108s] writing manifest file '../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/SOURCES.txt'
+[6.249s] reading manifest file '../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/SOURCES.txt'
+[6.251s] writing manifest file '../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/SOURCES.txt'
+[6.251s] running build
+[6.251s] running build_py
+[6.252s] creating /home/fai/nao_ws/build/nao_qi_ros2_package/build
+[6.252s] creating /home/fai/nao_ws/build/nao_qi_ros2_package/build/lib
+[6.252s] creating /home/fai/nao_ws/build/nao_qi_ros2_package/build/lib/nao_qi_ros2_package
+[6.254s] copying nao_qi_ros2_package/nao_talker.py -> /home/fai/nao_ws/build/nao_qi_ros2_package/build/lib/nao_qi_ros2_package
+[6.254s] copying nao_qi_ros2_package/__init__.py -> /home/fai/nao_ws/build/nao_qi_ros2_package/build/lib/nao_qi_ros2_package
+[6.255s] running install
+[6.276s] running install_lib
+[6.347s] creating /home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages/nao_qi_ros2_package
+[6.348s] copying /home/fai/nao_ws/build/nao_qi_ros2_package/build/lib/nao_qi_ros2_package/nao_talker.py -> /home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages/nao_qi_ros2_package
+[6.349s] copying /home/fai/nao_ws/build/nao_qi_ros2_package/build/lib/nao_qi_ros2_package/__init__.py -> /home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages/nao_qi_ros2_package
+[6.349s] byte-compiling /home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages/nao_qi_ros2_package/nao_talker.py to nao_talker.cpython-312.pyc
+[6.350s] byte-compiling /home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages/nao_qi_ros2_package/__init__.py to __init__.cpython-312.pyc
+[6.350s] running install_data
+[6.351s] creating /home/fai/nao_ws/install/nao_qi_ros2_package/share/ament_index
+[6.352s] creating /home/fai/nao_ws/install/nao_qi_ros2_package/share/ament_index/resource_index
+[6.352s] creating /home/fai/nao_ws/install/nao_qi_ros2_package/share/ament_index/resource_index/packages
+[6.352s] copying resource/nao_qi_ros2_package -> /home/fai/nao_ws/install/nao_qi_ros2_package/share/ament_index/resource_index/packages
+[6.355s] copying package.xml -> /home/fai/nao_ws/install/nao_qi_ros2_package/share/nao_qi_ros2_package
+[6.355s] running install_egg_info
+[6.429s] Copying ../../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info to /home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages/nao_qi_ros2_package-0.0.1-py3.12.egg-info
+[6.432s] running install_scripts
+[6.901s] Installing nao_talker script to /home/fai/nao_ws/install/nao_qi_ros2_package/lib/nao_qi_ros2_package
+[6.906s] writing list of installed files to '/home/fai/nao_ws/build/nao_qi_ros2_package/install.log'
+[7.003s] Invoked command in '/home/fai/nao_ws/src/nao_qi_ros2_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fai/nao_ws/build/nao_qi_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fai/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nao_qi_ros2_package build --build-base /home/fai/nao_ws/build/nao_qi_ros2_package/build install --record /home/fai/nao_ws/build/nao_qi_ros2_package/install.log --single-version-externally-managed install_data

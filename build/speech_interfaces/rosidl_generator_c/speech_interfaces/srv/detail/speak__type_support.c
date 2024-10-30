@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "speech_interfaces/srv/detail/speak__struct.h"
-#include "speech_interfaces/srv/detail/speak__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "speech_interfaces/srv/detail/speak__functions.h"
+#include "speech_interfaces/srv/detail/speak__type_support.h"
+#include "speech_interfaces/srv/detail/speak__struct.h"
 
 #ifdef __cplusplus
 extern "C"

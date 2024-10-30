@@ -69,28 +69,28 @@ include CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/flags.make
 
-CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o: CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/flags.make
-CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o: rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c
-CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o: CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fai/nao_ws/build/navigation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o -MF CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o.d -o CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o -c /home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c
+CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o: CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/flags.make
+CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o: rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c
+CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o: CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fai/nao_ws/build/navigation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o -MF CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o.d -o CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o -c /home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c
 
-CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c > CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.i
+CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c > CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.i
 
-CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c -o CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.s
+CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c -o CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.s
 
 # Object files for target navigation_interfaces__rosidl_generator_py
 navigation_interfaces__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o"
+"CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o"
 
 # External object files for target navigation_interfaces__rosidl_generator_py
 navigation_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
 
-libnavigation_interfaces__rosidl_generator_py.so: CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o
+libnavigation_interfaces__rosidl_generator_py.so: CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o
 libnavigation_interfaces__rosidl_generator_py.so: CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/build.make
 libnavigation_interfaces__rosidl_generator_py.so: libnavigation_interfaces__rosidl_typesupport_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
@@ -105,23 +105,6 @@ libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_cpp.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_py.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_py.so
-libnavigation_interfaces__rosidl_generator_py.so: libnavigation_interfaces__rosidl_generator_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
@@ -134,12 +117,13 @@ libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_c.so
+libnavigation_interfaces__rosidl_generator_py.so: libnavigation_interfaces__rosidl_generator_c.so
+libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
+libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
+libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.4
@@ -148,8 +132,8 @@ libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_d
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.12.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
-libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so
+libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libnavigation_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 libnavigation_interfaces__rosidl_generator_py.so: CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/link.txt

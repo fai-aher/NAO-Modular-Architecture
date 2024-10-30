@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from navigation_interfaces/srv/MoveRobot.srv
+// generated code does not contain a copyright notice
+
+
+module navigation_interfaces {
+  module srv {
+    struct MoveRobot_Request {
+      double x;
+
+      double y;
+
+      double theta;
+    };
+    struct MoveRobot_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

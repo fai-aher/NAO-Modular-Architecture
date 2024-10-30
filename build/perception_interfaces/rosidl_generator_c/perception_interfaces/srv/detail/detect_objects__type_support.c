@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "perception_interfaces/srv/detail/detect_objects__type_support.h"
 #include "perception_interfaces/srv/detail/detect_objects__struct.h"
 #include "perception_interfaces/srv/detail/detect_objects__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "perception_interfaces/srv/detail/detect_objects__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

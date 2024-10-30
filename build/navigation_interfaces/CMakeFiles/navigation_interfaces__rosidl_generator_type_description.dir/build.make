@@ -66,16 +66,16 @@ include CMakeFiles/navigation_interfaces__rosidl_generator_type_description.dir/
 # Include the progress variables for this target.
 include CMakeFiles/navigation_interfaces__rosidl_generator_type_description.dir/progress.make
 
-CMakeFiles/navigation_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/navigation_interfaces/action/NavigationToPose.json
+CMakeFiles/navigation_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/navigation_interfaces/srv/MoveRobot.json
 
-rosidl_generator_type_description/navigation_interfaces/action/NavigationToPose.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
-rosidl_generator_type_description/navigation_interfaces/action/NavigationToPose.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
-rosidl_generator_type_description/navigation_interfaces/action/NavigationToPose.json: rosidl_adapter/navigation_interfaces/action/NavigationToPose.idl
+rosidl_generator_type_description/navigation_interfaces/srv/MoveRobot.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
+rosidl_generator_type_description/navigation_interfaces/srv/MoveRobot.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
+rosidl_generator_type_description/navigation_interfaces/srv/MoveRobot.json: rosidl_adapter/navigation_interfaces/srv/MoveRobot.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/fai/nao_ws/build/navigation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_type_description__arguments.json
 
 navigation_interfaces__rosidl_generator_type_description: CMakeFiles/navigation_interfaces__rosidl_generator_type_description
-navigation_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/navigation_interfaces/action/NavigationToPose.json
+navigation_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/navigation_interfaces/srv/MoveRobot.json
 navigation_interfaces__rosidl_generator_type_description: CMakeFiles/navigation_interfaces__rosidl_generator_type_description.dir/build.make
 .PHONY : navigation_interfaces__rosidl_generator_type_description
 

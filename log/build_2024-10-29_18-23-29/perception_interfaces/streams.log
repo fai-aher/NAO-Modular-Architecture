@@ -1,0 +1,152 @@
+[0.040s] Invoking command in '/home/fai/nao_ws/build/perception_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/perception_interfaces -- -j4 -l4
+[0.200s] [  2%] Built target perception_interfaces__rosidl_generator_type_description
+[0.216s] [  2%] Built target ament_cmake_python_copy_perception_interfaces
+[0.273s] [  5%] Built target perception_interfaces__cpp
+[0.491s] [ 20%] Built target perception_interfaces__rosidl_generator_c
+[0.629s] [ 29%] Built target perception_interfaces__rosidl_typesupport_introspection_cpp
+[0.719s] [ 38%] Built target perception_interfaces__rosidl_typesupport_cpp
+[0.731s] [ 47%] Built target perception_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.849s] [ 55%] Built target perception_interfaces__rosidl_typesupport_fastrtps_c
+[0.930s] [ 64%] Built target perception_interfaces__rosidl_typesupport_c
+[0.955s] [ 73%] Built target perception_interfaces__rosidl_typesupport_introspection_c
+[1.103s] [ 73%] Built target perception_interfaces
+[1.215s] [ 76%] Built target perception_interfaces__py
+[1.283s] [ 82%] Built target perception_interfaces__rosidl_generator_py
+[1.431s] [ 88%] Built target perception_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.460s] [ 94%] Built target perception_interfaces_s__rosidl_typesupport_c
+[1.473s] [100%] Built target perception_interfaces_s__rosidl_typesupport_introspection_c
+[1.603s] running egg_info
+[1.678s] writing perception_interfaces.egg-info/PKG-INFO
+[1.681s] writing dependency_links to perception_interfaces.egg-info/dependency_links.txt
+[1.682s] writing top-level names to perception_interfaces.egg-info/top_level.txt
+[1.940s] reading manifest file 'perception_interfaces.egg-info/SOURCES.txt'
+[1.941s] writing manifest file 'perception_interfaces.egg-info/SOURCES.txt'
+[2.026s] [100%] Built target ament_cmake_python_build_perception_interfaces_egg
+[2.074s] Invoked command in '/home/fai/nao_ws/build/perception_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/perception_interfaces -- -j4 -l4
+[2.379s] Invoking command in '/home/fai/nao_ws/build/perception_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/perception_interfaces
+[2.416s] -- Install configuration: ""
+[2.417s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/ament_index/resource_index/rosidl_interfaces/perception_interfaces
+[2.418s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/srv/DetectObjects.json
+[2.419s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces
+[2.419s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv
+[2.422s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detect_objects.h
+[2.423s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail
+[2.423s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__type_support.h
+[2.423s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__description.c
+[2.423s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__functions.c
+[2.424s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__functions.h
+[2.424s] -- Installing: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__type_support.c
+[2.424s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__struct.h
+[2.425s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg
+[2.425s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.430s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/environment/library_path.sh
+[2.430s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/environment/library_path.dsv
+[2.431s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_generator_c.so
+[2.431s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces
+[2.431s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv
+[2.431s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail
+[2.432s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__rosidl_typesupport_fastrtps_c.h
+[2.432s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg
+[2.432s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.432s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.436s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces
+[2.436s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv
+[2.436s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail
+[2.437s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__rosidl_typesupport_introspection_c.h
+[2.437s] -- Installing: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__type_support.c
+[2.437s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg
+[2.437s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.438s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_introspection_c.so
+[2.438s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_c.so
+[2.438s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces
+[2.442s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv
+[2.442s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail
+[2.442s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__type_support.hpp
+[2.443s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__struct.hpp
+[2.443s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__builder.hpp
+[2.443s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__traits.hpp
+[2.443s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detect_objects.hpp
+[2.443s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg
+[2.444s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.444s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces
+[2.444s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv
+[2.444s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail
+[2.454s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[2.455s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/dds_fastrtps
+[2.455s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg
+[2.455s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.456s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.456s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces
+[2.456s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv
+[2.456s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail
+[2.456s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__type_support.cpp
+[2.461s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/srv/detail/detect_objects__rosidl_typesupport_introspection_cpp.hpp
+[2.461s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.461s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_cpp.so
+[2.462s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/environment/pythonpath.sh
+[2.462s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/environment/pythonpath.dsv
+[2.462s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces-0.0.1-py3.12.egg-info
+[2.462s] -- Installing: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[2.463s] -- Installing: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[2.463s] -- Installing: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[2.463s] -- Installing: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[2.463s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces
+[2.468s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/_perception_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.468s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/srv
+[2.468s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/srv/_detect_objects_s.c
+[2.468s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/srv/_detect_objects.py
+[2.469s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/srv/__init__.py
+[2.469s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.469s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/_perception_interfaces_s.ep.rosidl_typesupport_c.c
+[2.469s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.470s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_c.so
+[2.470s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/__init__.py
+[2.470s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/_perception_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.584s] Listing '/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces'...
+[2.585s] Listing '/home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/srv'...
+[2.599s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.599s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.600s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/python3.12/site-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_c.so
+[2.601s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_generator_py.so
+[2.602s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/srv/DetectObjects.idl
+[2.602s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/srv/DetectObjects.srv
+[2.603s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/ament_index/resource_index/package_run_dependencies/perception_interfaces
+[2.603s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/ament_index/resource_index/parent_prefix_path/perception_interfaces
+[2.605s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/environment/ament_prefix_path.sh
+[2.605s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/environment/ament_prefix_path.dsv
+[2.606s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/environment/path.sh
+[2.606s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/environment/path.dsv
+[2.607s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/local_setup.bash
+[2.607s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/local_setup.sh
+[2.607s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/local_setup.zsh
+[2.610s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/local_setup.dsv
+[2.611s] -- Installing: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.dsv
+[2.611s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/ament_index/resource_index/packages/perception_interfaces
+[2.612s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_cExport.cmake
+[2.613s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.613s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.613s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.614s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.614s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.614s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_cExport.cmake
+[2.616s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.619s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_cppExport.cmake
+[2.620s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.620s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.620s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.620s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.621s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_cppExport.cmake
+[2.622s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.622s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_pyExport.cmake
+[2.623s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.624s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.624s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.625s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.625s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.625s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.627s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.627s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.627s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfacesConfig.cmake
+[2.627s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfacesConfig-version.cmake
+[2.628s] -- Up-to-date: /home/fai/nao_ws/install/perception_interfaces/share/perception_interfaces/package.xml
+[2.629s] Invoked command in '/home/fai/nao_ws/build/perception_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/perception_interfaces

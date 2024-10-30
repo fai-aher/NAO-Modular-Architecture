@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o"
-  "CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_navigation_to_pose_s.c.o.d"
+  "CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o"
+  "CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/srv/_move_robot_s.c.o.d"
   "libnavigation_interfaces__rosidl_generator_py.pdb"
   "libnavigation_interfaces__rosidl_generator_py.so"
 )

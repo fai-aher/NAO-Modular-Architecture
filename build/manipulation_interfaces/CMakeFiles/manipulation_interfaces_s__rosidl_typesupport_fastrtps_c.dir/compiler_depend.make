@@ -15,6 +15,9 @@ CMakeFiles/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_g
   rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.h \
   rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__struct.h \
   rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.h \
+  rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__functions.h \
+  rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__struct.h \
+  rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__type_support.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   /opt/ros/jazzy/include/rcutils/rcutils/allocator.h \
@@ -326,9 +329,9 @@ CMakeFiles/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_g
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/include/python3.12/genericaliasobject.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/include/assert.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/python3.12/floatobject.h:
 
@@ -394,23 +397,9 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/python3.12/intrcheck.h:
-
-/usr/include/python3.12/traceback.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/python3.12/cpython/context.h:
-
 /usr/include/python3.12/cpython/complexobject.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
-
-/usr/include/python3.12/import.h:
-
-/usr/include/python3.12/setobject.h:
 
 /usr/include/python3.12/cpython/import.h:
 
@@ -448,13 +437,19 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__struct.h:
 
 /usr/include/python3.12/cpython/cellobject.h:
 
-/usr/include/python3.12/dictobject.h:
+/usr/include/python3.12/cpython/object.h:
 
-/usr/include/python3.12/Python.h:
+/usr/include/python3.12/bytearrayobject.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+/usr/include/python3.12/rangeobject.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
+/usr/include/linux/types.h:
+
+/usr/include/python3.12/cpython/picklebufobject.h:
+
+/usr/include/python3.12/complexobject.h:
+
+/usr/include/linux/stddef.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -510,20 +505,6 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/include/python3.12/cpython/object.h:
-
-/usr/include/python3.12/bytearrayobject.h:
-
-/usr/include/python3.12/rangeobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/python3.12/cpython/descrobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
 /opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
@@ -532,39 +513,15 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.h:
 
 rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.h:
 
-/usr/include/python3.12/cpython/picklebufobject.h:
+/usr/include/python3.12/Python.h:
 
-/usr/include/python3.12/complexobject.h:
+/usr/include/python3.12/dictobject.h:
 
-/usr/include/linux/stddef.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.h:
+/usr/include/python3.12/cpython/descrobject.h:
 
-/usr/include/features.h:
-
-/usr/include/python3.12/unicodeobject.h:
-
-/usr/include/python3.12/compile.h:
-
-rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__struct.h:
-
-rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
-
-rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__struct.h:
-
-rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__type_support.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.h:
-
-/usr/include/python3.12/cpython/pyfpe.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+/usr/include/python3.12/cpython/context.h:
 
 rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.h:
 
@@ -582,6 +539,36 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.h:
+
+/usr/include/python3.12/unicodeobject.h:
+
+/usr/include/python3.12/compile.h:
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__struct.h:
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__struct.h:
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__type_support.h:
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.h:
+
+/usr/include/python3.12/cpython/pyfpe.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
+
+/opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
+
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/python3.12/pymath.h:
@@ -595,6 +582,16 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.h:
 /usr/include/python3.12/cpython/longintrepr.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__functions.h:
+
+/usr/include/python3.12/intrcheck.h:
+
+/usr/include/python3.12/traceback.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/inttypes.h:
 
@@ -616,19 +613,21 @@ rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl
 
 /usr/include/pthread.h:
 
-/usr/include/linux/stat.h:
-
 /usr/include/python3.12/pyframe.h:
+
+/usr/include/linux/stat.h:
 
 rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__struct.h:
 
 /usr/include/wchar.h:
 
+/usr/include/assert.h:
+
+/usr/include/python3.12/genericaliasobject.h:
+
 /usr/include/ctype.h:
 
 /usr/include/errno.h:
-
-/opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
 
 /usr/include/python3.12/cpython/warnings.h:
 
@@ -637,6 +636,16 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__struct.h:
 /usr/include/python3.12/fileutils.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/features.h:
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__struct.h:
+
+/usr/include/python3.12/modsupport.h:
+
+/usr/include/strings.h:
+
+/usr/include/python3.12/patchlevel.h:
 
 /usr/include/features-time64.h:
 
@@ -658,17 +667,15 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
+/usr/include/python3.12/import.h:
+
+/usr/include/python3.12/setobject.h:
+
 /usr/include/python3.12/listobject.h:
 
 /usr/include/python3.12/pystrtod.h:
 
 /usr/include/python3.12/methodobject.h:
-
-/usr/include/python3.12/modsupport.h:
-
-/usr/include/strings.h:
-
-/usr/include/python3.12/patchlevel.h:
 
 /usr/include/python3.12/moduleobject.h:
 
@@ -695,6 +702,8 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__struct.h:
 /usr/include/python3.12/pymacconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__type_support.h:
 
 /usr/include/python3.12/pymacro.h:
 
@@ -752,6 +761,16 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__struct.h:
 
 /usr/include/stdlib.h:
 
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
@@ -779,12 +798,6 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/python3.12/cpython/setobject.h:
 
@@ -847,7 +860,3 @@ rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:

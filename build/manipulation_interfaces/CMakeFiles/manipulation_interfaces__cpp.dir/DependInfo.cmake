@@ -29,9 +29,14 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/detail/stand_up__struct.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/detail/stand_up__traits.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
+  "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__builder.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
+  "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__struct.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
+  "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__traits.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
+  "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__type_support.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/set_mode.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/set_posture.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/stand_up.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
+  "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/toggle_awareness.hpp" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
   )
 
 

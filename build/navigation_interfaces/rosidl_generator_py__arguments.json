@@ -3,7 +3,7 @@
   "output_dir": "/home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/fai/nao_ws/build/navigation_interfaces/rosidl_adapter/navigation_interfaces:action/NavigationToPose.idl"
+    "/home/fai/nao_ws/build/navigation_interfaces/rosidl_adapter/navigation_interfaces:srv/MoveRobot.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -70,12 +70,7 @@
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
-    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
-    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
-    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
-    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
-    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -91,7 +86,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/fai/nao_ws/build/navigation_interfaces/rosidl_adapter/navigation_interfaces/action/NavigationToPose.idl",
+    "/home/fai/nao_ws/build/navigation_interfaces/rosidl_adapter/navigation_interfaces/srv/MoveRobot.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -156,11 +151,6 @@
     "/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
-    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
-    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
-    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
-    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
-    "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ]
 }

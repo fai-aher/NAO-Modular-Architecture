@@ -14,3 +14,7 @@ from manipulation_interfaces.srv._stand_up import StandUp  # noqa: F401
 from manipulation_interfaces.srv._stand_up import StandUp_Event  # noqa: F401
 from manipulation_interfaces.srv._stand_up import StandUp_Request  # noqa: F401
 from manipulation_interfaces.srv._stand_up import StandUp_Response  # noqa: F401
+from manipulation_interfaces.srv._toggle_awareness import ToggleAwareness  # noqa: F401
+from manipulation_interfaces.srv._toggle_awareness import ToggleAwareness_Event  # noqa: F401
+from manipulation_interfaces.srv._toggle_awareness import ToggleAwareness_Request  # noqa: F401
+from manipulation_interfaces.srv._toggle_awareness import ToggleAwareness_Response  # noqa: F401

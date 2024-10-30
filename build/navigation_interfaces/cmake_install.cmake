@@ -47,7 +47,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_interfaces/action" TYPE FILE FILES "/home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_type_description/navigation_interfaces/action/NavigationToPose.json")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/navigation_interfaces/rosidl_generator_type_description/navigation_interfaces/srv/MoveRobot.json")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -363,11 +363,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_interfaces/action" TYPE FILE FILES "/home/fai/nao_ws/build/navigation_interfaces/rosidl_adapter/navigation_interfaces/action/NavigationToPose.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/navigation_interfaces/rosidl_adapter/navigation_interfaces/srv/MoveRobot.idl")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_interfaces/action" TYPE FILE FILES "/home/fai/nao_ws/src/navigation_interfaces/action/NavigationToPose.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/src/navigation_interfaces/srv/MoveRobot.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

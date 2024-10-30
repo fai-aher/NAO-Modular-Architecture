@@ -15,6 +15,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/SetMode.json" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/MoveArm.json"
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/SetPosture.json" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/MoveArm.json"
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/StandUp.json" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/MoveArm.json"
+  "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/ToggleAwareness.json" "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/MoveArm.json"
   )
 
 

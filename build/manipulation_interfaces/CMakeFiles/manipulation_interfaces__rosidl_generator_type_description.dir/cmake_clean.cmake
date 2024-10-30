@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_type_description/manipulation_interfaces/srv/SetMode.json"
   "rosidl_generator_type_description/manipulation_interfaces/srv/SetPosture.json"
   "rosidl_generator_type_description/manipulation_interfaces/srv/StandUp.json"
+  "rosidl_generator_type_description/manipulation_interfaces/srv/ToggleAwareness.json"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "manipulation_interfaces/srv/detail/stand_up__functions.h"
-#include "manipulation_interfaces/srv/detail/stand_up__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "manipulation_interfaces/srv/detail/stand_up__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "manipulation_interfaces/srv/detail/stand_up__struct.h"
 
 #ifdef __cplusplus
 extern "C"

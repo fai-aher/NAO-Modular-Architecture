@@ -66,7 +66,7 @@ include CMakeFiles/navigation_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/navigation_interfaces.dir/progress.make
 
-CMakeFiles/navigation_interfaces: /home/fai/nao_ws/src/navigation_interfaces/action/NavigationToPose.action
+CMakeFiles/navigation_interfaces: /home/fai/nao_ws/src/navigation_interfaces/srv/MoveRobot.srv
 CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -100,10 +100,6 @@ CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/Velocit
 CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
-CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
-CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
-CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 
 navigation_interfaces: CMakeFiles/navigation_interfaces
 navigation_interfaces: CMakeFiles/navigation_interfaces.dir/build.make

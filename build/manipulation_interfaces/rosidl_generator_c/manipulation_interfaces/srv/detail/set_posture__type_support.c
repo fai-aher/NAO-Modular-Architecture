@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "manipulation_interfaces/srv/detail/set_posture__struct.h"
-#include "manipulation_interfaces/srv/detail/set_posture__type_support.h"
 #include "manipulation_interfaces/srv/detail/set_posture__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "manipulation_interfaces/srv/detail/set_posture__struct.h"
+#include "manipulation_interfaces/srv/detail/set_posture__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

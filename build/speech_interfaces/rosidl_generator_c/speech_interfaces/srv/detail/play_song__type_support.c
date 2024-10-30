@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
 #include "speech_interfaces/srv/detail/play_song__type_support.h"
 #include "speech_interfaces/srv/detail/play_song__struct.h"
 #include "speech_interfaces/srv/detail/play_song__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

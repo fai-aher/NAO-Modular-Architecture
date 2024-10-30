@@ -6,7 +6,8 @@
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/MoveArm.idl",
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/StandUp.idl",
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetPosture.idl",
-    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetMode.idl"
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetMode.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/ToggleAwareness.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -93,6 +94,7 @@
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/StandUp.idl",
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/SetPosture.idl",
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/SetMode.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/ToggleAwareness.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",

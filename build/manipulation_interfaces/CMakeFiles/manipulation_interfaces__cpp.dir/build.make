@@ -86,6 +86,11 @@ CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_inter
 CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/set_mode__struct.hpp
 CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/set_mode__traits.hpp
 CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.hpp
+CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/toggle_awareness.hpp
+CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__builder.hpp
+CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__struct.hpp
+CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__traits.hpp
+CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__type_support.hpp
 CMakeFiles/manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -111,6 +116,7 @@ rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp: rosidl_adapter/ma
 rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp: rosidl_adapter/manipulation_interfaces/srv/StandUp.idl
 rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp: rosidl_adapter/manipulation_interfaces/srv/SetPosture.idl
 rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp: rosidl_adapter/manipulation_interfaces/srv/SetMode.idl
+rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp: rosidl_adapter/manipulation_interfaces/srv/ToggleAwareness.idl
 rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -236,6 +242,21 @@ rosidl_generator_cpp/manipulation_interfaces/srv/detail/set_mode__traits.hpp: ro
 rosidl_generator_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.hpp: rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.hpp
 
+rosidl_generator_cpp/manipulation_interfaces/srv/toggle_awareness.hpp: rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/manipulation_interfaces/srv/toggle_awareness.hpp
+
+rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__builder.hpp: rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__builder.hpp
+
+rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__struct.hpp: rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__struct.hpp
+
+rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__traits.hpp: rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__traits.hpp
+
+rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__type_support.hpp: rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__type_support.hpp
+
 rosidl_generator_cpp/manipulation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/manipulation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -257,10 +278,15 @@ manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/d
 manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/stand_up__struct.hpp
 manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/stand_up__traits.hpp
 manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.hpp
+manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__builder.hpp
+manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__struct.hpp
+manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__traits.hpp
+manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__type_support.hpp
 manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp
 manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/set_mode.hpp
 manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/set_posture.hpp
 manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/stand_up.hpp
+manipulation_interfaces__cpp: rosidl_generator_cpp/manipulation_interfaces/srv/toggle_awareness.hpp
 manipulation_interfaces__cpp: CMakeFiles/manipulation_interfaces__cpp.dir/build.make
 .PHONY : manipulation_interfaces__cpp
 

@@ -6,13 +6,15 @@
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/MoveArm.idl",
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/StandUp.idl",
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetPosture.idl",
-    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetMode.idl"
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetMode.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/ToggleAwareness.idl"
   ],
   "ros_interface_files": [
     "/home/fai/nao_ws/src/manipulation_interfaces/srv/MoveArm.srv",
     "/home/fai/nao_ws/src/manipulation_interfaces/srv/StandUp.srv",
     "/home/fai/nao_ws/src/manipulation_interfaces/srv/SetPosture.srv",
-    "/home/fai/nao_ws/src/manipulation_interfaces/srv/SetMode.srv"
+    "/home/fai/nao_ws/src/manipulation_interfaces/srv/SetMode.srv",
+    "/home/fai/nao_ws/src/manipulation_interfaces/srv/ToggleAwareness.srv"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
@@ -105,6 +107,7 @@
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/StandUp.idl",
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/SetPosture.idl",
     "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/SetMode.idl",
+    "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/ToggleAwareness.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -175,6 +178,7 @@
     "srv/MoveArm.idl:/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/MoveArm.json",
     "srv/StandUp.idl:/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/StandUp.json",
     "srv/SetPosture.idl:/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/SetPosture.json",
-    "srv/SetMode.idl:/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/SetMode.json"
+    "srv/SetMode.idl:/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/SetMode.json",
+    "srv/ToggleAwareness.idl:/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/ToggleAwareness.json"
   ]
 }

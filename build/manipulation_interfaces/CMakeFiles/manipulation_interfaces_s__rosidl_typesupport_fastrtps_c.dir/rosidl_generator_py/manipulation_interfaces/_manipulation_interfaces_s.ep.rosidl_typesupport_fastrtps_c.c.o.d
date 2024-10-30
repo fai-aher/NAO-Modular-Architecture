@@ -244,4 +244,7 @@ CMakeFiles/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_g
  /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.h \
  /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.h \
  /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__struct.h \
- /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.h
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__type_support.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__struct.h \
+ /home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__functions.h

@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c"
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_py/manipulation_interfaces/srv/_stand_up.py"
   "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c"
+  "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness.py"
+  "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness_s.c"
   "CMakeFiles/manipulation_interfaces__py"
 )
 

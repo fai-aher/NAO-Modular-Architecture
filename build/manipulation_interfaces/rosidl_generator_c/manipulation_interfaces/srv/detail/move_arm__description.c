@@ -68,8 +68,8 @@ manipulation_interfaces__srv__MoveArm_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "service_msgs/msg/detail/service_event_info__functions.h"
+#include "builtin_interfaces/msg/detail/time__functions.h"
 #include "geometry_msgs/msg/detail/point__functions.h"
 
 // Hashes for external referenced types

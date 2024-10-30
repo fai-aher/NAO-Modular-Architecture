@@ -63,6 +63,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces/srv/ToggleAwareness.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/manipulation_interfaces/manipulation_interfaces" TYPE DIRECTORY FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_generator_c/manipulation_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -391,6 +395,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces/srv/ToggleAwareness.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/src/manipulation_interfaces/srv/MoveArm.srv")
 endif()
 
@@ -404,6 +412,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/src/manipulation_interfaces/srv/SetMode.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/manipulation_interfaces/srv" TYPE FILE FILES "/home/fai/nao_ws/src/manipulation_interfaces/srv/ToggleAwareness.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

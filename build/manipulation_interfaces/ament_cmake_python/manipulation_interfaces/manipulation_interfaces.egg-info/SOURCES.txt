@@ -9,3 +9,4 @@ manipulation_interfaces/srv/_move_arm.py
 manipulation_interfaces/srv/_set_mode.py
 manipulation_interfaces/srv/_set_posture.py
 manipulation_interfaces/srv/_stand_up.py
+manipulation_interfaces/srv/_toggle_awareness.py

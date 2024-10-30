@@ -17,10 +17,15 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/manipulation_interfaces/srv/detail/stand_up__struct.hpp"
   "rosidl_generator_cpp/manipulation_interfaces/srv/detail/stand_up__traits.hpp"
   "rosidl_generator_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.hpp"
+  "rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__builder.hpp"
+  "rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__struct.hpp"
+  "rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__traits.hpp"
+  "rosidl_generator_cpp/manipulation_interfaces/srv/detail/toggle_awareness__type_support.hpp"
   "rosidl_generator_cpp/manipulation_interfaces/srv/move_arm.hpp"
   "rosidl_generator_cpp/manipulation_interfaces/srv/set_mode.hpp"
   "rosidl_generator_cpp/manipulation_interfaces/srv/set_posture.hpp"
   "rosidl_generator_cpp/manipulation_interfaces/srv/stand_up.hpp"
+  "rosidl_generator_cpp/manipulation_interfaces/srv/toggle_awareness.hpp"
 )
 
 # Per-language clean rules from dependency scanning.
