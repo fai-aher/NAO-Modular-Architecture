@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from speech_interfaces/srv/PlaySong.srv
+// generated code does not contain a copyright notice
+
+
+module speech_interfaces {
+  module srv {
+    struct PlaySong_Request {
+      string song_path;
+    };
+    struct PlaySong_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

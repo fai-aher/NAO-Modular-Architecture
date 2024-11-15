@@ -23,6 +23,7 @@ setup(
             'integration_interface = integration.integration_interface:main',
             'task_one = integration.tasks.task_one:main',
             'demo_task = integration.tasks.demo_task:main',
+            'live_conversation = integration.tasks.live_conversation:main'
         ],
     },
 )

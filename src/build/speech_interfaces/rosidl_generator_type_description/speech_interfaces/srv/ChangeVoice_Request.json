@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "speech_interfaces/srv/ChangeVoice_Request",
+      "fields": [
+        {
+          "name": "voice_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "speech_interfaces/srv/ChangeVoice_Request",
+      "hash_string": "RIHS01_7b00e8496451522a5d4c98e81f828351c052cded015dc310654e5af6dafee328"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+setup.py
+manipulation_interfaces/__init__.py
+manipulation_interfaces.egg-info/PKG-INFO
+manipulation_interfaces.egg-info/SOURCES.txt
+manipulation_interfaces.egg-info/dependency_links.txt
+manipulation_interfaces.egg-info/top_level.txt
+manipulation_interfaces/srv/__init__.py
+manipulation_interfaces/srv/_move_arm.py
+manipulation_interfaces/srv/_set_mode.py
+manipulation_interfaces/srv/_set_posture.py
+manipulation_interfaces/srv/_stand_up.py
+manipulation_interfaces/srv/_toggle_awareness.py

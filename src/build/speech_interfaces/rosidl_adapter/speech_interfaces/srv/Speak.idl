@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from speech_interfaces/srv/Speak.srv
+// generated code does not contain a copyright notice
+
+
+module speech_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Speak.srv")
+    struct Speak_Request {
+      string text;
+
+      boolean animated;
+    };
+    struct Speak_Response {
+      boolean success;
+    };
+  };
+};

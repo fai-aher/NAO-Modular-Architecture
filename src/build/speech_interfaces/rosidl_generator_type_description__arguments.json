@@ -1,0 +1,14 @@
+{
+  "package_name": "speech_interfaces",
+  "output_dir": "/home/robotica/nao_ws/src/build/speech_interfaces/rosidl_generator_type_description/speech_interfaces",
+  "idl_tuples": [
+    "/home/robotica/nao_ws/src/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/Speak.idl",
+    "/home/robotica/nao_ws/src/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/PlaySong.idl",
+    "/home/robotica/nao_ws/src/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/ChangeVoice.idl",
+    "/home/robotica/nao_ws/src/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/ListVoices.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

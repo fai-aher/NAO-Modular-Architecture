@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/PKG-INFO
+../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/SOURCES.txt
+../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/dependency_links.txt
+../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/entry_points.txt
+../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/requires.txt
+../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/top_level.txt
+../build/nao_qi_ros2_package/nao_qi_ros2_package.egg-info/zip-safe
+nao_qi_ros2_package/__init__.py
+nao_qi_ros2_package/nao_talker.py
+resource/nao_qi_ros2_package
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "manipulation_interfaces/srv/SetMode_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "manipulation_interfaces/srv/SetMode_Response",
+      "hash_string": "RIHS01_3e02f242268f5f52b261e4b8a3c5a199ede855ef3a13868a8885b52414d052ea"
+    }
+  ]
+}

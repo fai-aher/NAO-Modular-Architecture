@@ -1,0 +1,9 @@
+{
+  "package_name": "speech_interfaces",
+  "non_idl_tuples": [
+    "/home/robotica/nao_ws/src/speech_interfaces:srv/Speak.srv",
+    "/home/robotica/nao_ws/src/speech_interfaces:srv/PlaySong.srv",
+    "/home/robotica/nao_ws/src/speech_interfaces:srv/ChangeVoice.srv",
+    "/home/robotica/nao_ws/src/speech_interfaces:srv/ListVoices.srv"
+  ]
+}

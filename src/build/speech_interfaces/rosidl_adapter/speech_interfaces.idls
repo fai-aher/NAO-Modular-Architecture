@@ -1,0 +1,4 @@
+/home/robotica/nao_ws/src/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/Speak.idl
+/home/robotica/nao_ws/src/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/PlaySong.idl
+/home/robotica/nao_ws/src/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/ChangeVoice.idl
+/home/robotica/nao_ws/src/build/speech_interfaces/rosidl_adapter/speech_interfaces:srv/ListVoices.idl

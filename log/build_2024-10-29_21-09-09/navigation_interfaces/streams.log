@@ -1,0 +1,152 @@
+[0.063s] Invoking command in '/home/fai/nao_ws/build/navigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_rest_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_rest_env) /usr/bin/cmake --build /home/fai/nao_ws/build/navigation_interfaces -- -j4 -l4
+[0.248s] [  2%] Built target navigation_interfaces__rosidl_generator_type_description
+[0.404s] [ 17%] Built target navigation_interfaces__rosidl_generator_c
+[0.468s] [ 17%] Built target ament_cmake_python_copy_navigation_interfaces
+[0.553s] [ 20%] Built target navigation_interfaces__cpp
+[0.691s] [ 29%] Built target navigation_interfaces__rosidl_typesupport_c
+[0.706s] [ 38%] Built target navigation_interfaces__rosidl_typesupport_fastrtps_c
+[0.716s] [ 47%] Built target navigation_interfaces__rosidl_typesupport_introspection_c
+[0.922s] [ 55%] Built target navigation_interfaces__rosidl_typesupport_introspection_cpp
+[0.992s] [ 64%] Built target navigation_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.995s] [ 73%] Built target navigation_interfaces__rosidl_typesupport_cpp
+[1.145s] [ 73%] Built target navigation_interfaces
+[1.261s] [ 76%] Built target navigation_interfaces__py
+[1.387s] [ 82%] Built target navigation_interfaces__rosidl_generator_py
+[1.544s] [ 91%] Built target navigation_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.545s] [ 94%] Built target navigation_interfaces_s__rosidl_typesupport_introspection_c
+[1.643s] [100%] Built target navigation_interfaces_s__rosidl_typesupport_c
+[2.266s] running egg_info
+[2.338s] writing navigation_interfaces.egg-info/PKG-INFO
+[2.340s] writing dependency_links to navigation_interfaces.egg-info/dependency_links.txt
+[2.341s] writing top-level names to navigation_interfaces.egg-info/top_level.txt
+[2.640s] reading manifest file 'navigation_interfaces.egg-info/SOURCES.txt'
+[2.641s] writing manifest file 'navigation_interfaces.egg-info/SOURCES.txt'
+[2.776s] [100%] Built target ament_cmake_python_build_navigation_interfaces_egg
+[2.851s] Invoked command in '/home/fai/nao_ws/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_rest_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_rest_env) /usr/bin/cmake --build /home/fai/nao_ws/build/navigation_interfaces -- -j4 -l4
+[3.185s] Invoking command in '/home/fai/nao_ws/build/navigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_rest_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_rest_env) /usr/bin/cmake --install /home/fai/nao_ws/build/navigation_interfaces
+[3.205s] -- Install configuration: ""
+[3.205s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/ament_index/resource_index/rosidl_interfaces/navigation_interfaces
+[3.205s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/srv/MoveRobot.json
+[3.206s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.206s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.216s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.217s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__struct.h
+[3.217s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__description.c
+[3.217s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.c
+[3.217s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__functions.h
+[3.218s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__functions.c
+[3.218s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.h
+[3.221s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/move_robot.h
+[3.225s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.226s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.226s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/library_path.sh
+[3.226s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/library_path.dsv
+[3.227s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_c.so
+[3.230s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.230s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.231s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.231s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[3.231s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.232s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.233s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.233s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.233s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.233s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.234s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_c.h
+[3.234s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.c
+[3.234s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.238s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.239s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_c.so
+[3.242s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_c.so
+[3.243s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.243s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.243s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/move_robot.hpp
+[3.244s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.244s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.hpp
+[3.244s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__traits.hpp
+[3.245s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__struct.hpp
+[3.245s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__builder.hpp
+[3.245s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.245s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.246s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.246s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.251s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.252s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[3.252s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/dds_fastrtps
+[3.252s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.252s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.253s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.259s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.259s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.260s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.260s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[3.260s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.cpp
+[3.260s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.267s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_cpp.so
+[3.270s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/pythonpath.sh
+[3.270s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/pythonpath.dsv
+[3.271s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info
+[3.271s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.271s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.272s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.282s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.282s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces
+[3.283s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv
+[3.283s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv/_move_robot.py
+[3.283s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv/_move_robot_s.c
+[3.283s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv/__init__.py
+[3.284s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.284s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.284s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/__init__.py
+[3.287s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.288s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.288s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.so
+[3.289s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_c.c
+[3.523s] Listing '/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces'...
+[3.523s] Listing '/home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv'...
+[3.547s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.553s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.553s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.so
+[3.554s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_py.so
+[3.554s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/srv/MoveRobot.idl
+[3.554s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/srv/MoveRobot.srv
+[3.555s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/ament_index/resource_index/package_run_dependencies/navigation_interfaces
+[3.561s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/ament_index/resource_index/parent_prefix_path/navigation_interfaces
+[3.562s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/ament_prefix_path.sh
+[3.563s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/ament_prefix_path.dsv
+[3.563s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/path.sh
+[3.563s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/environment/path.dsv
+[3.564s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.bash
+[3.565s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.sh
+[3.565s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.zsh
+[3.565s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/local_setup.dsv
+[3.567s] -- Installing: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.dsv
+[3.567s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/ament_index/resource_index/packages/navigation_interfaces
+[3.567s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cExport.cmake
+[3.567s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.568s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.568s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.568s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.568s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.569s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cExport.cmake
+[3.569s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.569s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cppExport.cmake
+[3.573s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.576s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.577s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.577s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.578s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cppExport.cmake
+[3.579s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.583s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_pyExport.cmake
+[3.583s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.583s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.583s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.584s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.584s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.584s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.585s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.585s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.585s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfacesConfig.cmake
+[3.585s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfacesConfig-version.cmake
+[3.586s] -- Up-to-date: /home/fai/nao_ws/install/navigation_interfaces/share/navigation_interfaces/package.xml
+[4.115s] Invoked command in '/home/fai/nao_ws/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_rest_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_rest_env) /usr/bin/cmake --install /home/fai/nao_ws/build/navigation_interfaces

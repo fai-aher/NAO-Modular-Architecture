@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from speech_interfaces/srv/ListVoices.srv
+// generated code does not contain a copyright notice
+
+
+module speech_interfaces {
+  module srv {
+    struct ListVoices_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ListVoices_Response {
+      sequence<string> voices;
+    };
+  };
+};

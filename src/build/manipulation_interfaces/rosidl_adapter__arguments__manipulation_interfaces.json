@@ -1,0 +1,10 @@
+{
+  "package_name": "manipulation_interfaces",
+  "non_idl_tuples": [
+    "/home/robotica/nao_ws/src/manipulation_interfaces:srv/MoveArm.srv",
+    "/home/robotica/nao_ws/src/manipulation_interfaces:srv/StandUp.srv",
+    "/home/robotica/nao_ws/src/manipulation_interfaces:srv/SetPosture.srv",
+    "/home/robotica/nao_ws/src/manipulation_interfaces:srv/SetMode.srv",
+    "/home/robotica/nao_ws/src/manipulation_interfaces:srv/ToggleAwareness.srv"
+  ]
+}

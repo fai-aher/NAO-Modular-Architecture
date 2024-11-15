@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "perception_interfaces/srv/DetectObjects_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "perception_interfaces/srv/DetectObjects_Request",
+      "hash_string": "RIHS01_3f2649453d8aec6bb8a82753ff4052664cd4a4ab77b4f1973c4d8d095036c418"
+    }
+  ]
+}

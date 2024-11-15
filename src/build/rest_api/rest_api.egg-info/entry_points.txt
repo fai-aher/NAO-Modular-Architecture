@@ -1,0 +1,2 @@
+[console_scripts]
+rest_api_node = rest_api.rest_api_node:main

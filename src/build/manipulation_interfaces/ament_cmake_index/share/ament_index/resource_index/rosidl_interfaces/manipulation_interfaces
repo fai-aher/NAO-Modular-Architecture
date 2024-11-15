@@ -1,0 +1,10 @@
+srv/MoveArm.idl
+srv/MoveArm.srv
+srv/SetMode.idl
+srv/SetMode.srv
+srv/SetPosture.idl
+srv/SetPosture.srv
+srv/StandUp.idl
+srv/StandUp.srv
+srv/ToggleAwareness.idl
+srv/ToggleAwareness.srv

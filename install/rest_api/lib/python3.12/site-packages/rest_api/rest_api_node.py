@@ -7,6 +7,7 @@ import rclpy
 from rclpy.node import Node
 from manipulation_interfaces.srv import StandUp, ToggleAwareness, SetPosture
 from navigation_interfaces.srv import MoveRobot
+from speech_interfaces.srv import Speak 
 
 app = Flask(__name__)
 CORS(app)
@@ -20,6 +21,7 @@ class ROS2Node(Node):
         self.cli_toggle_awareness = self.create_client(ToggleAwareness, 'toggle_awareness')
         self.cli_set_posture = self.create_client(SetPosture, 'set_posture')
         self.cli_move_robot = self.create_client(MoveRobot, 'move_robot')
+        self.cli_speak = self.create_client(Speak, 'speak')
 
         while not self.cli_toggle_awareness.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Esperando servicio toggle_awareness...')
@@ -32,6 +34,9 @@ class ROS2Node(Node):
 
         while not self.cli_move_robot.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Esperando servicio move_robot...')
+
+        while not self.cli_speak.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Esperando servicio speak...')
 
     def call_stand_up(self):
         req = StandUp.Request()
@@ -77,6 +82,19 @@ class ROS2Node(Node):
         else:
             self.get_logger().error('Error al llamar al servicio move_robot')
             return False, 'Error'
+        
+    def speak_callback(self, text, animated):
+        req = Speak.Request()
+        req.text = text
+        req.animated = animated
+        future = self.cli_speak.call_async(req)
+        rclpy.spin_until_future_complete(self, future)
+        if future.result() is not None:
+            return future.result().success, "Speech executed successfully."
+        else:
+            self.get_logger().error('Error al llamar al servicio speak')
+            return False, 'Error'
+
 
 def ros2_thread(node):
     rclpy.spin(node)
@@ -109,6 +127,14 @@ def move_robot():
     y = float(data.get('y', 0.0))
     theta = float(data.get('theta', 0.0))
     success, message = ros_node.move_robot_callback(x, y, theta)
+    return jsonify({'success': success, 'message': message})
+
+@app.route('/speak', methods=['POST'])
+def speak():
+    data = request.get_json()
+    text = data.get('text', 'hello')
+    animated = data.get('animated', False)
+    success, message = ros_node.speak_callback(text, animated)
     return jsonify({'success': success, 'message': message})
 
 def main(args=None):

@@ -1,0 +1,50 @@
+[2.125s] Invoking command in '/home/robotica/nao_ws/src/integration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robotica/nao_ws/src/build/integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/perception_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/web_controller/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/speech/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/rest_api/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/perception/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/navigation/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/manipulation/lib/python3.12/site-packages:/home/robotica/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/robotica/nao_ws/install/speech/lib/python3.12/site-packages:/home/robotica/nao_ws/install/integration/lib/python3.12/site-packages:/home/robotica/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/install/rest_api/lib/python3.12/site-packages:/home/robotica/nao_ws/install/perception/lib/python3.12/site-packages:/home/robotica/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/install/navigation/lib/python3.12/site-packages:/home/robotica/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/robotica/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/robotica/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/integration build --build-base /home/robotica/nao_ws/src/build/integration/build install --record /home/robotica/nao_ws/src/build/integration/install.log --single-version-externally-managed install_data
+[2.669s] running egg_info
+[2.670s] creating ../build/integration/integration.egg-info
+[2.713s] writing ../build/integration/integration.egg-info/PKG-INFO
+[2.714s] writing dependency_links to ../build/integration/integration.egg-info/dependency_links.txt
+[2.714s] writing entry points to ../build/integration/integration.egg-info/entry_points.txt
+[2.715s] writing requirements to ../build/integration/integration.egg-info/requires.txt
+[2.715s] writing top-level names to ../build/integration/integration.egg-info/top_level.txt
+[2.715s] writing manifest file '../build/integration/integration.egg-info/SOURCES.txt'
+[2.811s] reading manifest file '../build/integration/integration.egg-info/SOURCES.txt'
+[2.814s] writing manifest file '../build/integration/integration.egg-info/SOURCES.txt'
+[2.814s] running build
+[2.815s] running build_py
+[2.815s] creating /home/robotica/nao_ws/src/build/integration/build
+[2.815s] creating /home/robotica/nao_ws/src/build/integration/build/lib
+[2.816s] creating /home/robotica/nao_ws/src/build/integration/build/lib/integration
+[2.816s] copying integration/__init__.py -> /home/robotica/nao_ws/src/build/integration/build/lib/integration
+[2.816s] copying integration/integration_interface.py -> /home/robotica/nao_ws/src/build/integration/build/lib/integration
+[2.816s] creating /home/robotica/nao_ws/src/build/integration/build/lib/integration/tasks
+[2.817s] copying integration/tasks/task_one.py -> /home/robotica/nao_ws/src/build/integration/build/lib/integration/tasks
+[2.817s] copying integration/tasks/demo_task.py -> /home/robotica/nao_ws/src/build/integration/build/lib/integration/tasks
+[2.817s] copying integration/tasks/__init__.py -> /home/robotica/nao_ws/src/build/integration/build/lib/integration/tasks
+[2.817s] running install
+[2.836s] running install_lib
+[2.903s] creating /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration
+[2.903s] copying /home/robotica/nao_ws/src/build/integration/build/lib/integration/__init__.py -> /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration
+[2.903s] creating /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration/tasks
+[2.904s] copying /home/robotica/nao_ws/src/build/integration/build/lib/integration/tasks/task_one.py -> /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration/tasks
+[2.904s] copying /home/robotica/nao_ws/src/build/integration/build/lib/integration/tasks/demo_task.py -> /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration/tasks
+[2.904s] copying /home/robotica/nao_ws/src/build/integration/build/lib/integration/tasks/__init__.py -> /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration/tasks
+[2.905s] copying /home/robotica/nao_ws/src/build/integration/build/lib/integration/integration_interface.py -> /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration
+[2.906s] byte-compiling /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration/__init__.py to __init__.cpython-312.pyc
+[2.906s] byte-compiling /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration/tasks/task_one.py to task_one.cpython-312.pyc
+[2.908s] byte-compiling /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration/tasks/demo_task.py to demo_task.cpython-312.pyc
+[2.909s] byte-compiling /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration/tasks/__init__.py to __init__.cpython-312.pyc
+[2.910s] byte-compiling /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration/integration_interface.py to integration_interface.cpython-312.pyc
+[2.913s] running install_data
+[2.913s] creating /home/robotica/nao_ws/src/install/integration/share/ament_index
+[2.914s] creating /home/robotica/nao_ws/src/install/integration/share/ament_index/resource_index
+[2.914s] creating /home/robotica/nao_ws/src/install/integration/share/ament_index/resource_index/packages
+[2.914s] copying resource/integration -> /home/robotica/nao_ws/src/install/integration/share/ament_index/resource_index/packages
+[2.915s] copying package.xml -> /home/robotica/nao_ws/src/install/integration/share/integration
+[2.915s] running install_egg_info
+[2.957s] Copying ../build/integration/integration.egg-info to /home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages/integration-0.0.0-py3.12.egg-info
+[2.958s] running install_scripts
+[3.233s] Installing demo_task script to /home/robotica/nao_ws/src/install/integration/lib/integration
+[3.233s] Installing integration_interface script to /home/robotica/nao_ws/src/install/integration/lib/integration
+[3.233s] Installing task_one script to /home/robotica/nao_ws/src/install/integration/lib/integration
+[3.234s] writing list of installed files to '/home/robotica/nao_ws/src/build/integration/install.log'
+[3.297s] Invoked command in '/home/robotica/nao_ws/src/integration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robotica/nao_ws/src/build/integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/perception_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/web_controller/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/speech/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/integration/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/rest_api/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/perception/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/navigation/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/robotica/nao_ws/src/install/manipulation/lib/python3.12/site-packages:/home/robotica/nao_ws/install/web_controller/lib/python3.12/site-packages:/home/robotica/nao_ws/install/speech/lib/python3.12/site-packages:/home/robotica/nao_ws/install/integration/lib/python3.12/site-packages:/home/robotica/nao_ws/install/speech_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/install/rest_api/lib/python3.12/site-packages:/home/robotica/nao_ws/install/perception/lib/python3.12/site-packages:/home/robotica/nao_ws/install/perception_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/install/navigation/lib/python3.12/site-packages:/home/robotica/nao_ws/install/navigation_interfaces/lib/python3.12/site-packages:/home/robotica/nao_ws/install/nao_qi_ros2_package/lib/python3.12/site-packages:/home/robotica/nao_ws/install/manipulation/lib/python3.12/site-packages:/home/robotica/nao_ws/install/manipulation_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/integration build --build-base /home/robotica/nao_ws/src/build/integration/build install --record /home/robotica/nao_ws/src/build/integration/install.log --single-version-externally-managed install_data

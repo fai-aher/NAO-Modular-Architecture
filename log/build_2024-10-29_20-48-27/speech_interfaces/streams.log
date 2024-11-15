@@ -1,0 +1,175 @@
+[0.051s] Invoking command in '/home/fai/nao_ws/build/speech_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/speech_interfaces -- -j4 -l4
+[0.251s] [  2%] Built target speech_interfaces__rosidl_generator_type_description
+[0.403s] [  2%] Built target ament_cmake_python_copy_speech_interfaces
+[0.409s] [  4%] Built target speech_interfaces__cpp
+[0.645s] [ 22%] Built target speech_interfaces__rosidl_generator_c
+[0.848s] [ 31%] Built target speech_interfaces__rosidl_typesupport_introspection_cpp
+[0.969s] [ 40%] Built target speech_interfaces__rosidl_typesupport_cpp
+[0.975s] [ 50%] Built target speech_interfaces__rosidl_typesupport_fastrtps_c
+[1.129s] [ 59%] Built target speech_interfaces__rosidl_typesupport_introspection_c
+[1.211s] [ 68%] Built target speech_interfaces__rosidl_typesupport_c
+[1.222s] [ 77%] Built target speech_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.327s] [ 77%] Built target speech_interfaces
+[1.442s] [ 79%] Built target speech_interfaces__py
+[1.563s] [ 86%] Built target speech_interfaces__rosidl_generator_py
+[1.772s] [ 90%] Built target speech_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.797s] [ 95%] Built target speech_interfaces_s__rosidl_typesupport_c
+[1.808s] [100%] Built target speech_interfaces_s__rosidl_typesupport_introspection_c
+[2.123s] running egg_info
+[2.192s] writing speech_interfaces.egg-info/PKG-INFO
+[2.193s] writing dependency_links to speech_interfaces.egg-info/dependency_links.txt
+[2.193s] writing top-level names to speech_interfaces.egg-info/top_level.txt
+[2.415s] reading manifest file 'speech_interfaces.egg-info/SOURCES.txt'
+[2.415s] writing manifest file 'speech_interfaces.egg-info/SOURCES.txt'
+[2.494s] [100%] Built target ament_cmake_python_build_speech_interfaces_egg
+[2.527s] Invoked command in '/home/fai/nao_ws/build/speech_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fai/nao_ws/build/speech_interfaces -- -j4 -l4
+[2.769s] Invoking command in '/home/fai/nao_ws/build/speech_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/speech_interfaces
+[2.770s] -- Install configuration: ""
+[2.772s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/ament_index/resource_index/rosidl_interfaces/speech_interfaces
+[2.772s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/srv/Speak.json
+[2.772s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/srv/PlaySong.json
+[2.772s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[2.773s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[2.773s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/play_song.h
+[2.773s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/speak.h
+[2.773s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[2.776s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__functions.h
+[2.777s] -- Installing: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.c
+[2.777s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__functions.h
+[2.777s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__functions.c
+[2.777s] -- Installing: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.c
+[2.778s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.h
+[2.778s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__description.c
+[2.778s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__struct.h
+[2.781s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__description.c
+[2.781s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__functions.c
+[2.781s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__struct.h
+[2.782s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.h
+[2.782s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[2.782s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.783s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/environment/library_path.sh
+[2.783s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/environment/library_path.dsv
+[2.783s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/libspeech_interfaces__rosidl_generator_c.so
+[2.783s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[2.786s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[2.786s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[2.786s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__rosidl_typesupport_fastrtps_c.h
+[2.786s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_c.h
+[2.787s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[2.787s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.787s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.787s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[2.788s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[2.788s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[2.788s] -- Installing: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.c
+[2.788s] -- Installing: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.c
+[2.789s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__rosidl_typesupport_introspection_c.h
+[2.791s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__rosidl_typesupport_introspection_c.h
+[2.791s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[2.791s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.791s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_introspection_c.so
+[2.792s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_c.so
+[2.792s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[2.792s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[2.792s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/speak.hpp
+[2.793s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[2.793s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__traits.hpp
+[2.793s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__struct.hpp
+[2.793s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__builder.hpp
+[2.795s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.hpp
+[2.795s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__builder.hpp
+[2.795s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__traits.hpp
+[2.796s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.hpp
+[2.796s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__struct.hpp
+[2.796s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/play_song.hpp
+[2.796s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[2.798s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.798s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[2.799s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[2.799s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[2.799s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_cpp.hpp
+[2.799s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__rosidl_typesupport_fastrtps_cpp.hpp
+[2.800s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/dds_fastrtps
+[2.800s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[2.800s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.803s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.803s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[2.806s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[2.806s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[2.806s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__rosidl_typesupport_introspection_cpp.hpp
+[2.807s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.cpp
+[2.807s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.cpp
+[2.807s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__rosidl_typesupport_introspection_cpp.hpp
+[2.808s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.808s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_cpp.so
+[2.808s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/environment/pythonpath.sh
+[2.809s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/environment/pythonpath.dsv
+[2.814s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info
+[2.814s] -- Installing: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[2.814s] -- Installing: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[2.815s] -- Installing: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.815s] -- Installing: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.815s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces
+[2.815s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/_speech_interfaces_s.ep.rosidl_typesupport_c.c
+[2.816s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv
+[2.816s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_speak.py
+[2.817s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_play_song_s.c
+[2.817s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/__init__.py
+[2.817s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_play_song.py
+[2.817s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_speak_s.c
+[2.818s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.818s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/_speech_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.818s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/__init__.py
+[2.818s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.818s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/_speech_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.819s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_c.so
+[2.914s] Listing '/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces'...
+[2.915s] Listing '/home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv'...
+[2.918s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.919s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.920s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_c.so
+[2.924s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/lib/libspeech_interfaces__rosidl_generator_py.so
+[2.924s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/srv/Speak.idl
+[2.925s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/srv/PlaySong.idl
+[2.925s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/srv/Speak.srv
+[2.925s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/srv/PlaySong.srv
+[2.926s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/ament_index/resource_index/package_run_dependencies/speech_interfaces
+[2.926s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/ament_index/resource_index/parent_prefix_path/speech_interfaces
+[2.926s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/environment/ament_prefix_path.sh
+[2.926s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/environment/ament_prefix_path.dsv
+[2.926s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/environment/path.sh
+[2.927s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/environment/path.dsv
+[2.927s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/local_setup.bash
+[2.927s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/local_setup.sh
+[2.927s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/local_setup.zsh
+[2.928s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/local_setup.dsv
+[2.928s] -- Installing: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.dsv
+[2.928s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/ament_index/resource_index/packages/speech_interfaces
+[2.928s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_cExport.cmake
+[2.929s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.929s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.930s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.930s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.930s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.930s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_cExport.cmake
+[2.931s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.931s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_cppExport.cmake
+[2.931s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.931s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.931s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.931s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.932s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_cppExport.cmake
+[2.932s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.932s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_pyExport.cmake
+[2.932s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.933s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.933s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.934s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.934s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.934s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.934s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.935s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.935s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfacesConfig.cmake
+[2.935s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfacesConfig-version.cmake
+[2.936s] -- Up-to-date: /home/fai/nao_ws/install/speech_interfaces/share/speech_interfaces/package.xml
+[2.975s] Invoked command in '/home/fai/nao_ws/build/speech_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fai/nao_ws/install/rest_api:/home/fai/nao_ws/install/web_controller:/home/fai/nao_ws/install/speech:/home/fai/nao_ws/install/nao_tasks:/home/fai/nao_ws/install/integration:/home/fai/nao_ws/install/perception:/home/fai/nao_ws/install/navigation:/home/fai/nao_ws/install/nao_qi_ros2_package:/home/fai/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fai/nao_ws/build/speech_interfaces

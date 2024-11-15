@@ -1,0 +1,11 @@
+setup.py
+speech_interfaces/__init__.py
+speech_interfaces.egg-info/PKG-INFO
+speech_interfaces.egg-info/SOURCES.txt
+speech_interfaces.egg-info/dependency_links.txt
+speech_interfaces.egg-info/top_level.txt
+speech_interfaces/srv/__init__.py
+speech_interfaces/srv/_change_voice.py
+speech_interfaces/srv/_list_voices.py
+speech_interfaces/srv/_play_song.py
+speech_interfaces/srv/_speak.py

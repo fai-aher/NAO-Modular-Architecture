@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from speech_interfaces/srv/ChangeVoice.srv
+// generated code does not contain a copyright notice
+
+
+module speech_interfaces {
+  module srv {
+    struct ChangeVoice_Request {
+      string voice_name;
+    };
+    struct ChangeVoice_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

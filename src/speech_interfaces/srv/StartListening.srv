@@ -1,0 +1,5 @@
+string start_word
+string stop_word
+---
+bool success
+string message

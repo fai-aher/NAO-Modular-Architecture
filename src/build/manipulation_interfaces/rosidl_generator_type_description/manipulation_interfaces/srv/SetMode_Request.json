@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "manipulation_interfaces/srv/SetMode_Request",
+      "fields": [
+        {
+          "name": "mode",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "manipulation_interfaces/srv/SetMode_Request",
+      "hash_string": "RIHS01_e96b31914dfc3b75bb59b337b5c243b50953d7cc5d17be8dc8e4d5463a32cc8a"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# SetPosture.srv
+string posture_name
+---
+bool success

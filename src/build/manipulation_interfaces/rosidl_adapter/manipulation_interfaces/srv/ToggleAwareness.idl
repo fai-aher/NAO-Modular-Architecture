@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from manipulation_interfaces/srv/ToggleAwareness.srv
+// generated code does not contain a copyright notice
+
+
+module manipulation_interfaces {
+  module srv {
+    struct ToggleAwareness_Request {
+      boolean enable;
+    };
+    struct ToggleAwareness_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

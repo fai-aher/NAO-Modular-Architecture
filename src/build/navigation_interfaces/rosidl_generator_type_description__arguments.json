@@ -1,0 +1,13 @@
+{
+  "package_name": "navigation_interfaces",
+  "output_dir": "/home/robotica/nao_ws/src/build/navigation_interfaces/rosidl_generator_type_description/navigation_interfaces",
+  "idl_tuples": [
+    "/home/robotica/nao_ws/src/build/navigation_interfaces/rosidl_adapter/navigation_interfaces:srv/MoveRobot.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

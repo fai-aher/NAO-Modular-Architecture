@@ -1,0 +1,4 @@
+float64 speed_percentage  # Speech speed as a percentage (example: for 105% write 105)
+float64 voice_shaping_percentage  # Voice shaping as a percentage (example: for 105% write 1.05)
+---
+bool success  # Operation success flag

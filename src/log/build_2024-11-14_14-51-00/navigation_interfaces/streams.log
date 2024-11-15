@@ -1,0 +1,152 @@
+[0.051s] Invoking command in '/home/robotica/nao_ws/src/build/navigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotica/nao_ws/src/build/navigation_interfaces -- -j4 -l4
+[0.188s] [  2%] Built target navigation_interfaces__rosidl_generator_type_description
+[0.238s] [  2%] Built target ament_cmake_python_copy_navigation_interfaces
+[0.290s] [  5%] Built target navigation_interfaces__cpp
+[0.382s] [ 20%] Built target navigation_interfaces__rosidl_generator_c
+[0.553s] [ 29%] Built target navigation_interfaces__rosidl_typesupport_introspection_c
+[0.557s] [ 38%] Built target navigation_interfaces__rosidl_typesupport_cpp
+[0.651s] [ 47%] Built target navigation_interfaces__rosidl_typesupport_fastrtps_c
+[0.816s] [ 55%] Built target navigation_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.839s] [ 64%] Built target navigation_interfaces__rosidl_typesupport_c
+[0.915s] [ 73%] Built target navigation_interfaces__rosidl_typesupport_introspection_cpp
+[1.035s] [ 73%] Built target navigation_interfaces
+[1.167s] [ 76%] Built target navigation_interfaces__py
+[1.314s] [ 82%] Built target navigation_interfaces__rosidl_generator_py
+[1.452s] [ 88%] Built target navigation_interfaces_s__rosidl_typesupport_introspection_c
+[1.477s] [ 94%] Built target navigation_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.526s] [100%] Built target navigation_interfaces_s__rosidl_typesupport_c
+[2.536s] running egg_info
+[2.625s] writing navigation_interfaces.egg-info/PKG-INFO
+[2.627s] writing dependency_links to navigation_interfaces.egg-info/dependency_links.txt
+[2.627s] writing top-level names to navigation_interfaces.egg-info/top_level.txt
+[2.940s] reading manifest file 'navigation_interfaces.egg-info/SOURCES.txt'
+[2.942s] writing manifest file 'navigation_interfaces.egg-info/SOURCES.txt'
+[3.103s] [100%] Built target ament_cmake_python_build_navigation_interfaces_egg
+[3.179s] Invoked command in '/home/robotica/nao_ws/src/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotica/nao_ws/src/build/navigation_interfaces -- -j4 -l4
+[3.587s] Invoking command in '/home/robotica/nao_ws/src/build/navigation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotica/nao_ws/src/build/navigation_interfaces
+[3.633s] -- Install configuration: ""
+[3.637s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/ament_index/resource_index/rosidl_interfaces/navigation_interfaces
+[3.638s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/srv/MoveRobot.json
+[3.638s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.638s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.639s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.639s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__struct.h
+[3.639s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__description.c
+[3.639s] -- Installing: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.c
+[3.640s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__functions.h
+[3.644s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__functions.c
+[3.646s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.h
+[3.649s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/move_robot.h
+[3.650s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.650s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.650s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/environment/library_path.sh
+[3.650s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/environment/library_path.dsv
+[3.651s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_c.so
+[3.651s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.651s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.652s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.657s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[3.657s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.658s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.658s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.658s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.658s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.659s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.659s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_c.h
+[3.666s] -- Installing: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.c
+[3.667s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.667s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.667s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_c.so
+[3.668s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_c.so
+[3.668s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.668s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.668s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/move_robot.hpp
+[3.669s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.669s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.hpp
+[3.674s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__traits.hpp
+[3.674s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__struct.hpp
+[3.674s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__builder.hpp
+[3.675s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.675s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.675s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.680s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.680s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.681s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[3.681s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/dds_fastrtps
+[3.681s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg
+[3.682s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.682s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.682s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces
+[3.682s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv
+[3.683s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail
+[3.687s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[3.688s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/include/navigation_interfaces/navigation_interfaces/srv/detail/move_robot__type_support.cpp
+[3.688s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.693s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_typesupport_cpp.so
+[3.693s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/environment/pythonpath.sh
+[3.694s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/environment/pythonpath.dsv
+[3.694s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info
+[3.694s] -- Installing: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.694s] -- Installing: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.695s] -- Installing: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.695s] -- Installing: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.695s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces
+[3.695s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv
+[3.696s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv/_move_robot.py
+[3.696s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv/_move_robot_s.c
+[3.702s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv/__init__.py
+[3.703s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.703s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.703s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/__init__.py
+[3.703s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.704s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.704s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.so
+[3.704s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/_navigation_interfaces_s.ep.rosidl_typesupport_c.c
+[3.994s] Listing '/home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces'...
+[3.995s] Listing '/home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/srv'...
+[4.044s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.044s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.046s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/python3.12/site-packages/navigation_interfaces/navigation_interfaces_s__rosidl_typesupport_c.so
+[4.055s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/lib/libnavigation_interfaces__rosidl_generator_py.so
+[4.058s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/srv/MoveRobot.idl
+[4.060s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/srv/MoveRobot.srv
+[4.063s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/ament_index/resource_index/package_run_dependencies/navigation_interfaces
+[4.068s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/ament_index/resource_index/parent_prefix_path/navigation_interfaces
+[4.068s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/environment/ament_prefix_path.sh
+[4.069s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/environment/ament_prefix_path.dsv
+[4.069s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/environment/path.sh
+[4.069s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/environment/path.dsv
+[4.071s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/local_setup.bash
+[4.071s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/local_setup.sh
+[4.072s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/local_setup.zsh
+[4.074s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/local_setup.dsv
+[4.076s] -- Installing: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/package.dsv
+[4.077s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/ament_index/resource_index/packages/navigation_interfaces
+[4.077s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cExport.cmake
+[4.077s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.078s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.078s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.078s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.078s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.079s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cExport.cmake
+[4.084s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.087s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_cppExport.cmake
+[4.088s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.089s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.089s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.089s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.092s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cppExport.cmake
+[4.092s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.092s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_pyExport.cmake
+[4.092s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/export_navigation_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.093s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.093s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.093s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.098s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.098s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.099s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.100s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.100s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfacesConfig.cmake
+[4.101s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/cmake/navigation_interfacesConfig-version.cmake
+[4.107s] -- Up-to-date: /home/robotica/nao_ws/src/install/navigation_interfaces/share/navigation_interfaces/package.xml
+[4.107s] Invoked command in '/home/robotica/nao_ws/src/build/navigation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotica/nao_ws/src/build/navigation_interfaces

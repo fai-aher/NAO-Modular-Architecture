@@ -1,0 +1,333 @@
+[0.043s] Invoking command in '/home/robotica/nao_ws/src/build/speech_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotica/nao_ws/src/speech_interfaces -DCMAKE_INSTALL_PREFIX=/home/robotica/nao_ws/src/install/speech_interfaces
+[0.312s] -- The C compiler identification is GNU 13.2.0
+[0.508s] -- The CXX compiler identification is GNU 13.2.0
+[0.551s] -- Detecting C compiler ABI info
+[0.869s] -- Detecting C compiler ABI info - done
+[0.917s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.926s] -- Detecting C compile features
+[0.927s] -- Detecting C compile features - done
+[0.960s] -- Detecting CXX compiler ABI info
+[1.467s] -- Detecting CXX compiler ABI info - done
+[1.548s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.554s] -- Detecting CXX compile features
+[1.568s] -- Detecting CXX compile features - done
+[1.587s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.532s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.883s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.266s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.481s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.808s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.389s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[9.771s] -- Found PythonExtra: /usr/bin/python3  
+[11.041s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[11.191s] -- Configuring done (11.1s)
+[11.385s] -- Generating done (0.2s)
+[11.399s] -- Build files have been written to: /home/robotica/nao_ws/src/build/speech_interfaces
+[11.423s] Invoked command in '/home/robotica/nao_ws/src/build/speech_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotica/nao_ws/src/speech_interfaces -DCMAKE_INSTALL_PREFIX=/home/robotica/nao_ws/src/install/speech_interfaces
+[11.427s] Invoking command in '/home/robotica/nao_ws/src/build/speech_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotica/nao_ws/src/build/speech_interfaces -- -j4 -l4
+[11.602s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.644s] [  1%] Built target ament_cmake_python_copy_speech_interfaces
+[12.604s] [  1%] Built target speech_interfaces__rosidl_generator_type_description
+[12.666s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.728s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.450s] running egg_info
+[13.469s] creating speech_interfaces.egg-info
+[13.711s] writing speech_interfaces.egg-info/PKG-INFO
+[13.711s] writing dependency_links to speech_interfaces.egg-info/dependency_links.txt
+[13.712s] writing top-level names to speech_interfaces.egg-info/top_level.txt
+[13.712s] writing manifest file 'speech_interfaces.egg-info/SOURCES.txt'
+[14.391s] reading manifest file 'speech_interfaces.egg-info/SOURCES.txt'
+[14.393s] writing manifest file 'speech_interfaces.egg-info/SOURCES.txt'
+[14.727s] [  4%] Built target ament_cmake_python_build_speech_interfaces_egg
+[16.278s] [  6%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/speak__description.c.o[0m
+[16.294s] [  7%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/speak__functions.c.o[0m
+[16.306s] [  9%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/speak__type_support.c.o[0m
+[16.816s] [ 10%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/play_song__description.c.o[0m
+[16.913s] [ 12%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/play_song__functions.c.o[0m
+[16.969s] [ 14%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/play_song__type_support.c.o[0m
+[17.598s] [ 15%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/change_voice__description.c.o[0m
+[17.609s] [ 17%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/change_voice__functions.c.o[0m
+[17.836s] [ 18%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/change_voice__type_support.c.o[0m
+[18.063s] [ 20%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/list_voices__description.c.o[0m
+[18.340s] [ 21%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/list_voices__functions.c.o[0m
+[18.710s] [ 23%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_c.dir/rosidl_generator_c/speech_interfaces/srv/detail/list_voices__type_support.c.o[0m
+[19.016s] [ 25%] [32m[1mLinking C shared library libspeech_interfaces__rosidl_generator_c.so[0m
+[19.315s] [ 25%] Built target speech_interfaces__rosidl_generator_c
+[19.926s] [ 25%] Built target speech_interfaces__cpp
+[19.950s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.237s] [ 28%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_interfaces/srv/speak__type_support.cpp.o[0m
+[21.410s] [ 29%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_interfaces/srv/play_song__type_support.cpp.o[0m
+[21.649s] [ 31%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_interfaces/srv/change_voice__type_support.cpp.o[0m
+[21.849s] [ 32%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/speech_interfaces/srv/list_voices__type_support.cpp.o[0m
+[22.153s] [ 34%] [32m[1mLinking CXX shared library libspeech_interfaces__rosidl_typesupport_c.so[0m
+[22.371s] [ 34%] Built target speech_interfaces__rosidl_typesupport_c
+[22.396s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[24.693s] [ 37%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_interfaces/srv/detail/dds_fastrtps/speak__type_support.cpp.o[0m
+[27.097s] [ 39%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_interfaces/srv/detail/dds_fastrtps/play_song__type_support.cpp.o[0m
+[30.052s] [ 40%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_interfaces/srv/detail/dds_fastrtps/change_voice__type_support.cpp.o[0m
+[32.283s] [ 42%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/speech_interfaces/srv/detail/dds_fastrtps/list_voices__type_support.cpp.o[0m
+[34.706s] [ 43%] [32m[1mLinking CXX shared library libspeech_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.924s] [ 43%] Built target speech_interfaces__rosidl_typesupport_fastrtps_cpp
+[34.947s] [ 45%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[36.450s] [ 46%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/speech_interfaces/srv/detail/speak__type_support.cpp.o[0m
+[38.105s] [ 48%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/speech_interfaces/srv/detail/play_song__type_support.cpp.o[0m
+[39.691s] [ 50%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/speech_interfaces/srv/detail/change_voice__type_support.cpp.o[0m
+[41.464s] [ 51%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/speech_interfaces/srv/detail/list_voices__type_support.cpp.o[0m
+[43.174s] [ 53%] [32m[1mLinking CXX shared library libspeech_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[43.390s] [ 53%] Built target speech_interfaces__rosidl_typesupport_introspection_cpp
+[43.410s] [ 54%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[44.913s] [ 56%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/speech_interfaces/srv/speak__type_support.cpp.o[0m
+[46.502s] [ 57%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/speech_interfaces/srv/play_song__type_support.cpp.o[0m
+[47.998s] [ 59%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/speech_interfaces/srv/change_voice__type_support.cpp.o[0m
+[49.779s] [ 60%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/speech_interfaces/srv/list_voices__type_support.cpp.o[0m
+[51.757s] [ 62%] [32m[1mLinking CXX shared library libspeech_interfaces__rosidl_typesupport_cpp.so[0m
+[52.132s] [ 62%] Built target speech_interfaces__rosidl_typesupport_cpp
+[52.197s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[54.870s] [ 65%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/speech_interfaces/srv/detail/speak__type_support.c.o[0m
+[55.162s] [ 67%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/speech_interfaces/srv/detail/change_voice__type_support.c.o[0m
+[55.381s] [ 68%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/speech_interfaces/srv/detail/list_voices__type_support.c.o[0m
+[55.582s] [ 70%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/speech_interfaces/srv/detail/play_song__type_support.c.o[0m
+[55.766s] [ 71%] [32m[1mLinking C shared library libspeech_interfaces__rosidl_typesupport_introspection_c.so[0m
+[55.847s] [ 71%] Built target speech_interfaces__rosidl_typesupport_introspection_c
+[55.876s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[57.516s] [ 75%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/speech_interfaces/srv/detail/speak__type_support_c.cpp.o[0m
+[58.665s] [ 76%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/speech_interfaces/srv/detail/list_voices__type_support_c.cpp.o[0m
+[59.809s] [ 78%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/speech_interfaces/srv/detail/change_voice__type_support_c.cpp.o[0m
+[60.977s] [ 79%] [32mBuilding CXX object CMakeFiles/speech_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/speech_interfaces/srv/detail/play_song__type_support_c.cpp.o[0m
+[62.105s] [ 81%] [32m[1mLinking CXX shared library libspeech_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[62.231s] [ 81%] Built target speech_interfaces__rosidl_typesupport_fastrtps_c
+[62.265s] [ 81%] Built target speech_interfaces
+[62.295s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[63.998s] [ 82%] Built target speech_interfaces__py
+[64.034s] [ 84%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_interfaces/srv/_speak_s.c.o[0m
+[64.460s] [ 85%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_interfaces/srv/_list_voices_s.c.o[0m
+[64.895s] [ 87%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_interfaces/srv/_change_voice_s.c.o[0m
+[65.370s] [ 89%] [32mBuilding C object CMakeFiles/speech_interfaces__rosidl_generator_py.dir/rosidl_generator_py/speech_interfaces/srv/_play_song_s.c.o[0m
+[65.921s] [ 90%] [32m[1mLinking C shared library libspeech_interfaces__rosidl_generator_py.so[0m
+[66.052s] [ 90%] Built target speech_interfaces__rosidl_generator_py
+[66.090s] [ 92%] [32mBuilding C object CMakeFiles/speech_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/speech_interfaces/_speech_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[66.449s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/speech_interfaces/speech_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[66.510s] [ 93%] Built target speech_interfaces_s__rosidl_typesupport_fastrtps_c
+[66.548s] [ 95%] [32mBuilding C object CMakeFiles/speech_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/speech_interfaces/_speech_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[66.856s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/speech_interfaces/speech_interfaces_s__rosidl_typesupport_c.so[0m
+[66.908s] [ 96%] Built target speech_interfaces_s__rosidl_typesupport_c
+[66.939s] [ 98%] [32mBuilding C object CMakeFiles/speech_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/speech_interfaces/_speech_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[67.231s] [100%] [32m[1mLinking C shared module rosidl_generator_py/speech_interfaces/speech_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[67.283s] [100%] Built target speech_interfaces_s__rosidl_typesupport_introspection_c
+[67.303s] Invoked command in '/home/robotica/nao_ws/src/build/speech_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotica/nao_ws/src/build/speech_interfaces -- -j4 -l4
+[67.493s] Invoking command in '/home/robotica/nao_ws/src/build/speech_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotica/nao_ws/src/build/speech_interfaces
+[67.506s] -- Install configuration: ""
+[67.507s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/ament_index/resource_index/rosidl_interfaces/speech_interfaces
+[67.507s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/Speak.json
+[67.508s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/PlaySong.json
+[67.508s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/ChangeVoice.json
+[67.509s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/ListVoices.json
+[67.509s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[67.509s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[67.509s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/play_song.h
+[67.510s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/speak.h
+[67.510s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/list_voices.h
+[67.510s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/change_voice.h
+[67.511s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[67.511s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__functions.c
+[67.511s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__functions.h
+[67.512s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.c
+[67.512s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__functions.h
+[67.512s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__functions.c
+[67.513s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__description.c
+[67.513s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__functions.c
+[67.513s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.c
+[67.514s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__functions.h
+[67.514s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__type_support.h
+[67.514s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.h
+[67.514s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__type_support.h
+[67.515s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__description.c
+[67.515s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__description.c
+[67.515s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__struct.h
+[67.516s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__functions.h
+[67.516s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__description.c
+[67.516s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__struct.h
+[67.517s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__functions.c
+[67.517s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__type_support.c
+[67.517s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__struct.h
+[67.517s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.h
+[67.518s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__struct.h
+[67.518s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__type_support.c
+[67.518s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[67.518s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_generator_c__visibility_control.h
+[67.519s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/environment/library_path.sh
+[67.519s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/environment/library_path.dsv
+[67.519s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_generator_c.so
+[67.519s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_generator_c.so" to ""
+[67.520s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[67.520s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[67.521s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[67.521s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__rosidl_typesupport_fastrtps_c.h
+[67.521s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__rosidl_typesupport_fastrtps_c.h
+[67.521s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__rosidl_typesupport_fastrtps_c.h
+[67.522s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_c.h
+[67.522s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[67.522s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[67.522s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_fastrtps_c.so
+[67.523s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[67.523s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[67.523s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[67.523s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[67.524s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.c
+[67.524s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.c
+[67.524s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__rosidl_typesupport_introspection_c.h
+[67.524s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__rosidl_typesupport_introspection_c.h
+[67.525s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__rosidl_typesupport_introspection_c.h
+[67.525s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__rosidl_typesupport_introspection_c.h
+[67.525s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__type_support.c
+[67.525s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__type_support.c
+[67.526s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[67.526s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[67.526s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_introspection_c.so
+[67.526s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[67.527s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_c.so
+[67.527s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_c.so" to ""
+[67.527s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[67.528s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[67.528s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/list_voices.hpp
+[67.528s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/speak.hpp
+[67.529s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/change_voice.hpp
+[67.529s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[67.529s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__type_support.hpp
+[67.530s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__traits.hpp
+[67.530s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__builder.hpp
+[67.530s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__struct.hpp
+[67.530s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__builder.hpp
+[67.531s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.hpp
+[67.531s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__builder.hpp
+[67.531s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__builder.hpp
+[67.531s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__type_support.hpp
+[67.532s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__traits.hpp
+[67.532s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__struct.hpp
+[67.532s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__traits.hpp
+[67.532s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.hpp
+[67.533s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__struct.hpp
+[67.533s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__struct.hpp
+[67.533s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__traits.hpp
+[67.533s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/play_song.hpp
+[67.534s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[67.535s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[67.536s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[67.536s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[67.537s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[67.537s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_cpp.hpp
+[67.537s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__rosidl_typesupport_fastrtps_cpp.hpp
+[67.538s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__rosidl_typesupport_fastrtps_cpp.hpp
+[67.538s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__rosidl_typesupport_fastrtps_cpp.hpp
+[67.538s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/dds_fastrtps
+[67.538s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg
+[67.539s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[67.539s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[67.539s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[67.539s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces
+[67.540s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv
+[67.540s] -- Up-to-date: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail
+[67.541s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__type_support.cpp
+[67.541s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__rosidl_typesupport_introspection_cpp.hpp
+[67.541s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__rosidl_typesupport_introspection_cpp.hpp
+[67.542s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/speak__type_support.cpp
+[67.542s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__type_support.cpp
+[67.543s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/list_voices__rosidl_typesupport_introspection_cpp.hpp
+[67.543s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/change_voice__type_support.cpp
+[67.543s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/include/speech_interfaces/speech_interfaces/srv/detail/play_song__rosidl_typesupport_introspection_cpp.hpp
+[67.544s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_introspection_cpp.so
+[67.544s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[67.544s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_cpp.so
+[67.544s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_typesupport_cpp.so" to ""
+[67.545s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/environment/pythonpath.sh
+[67.545s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/environment/pythonpath.dsv
+[67.545s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info
+[67.546s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[67.546s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[67.546s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[67.546s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[67.546s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces
+[67.547s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/_speech_interfaces_s.ep.rosidl_typesupport_c.c
+[67.547s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv
+[67.547s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_list_voices_s.c
+[67.547s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_speak.py
+[67.547s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_change_voice.py
+[67.547s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_play_song_s.c
+[67.547s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/__init__.py
+[67.548s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_play_song.py
+[67.548s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_speak_s.c
+[67.548s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_change_voice_s.c
+[67.548s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_list_voices.py
+[67.549s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[67.549s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/_speech_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[67.549s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/__init__.py
+[67.549s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_introspection_c.so
+[67.550s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/_speech_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[67.550s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_c.so
+[67.650s] Listing '/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces'...
+[67.651s] Compiling '/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/__init__.py'...
+[67.651s] Listing '/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv'...
+[67.651s] Compiling '/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/__init__.py'...
+[67.651s] Compiling '/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_change_voice.py'...
+[67.651s] Compiling '/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_list_voices.py'...
+[67.652s] Compiling '/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_play_song.py'...
+[67.652s] Compiling '/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/srv/_speak.py'...
+[67.661s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[67.661s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[67.661s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_introspection_c.so
+[67.662s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[67.662s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_c.so
+[67.663s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/python3.12/site-packages/speech_interfaces/speech_interfaces_s__rosidl_typesupport_c.so" to ""
+[67.663s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_generator_py.so
+[67.664s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/speech_interfaces/lib/libspeech_interfaces__rosidl_generator_py.so" to ""
+[67.664s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/Speak.idl
+[67.665s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/PlaySong.idl
+[67.665s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/ChangeVoice.idl
+[67.665s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/ListVoices.idl
+[67.666s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/Speak.srv
+[67.666s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/PlaySong.srv
+[67.666s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/ChangeVoice.srv
+[67.667s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/srv/ListVoices.srv
+[67.667s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/ament_index/resource_index/package_run_dependencies/speech_interfaces
+[67.667s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/ament_index/resource_index/parent_prefix_path/speech_interfaces
+[67.668s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/environment/ament_prefix_path.sh
+[67.668s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/environment/ament_prefix_path.dsv
+[67.668s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/environment/path.sh
+[67.669s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/environment/path.dsv
+[67.669s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/local_setup.bash
+[67.670s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/local_setup.sh
+[67.670s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/local_setup.zsh
+[67.670s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/local_setup.dsv
+[67.671s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/package.dsv
+[67.671s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/ament_index/resource_index/packages/speech_interfaces
+[67.672s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_cExport.cmake
+[67.672s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_cExport-noconfig.cmake
+[67.672s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[67.673s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[67.674s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[67.674s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[67.675s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_cExport.cmake
+[67.675s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[67.676s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_cppExport.cmake
+[67.676s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[67.676s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[67.677s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[67.677s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[67.678s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_cppExport.cmake
+[67.678s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[67.678s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_pyExport.cmake
+[67.679s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/export_speech_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[67.679s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/rosidl_cmake-extras.cmake
+[67.679s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[67.680s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[67.680s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[67.680s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[67.680s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[67.681s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[67.681s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfacesConfig.cmake
+[67.682s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/cmake/speech_interfacesConfig-version.cmake
+[67.682s] -- Installing: /home/robotica/nao_ws/src/install/speech_interfaces/share/speech_interfaces/package.xml
+[67.686s] Invoked command in '/home/robotica/nao_ws/src/build/speech_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotica/nao_ws/src/build/speech_interfaces

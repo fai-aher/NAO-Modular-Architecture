@@ -1,0 +1,4 @@
+string user_input  # The input question or statement for GPT
+---
+string bot_response  # The response from GPT
+bool success  # Whether the call was successful

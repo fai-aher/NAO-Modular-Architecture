@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from manipulation_interfaces/srv/SetMode.srv
+// generated code does not contain a copyright notice
+
+
+module manipulation_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "SetMode.srv")
+    struct SetMode_Request {
+      string mode;
+    };
+    struct SetMode_Response {
+      boolean success;
+    };
+  };
+};

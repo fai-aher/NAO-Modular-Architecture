@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "manipulation_interfaces/srv/SetPosture_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "manipulation_interfaces/srv/SetPosture_Response",
+      "hash_string": "RIHS01_aea43c97aa39b6fc335bb8bb6a37c69f0b1b4ebaf738852c401df6c02524a1f6"
+    }
+  ]
+}

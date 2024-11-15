@@ -2,10 +2,10 @@
 
 import rclpy
 from rclpy.node import Node
-from perception_interfaces.srv import DetectObjects
+from perception_interfaces.srv import DetectObjects, SetEyeColor
 from manipulation_interfaces.srv import MoveArm, StandUp, SetPosture, SetMode
 from geometry_msgs.msg import Point, PoseStamped
-from speech_interfaces.srv import Speak, PlaySong
+from speech_interfaces.srv import Speak, PlaySong, LiveConversation, StartListening, RecognizeSpeech
 from rclpy.action import ActionClient
 import time
 
@@ -15,6 +15,8 @@ Steps to re-build the project and load changes to any console:
 1. rm -rf build install log 
 2. colcon build
 3. source install/setup.bash
+
+To build only one separarte ROS2 package: colcon build --packages-select <package_name>
 """
 
 class IntegrationInterface(Node):
@@ -25,6 +27,10 @@ class IntegrationInterface(Node):
         # Creating service clients
         self.detect_objects_client = self.create_client(DetectObjects, 'detect_objects')
 
+        self.live_conversation_client = self.create_client(LiveConversation, 'live_conversation')
+        self.start_listening_client = self.create_client(StartListening, 'start_listening')
+        self.recognize_speech_client = self.create_client(RecognizeSpeech, 'recognize_speech')
+        self.set_eye_color_client = self.create_client(SetEyeColor, 'set_eye_color')
 
         self.move_arm_client = self.create_client(MoveArm, 'move_arm')
         self.stand_up_client = self.create_client(StandUp, 'stand_up')
@@ -46,7 +52,11 @@ class IntegrationInterface(Node):
             (self.speak_client, 'Speak'),
             (self.play_song_client, 'PlaySong'),
             (self.stand_up_client, 'StandUp'),
-            (self.set_posture_client, 'SetPosture') 
+            (self.set_posture_client, 'SetPosture') ,
+            (self.live_conversation_client, 'LiveConversation'),
+            (self.start_listening_client, 'StartListening'),
+            (self.recognize_speech_client, 'RecognizeSpeech'),
+            (self.set_eye_color_client, 'SetEyeColor'),
         ]
 
         for client, name in services:
@@ -206,6 +216,72 @@ class IntegrationInterface(Node):
                 return False
         except Exception as e:
             self.get_logger().error(f"PlaySong service call failed: {e}")
+            return False
+        
+    def live_conversation(self, user_input):
+        req = LiveConversation.Request()
+        req.user_input = user_input
+        future = self.live_conversation_client.call_async(req)
+        rclpy.spin_until_future_complete(self, future)
+        if future.result() is not None:
+            return future.result().bot_response
+        else:
+            self.get_logger().error('Failed to call live_conversation service')
+            return "Error in processing."
+        
+    def start_listening(self, start_word, stop_word):
+        if not self.start_listening_client.service_is_ready():
+            self.get_logger().error('StartListening service is not available.')
+            return False
+        request = StartListening.Request()
+        request.start_word = start_word
+        request.stop_word = stop_word
+
+        try:
+            future = self.start_listening_client.call_async(request)
+            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
+            return future.result().success
+        except Exception as e:
+            self.get_logger().error(f"StartListening service call failed: {e}")
+            return False
+        
+    def recognize_speech(self):
+        if not self.recognize_speech_client.service_is_ready():
+            self.get_logger().error('RecognizeSpeech service is not available.')
+            return False, ""
+        request = RecognizeSpeech.Request()
+
+        try:
+            future = self.recognize_speech_client.call_async(request)
+            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
+            if future.done():
+                response = future.result()
+                return response.success, response.recognized_text
+            else:
+                self.get_logger().error('RecognizeSpeech service call timed out.')
+                return False, ""
+        except Exception as e:
+            self.get_logger().error(f"RecognizeSpeech service call failed: {e}")
+            return False, ""
+        
+    def set_eye_color(self, color):
+        if not self.set_eye_color_client.service_is_ready():
+            self.get_logger().error('SetEyeColor service is not available.')
+            return False
+        request = SetEyeColor.Request()
+        request.color = color
+        try:
+            future = self.set_eye_color_client.call_async(request)
+            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
+            if future.done():
+                response = future.result()
+                self.get_logger().info(f"SetEyeColor response: {response.message}")
+                return response.success
+            else:
+                self.get_logger().error('SetEyeColor service call timed out.')
+                return False
+        except Exception as e:
+            self.get_logger().error(f"SetEyeColor service call failed: {e}")
             return False
 
     def feedback_callback(self, feedback_msg):

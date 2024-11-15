@@ -1,0 +1,368 @@
+[0.071s] Invoking command in '/home/robotica/nao_ws/src/build/manipulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotica/nao_ws/src/manipulation_interfaces -DCMAKE_INSTALL_PREFIX=/home/robotica/nao_ws/src/install/manipulation_interfaces
+[0.294s] -- The C compiler identification is GNU 13.2.0
+[0.535s] -- The CXX compiler identification is GNU 13.2.0
+[0.577s] -- Detecting C compiler ABI info
+[0.978s] -- Detecting C compiler ABI info - done
+[1.040s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.040s] -- Detecting C compile features
+[1.040s] -- Detecting C compile features - done
+[1.169s] -- Detecting CXX compiler ABI info
+[1.629s] -- Detecting CXX compiler ABI info - done
+[1.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.668s] -- Detecting CXX compile features
+[1.670s] -- Detecting CXX compile features - done
+[1.683s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.395s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.782s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.821s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.340s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.357s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[6.858s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.911s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.149s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[11.632s] -- Found PythonExtra: /usr/bin/python3  
+[13.649s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[14.074s] -- Configuring done (14.0s)
+[14.596s] -- Generating done (0.4s)
+[14.632s] -- Build files have been written to: /home/robotica/nao_ws/src/build/manipulation_interfaces
+[14.737s] Invoked command in '/home/robotica/nao_ws/src/build/manipulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robotica/nao_ws/src/manipulation_interfaces -DCMAKE_INSTALL_PREFIX=/home/robotica/nao_ws/src/install/manipulation_interfaces
+[14.738s] Invoking command in '/home/robotica/nao_ws/src/build/manipulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotica/nao_ws/src/build/manipulation_interfaces -- -j4 -l4
+[14.999s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[15.114s] [  1%] Built target ament_cmake_python_copy_manipulation_interfaces
+[16.897s] [  1%] Built target manipulation_interfaces__rosidl_generator_type_description
+[16.985s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.986s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[18.737s] running egg_info
+[18.771s] creating manipulation_interfaces.egg-info
+[19.099s] writing manipulation_interfaces.egg-info/PKG-INFO
+[19.102s] writing dependency_links to manipulation_interfaces.egg-info/dependency_links.txt
+[19.102s] writing top-level names to manipulation_interfaces.egg-info/top_level.txt
+[19.103s] writing manifest file 'manipulation_interfaces.egg-info/SOURCES.txt'
+[19.708s] reading manifest file 'manipulation_interfaces.egg-info/SOURCES.txt'
+[19.709s] writing manifest file 'manipulation_interfaces.egg-info/SOURCES.txt'
+[19.865s] [  4%] Built target ament_cmake_python_build_manipulation_interfaces_egg
+[22.608s] [  4%] Built target manipulation_interfaces__cpp
+[23.066s] [  5%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__description.c.o[0m
+[23.238s] [  6%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__description.c.o[0m
+[23.379s] [  8%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__functions.c.o[0m
+[23.591s] [  9%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o[0m
+[23.706s] [ 10%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__description.c.o[0m
+[23.852s] [ 12%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__functions.c.o[0m
+[24.071s] [ 13%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o[0m
+[24.183s] [ 14%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__description.c.o[0m
+[24.325s] [ 16%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__functions.c.o[0m
+[24.545s] [ 17%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o[0m
+[24.661s] [ 18%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__description.c.o[0m
+[24.812s] [ 20%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__functions.c.o[0m
+[25.049s] [ 21%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/toggle_awareness__type_support.c.o[0m
+[25.177s] [ 22%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__type_support.c.o[0m
+[25.284s] [ 24%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_c.dir/rosidl_generator_c/manipulation_interfaces/srv/detail/move_arm__functions.c.o[0m
+[25.510s] [ 25%] [32m[1mLinking C shared library libmanipulation_interfaces__rosidl_generator_c.so[0m
+[25.618s] [ 25%] Built target manipulation_interfaces__rosidl_generator_c
+[25.639s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[26.969s] [ 28%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/move_arm__type_support.cpp.o[0m
+[28.536s] [ 29%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/stand_up__type_support.cpp.o[0m
+[30.567s] [ 31%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/set_posture__type_support.cpp.o[0m
+[31.956s] [ 32%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/set_mode__type_support.cpp.o[0m
+[33.369s] [ 33%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulation_interfaces/srv/toggle_awareness__type_support.cpp.o[0m
+[34.792s] [ 35%] [32m[1mLinking CXX shared library libmanipulation_interfaces__rosidl_typesupport_cpp.so[0m
+[35.020s] [ 35%] Built target manipulation_interfaces__rosidl_typesupport_cpp
+[35.044s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[36.311s] [ 37%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/move_arm__type_support.cpp.o[0m
+[36.460s] [ 39%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/stand_up__type_support.cpp.o[0m
+[36.596s] [ 40%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_posture__type_support.cpp.o[0m
+[36.740s] [ 41%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/set_mode__type_support.cpp.o[0m
+[36.876s] [ 43%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulation_interfaces/srv/toggle_awareness__type_support.cpp.o[0m
+[37.014s] [ 44%] [32m[1mLinking CXX shared library libmanipulation_interfaces__rosidl_typesupport_c.so[0m
+[37.117s] [ 44%] Built target manipulation_interfaces__rosidl_typesupport_c
+[37.145s] [ 45%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[39.462s] [ 47%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/move_arm__type_support.cpp.o[0m
+[41.961s] [ 48%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/stand_up__type_support.cpp.o[0m
+[44.024s] [ 50%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_posture__type_support.cpp.o[0m
+[47.273s] [ 51%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[50.369s] [ 52%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulation_interfaces/srv/detail/dds_fastrtps/toggle_awareness__type_support.cpp.o[0m
+[53.397s] [ 54%] [32m[1mLinking CXX shared library libmanipulation_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[53.811s] [ 54%] Built target manipulation_interfaces__rosidl_typesupport_fastrtps_cpp
+[53.929s] [ 55%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[56.478s] [ 56%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/move_arm__type_support.cpp.o[0m
+[57.621s] [ 58%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/stand_up__type_support.cpp.o[0m
+[58.509s] [ 59%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_posture__type_support.cpp.o[0m
+[59.432s] [ 60%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/set_mode__type_support.cpp.o[0m
+[60.370s] [ 62%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulation_interfaces/srv/detail/toggle_awareness__type_support.cpp.o[0m
+[61.305s] [ 63%] [32m[1mLinking CXX shared library libmanipulation_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[61.448s] [ 63%] Built target manipulation_interfaces__rosidl_typesupport_introspection_cpp
+[61.465s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[62.468s] [ 66%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/move_arm__type_support.c.o[0m
+[62.552s] [ 67%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_posture__type_support.c.o[0m
+[62.636s] [ 68%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/set_mode__type_support.c.o[0m
+[62.719s] [ 70%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/toggle_awareness__type_support.c.o[0m
+[62.803s] [ 71%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulation_interfaces/srv/detail/stand_up__type_support.c.o[0m
+[62.884s] [ 72%] [32m[1mLinking C shared library libmanipulation_interfaces__rosidl_typesupport_introspection_c.so[0m
+[62.935s] [ 72%] Built target manipulation_interfaces__rosidl_typesupport_introspection_c
+[62.952s] [ 74%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[64.448s] [ 75%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/move_arm__type_support_c.cpp.o[0m
+[66.352s] [ 77%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_mode__type_support_c.cpp.o[0m
+[67.615s] [ 78%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/toggle_awareness__type_support_c.cpp.o[0m
+[68.955s] [ 79%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/set_posture__type_support_c.cpp.o[0m
+[70.329s] [ 81%] [32mBuilding CXX object CMakeFiles/manipulation_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulation_interfaces/srv/detail/stand_up__type_support_c.cpp.o[0m
+[71.558s] [ 82%] [32m[1mLinking CXX shared library libmanipulation_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[71.688s] [ 82%] Built target manipulation_interfaces__rosidl_typesupport_fastrtps_c
+[71.718s] [ 82%] Built target manipulation_interfaces
+[71.748s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[74.838s] [ 83%] Built target manipulation_interfaces__py
+[74.889s] [ 85%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_move_arm_s.c.o[0m
+[75.331s] [ 86%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_set_mode_s.c.o[0m
+[75.747s] [ 87%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_toggle_awareness_s.c.o[0m
+[76.137s] [ 89%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_set_posture_s.c.o[0m
+[76.582s] [ 90%] [32mBuilding C object CMakeFiles/manipulation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/manipulation_interfaces/srv/_stand_up_s.c.o[0m
+[76.955s] [ 91%] [32m[1mLinking C shared library libmanipulation_interfaces__rosidl_generator_py.so[0m
+[77.042s] [ 91%] Built target manipulation_interfaces__rosidl_generator_py
+[77.089s] [ 93%] [32mBuilding C object CMakeFiles/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[77.681s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[77.771s] [ 94%] Built target manipulation_interfaces_s__rosidl_typesupport_fastrtps_c
+[77.818s] [ 95%] [32mBuilding C object CMakeFiles/manipulation_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[78.240s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_c.so[0m
+[78.294s] [ 97%] Built target manipulation_interfaces_s__rosidl_typesupport_c
+[78.324s] [ 98%] [32mBuilding C object CMakeFiles/manipulation_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[78.616s] [100%] [32m[1mLinking C shared module rosidl_generator_py/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[78.665s] [100%] Built target manipulation_interfaces_s__rosidl_typesupport_introspection_c
+[78.683s] Invoked command in '/home/robotica/nao_ws/src/build/manipulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robotica/nao_ws/src/build/manipulation_interfaces -- -j4 -l4
+[78.957s] Invoking command in '/home/robotica/nao_ws/src/build/manipulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotica/nao_ws/src/build/manipulation_interfaces
+[78.973s] -- Install configuration: ""
+[78.973s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/ament_index/resource_index/rosidl_interfaces/manipulation_interfaces
+[78.973s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/MoveArm.json
+[78.974s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/StandUp.json
+[78.974s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetPosture.json
+[78.974s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetMode.json
+[78.974s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/ToggleAwareness.json
+[78.975s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[78.975s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[78.975s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/set_posture.h
+[78.975s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/toggle_awareness.h
+[78.976s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/stand_up.h
+[78.976s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/move_arm.h
+[78.976s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/set_mode.h
+[78.976s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[78.976s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.h
+[78.977s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.c
+[78.977s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.h
+[78.977s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__struct.h
+[78.978s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__functions.c
+[78.978s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__struct.h
+[78.978s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.c
+[78.978s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__description.c
+[78.978s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__functions.c
+[78.978s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__functions.h
+[78.979s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__functions.h
+[78.979s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__functions.h
+[78.979s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.h
+[78.979s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__functions.h
+[78.980s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__description.c
+[78.980s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__functions.c
+[78.980s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__type_support.c
+[78.980s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__struct.h
+[78.981s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__description.c
+[78.981s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__struct.h
+[78.981s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__struct.h
+[78.981s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.c
+[78.982s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__functions.h
+[78.982s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__type_support.h
+[78.982s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__description.c
+[78.982s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.h
+[78.982s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__functions.c
+[78.983s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__functions.c
+[78.983s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__description.c
+[78.983s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.c
+[78.983s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[78.983s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_generator_c__visibility_control.h
+[78.984s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/environment/library_path.sh
+[78.984s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/environment/library_path.dsv
+[78.984s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_generator_c.so
+[78.985s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_generator_c.so" to ""
+[78.985s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[78.985s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[78.985s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[78.985s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[78.986s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__rosidl_typesupport_fastrtps_c.h
+[78.986s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__rosidl_typesupport_fastrtps_c.h
+[78.986s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__rosidl_typesupport_fastrtps_c.h
+[78.987s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__rosidl_typesupport_fastrtps_c.h
+[78.987s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[78.987s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[78.987s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_fastrtps_c.so
+[78.988s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[78.988s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[78.989s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[78.989s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[78.989s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__rosidl_typesupport_introspection_c.h
+[78.990s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.c
+[78.990s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__rosidl_typesupport_introspection_c.h
+[78.990s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__rosidl_typesupport_introspection_c.h
+[78.991s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.c
+[78.991s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+[78.991s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__type_support.c
+[78.992s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.c
+[78.992s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__rosidl_typesupport_introspection_c.h
+[78.992s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.c
+[78.993s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[78.993s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[78.993s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_introspection_c.so
+[78.995s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[78.995s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_c.so
+[78.996s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_c.so" to ""
+[78.996s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[78.996s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[78.997s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/toggle_awareness.hpp
+[78.997s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/move_arm.hpp
+[78.997s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/stand_up.hpp
+[78.997s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/set_posture.hpp
+[78.997s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[78.998s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__builder.hpp
+[78.998s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__struct.hpp
+[78.998s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.hpp
+[78.998s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__traits.hpp
+[78.998s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__traits.hpp
+[78.999s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__builder.hpp
+[78.999s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__struct.hpp
+[78.999s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.hpp
+[78.999s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.hpp
+[78.999s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__type_support.hpp
+[78.999s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__struct.hpp
+[78.999s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__traits.hpp
+[79.000s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__builder.hpp
+[79.000s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__builder.hpp
+[79.000s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__traits.hpp
+[79.000s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__builder.hpp
+[79.001s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.hpp
+[79.001s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__traits.hpp
+[79.001s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__struct.hpp
+[79.001s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__struct.hpp
+[79.001s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/set_mode.hpp
+[79.002s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[79.002s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[79.002s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[79.002s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[79.002s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[79.003s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__rosidl_typesupport_fastrtps_cpp.hpp
+[79.003s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__rosidl_typesupport_fastrtps_cpp.hpp
+[79.003s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__rosidl_typesupport_fastrtps_cpp.hpp
+[79.003s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__rosidl_typesupport_fastrtps_cpp.hpp
+[79.004s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[79.004s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/dds_fastrtps
+[79.004s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg
+[79.004s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[79.005s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[79.005s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[79.005s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces
+[79.005s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv
+[79.006s] -- Up-to-date: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail
+[79.006s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[79.006s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__rosidl_typesupport_introspection_cpp.hpp
+[79.006s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/stand_up__type_support.cpp
+[79.006s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_mode__type_support.cpp
+[79.006s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__rosidl_typesupport_introspection_cpp.hpp
+[79.007s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__type_support.cpp
+[79.007s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/move_arm__type_support.cpp
+[79.007s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/set_posture__rosidl_typesupport_introspection_cpp.hpp
+[79.007s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__type_support.cpp
+[79.008s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/include/manipulation_interfaces/manipulation_interfaces/srv/detail/toggle_awareness__rosidl_typesupport_introspection_cpp.hpp
+[79.009s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_introspection_cpp.so
+[79.011s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[79.011s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_cpp.so
+[79.012s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_typesupport_cpp.so" to ""
+[79.012s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/environment/pythonpath.sh
+[79.012s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/environment/pythonpath.dsv
+[79.013s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info
+[79.013s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[79.014s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[79.014s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[79.014s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[79.015s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces
+[79.015s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv
+[79.015s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_mode_s.c
+[79.016s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_stand_up.py
+[79.016s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_toggle_awareness_s.c
+[79.016s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_move_arm.py
+[79.017s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/__init__.py
+[79.017s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_posture.py
+[79.017s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_mode.py
+[79.018s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_move_arm_s.c
+[79.018s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_posture_s.c
+[79.018s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_toggle_awareness.py
+[79.019s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_stand_up_s.c
+[79.019s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[79.019s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_c.so
+[79.019s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[79.020s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[79.020s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/__init__.py
+[79.020s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/_manipulation_interfaces_s.ep.rosidl_typesupport_c.c
+[79.020s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_introspection_c.so
+[79.130s] Listing '/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces'...
+[79.130s] Compiling '/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/__init__.py'...
+[79.131s] Listing '/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv'...
+[79.131s] Compiling '/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/__init__.py'...
+[79.131s] Compiling '/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_move_arm.py'...
+[79.131s] Compiling '/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_mode.py'...
+[79.131s] Compiling '/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_set_posture.py'...
+[79.131s] Compiling '/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_stand_up.py'...
+[79.131s] Compiling '/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/srv/_toggle_awareness.py'...
+[79.139s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[79.140s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[79.140s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_introspection_c.so
+[79.141s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[79.142s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_c.so
+[79.142s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/python3.12/site-packages/manipulation_interfaces/manipulation_interfaces_s__rosidl_typesupport_c.so" to ""
+[79.143s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_generator_py.so
+[79.144s] -- Set non-toolchain portion of runtime path of "/home/robotica/nao_ws/src/install/manipulation_interfaces/lib/libmanipulation_interfaces__rosidl_generator_py.so" to ""
+[79.144s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/MoveArm.idl
+[79.145s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/StandUp.idl
+[79.145s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetPosture.idl
+[79.145s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetMode.idl
+[79.145s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/ToggleAwareness.idl
+[79.146s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/MoveArm.srv
+[79.146s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/StandUp.srv
+[79.146s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetPosture.srv
+[79.146s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/SetMode.srv
+[79.147s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/srv/ToggleAwareness.srv
+[79.147s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/ament_index/resource_index/package_run_dependencies/manipulation_interfaces
+[79.147s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/ament_index/resource_index/parent_prefix_path/manipulation_interfaces
+[79.147s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/environment/ament_prefix_path.sh
+[79.147s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/environment/ament_prefix_path.dsv
+[79.148s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/environment/path.sh
+[79.148s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/environment/path.dsv
+[79.148s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/local_setup.bash
+[79.148s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/local_setup.sh
+[79.149s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/local_setup.zsh
+[79.149s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/local_setup.dsv
+[79.149s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/package.dsv
+[79.149s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/ament_index/resource_index/packages/manipulation_interfaces
+[79.150s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_cExport.cmake
+[79.150s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_cExport-noconfig.cmake
+[79.150s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[79.150s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[79.151s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[79.151s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[79.151s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_cExport.cmake
+[79.151s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[79.151s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_cppExport.cmake
+[79.152s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[79.152s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[79.152s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[79.152s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[79.153s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_cppExport.cmake
+[79.153s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[79.153s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_pyExport.cmake
+[79.153s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/export_manipulation_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[79.153s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/rosidl_cmake-extras.cmake
+[79.154s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[79.154s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[79.154s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[79.154s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[79.154s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[79.155s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[79.155s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfacesConfig.cmake
+[79.155s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/cmake/manipulation_interfacesConfig-version.cmake
+[79.155s] -- Installing: /home/robotica/nao_ws/src/install/manipulation_interfaces/share/manipulation_interfaces/package.xml
+[79.159s] Invoked command in '/home/robotica/nao_ws/src/build/manipulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotica/nao_ws/src/install/web_controller:/home/robotica/nao_ws/src/install/speech:/home/robotica/nao_ws/src/install/integration:/home/robotica/nao_ws/src/install/rest_api:/home/robotica/nao_ws/src/install/perception:/home/robotica/nao_ws/src/install/navigation:/home/robotica/nao_ws/src/install/nao_qi_ros2_package:/home/robotica/nao_ws/src/install/manipulation:/home/robotica/nao_ws/install/web_controller:/home/robotica/nao_ws/install/speech:/home/robotica/nao_ws/install/integration:/home/robotica/nao_ws/install/rest_api:/home/robotica/nao_ws/install/perception:/home/robotica/nao_ws/install/navigation:/home/robotica/nao_ws/install/nao_qi_ros2_package:/home/robotica/nao_ws/install/manipulation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robotica/nao_ws/src/build/manipulation_interfaces

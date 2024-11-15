@@ -1,0 +1,17 @@
+{
+  "package_name": "manipulation_interfaces",
+  "output_dir": "/home/robotica/nao_ws/src/build/manipulation_interfaces/rosidl_generator_type_description/manipulation_interfaces",
+  "idl_tuples": [
+    "/home/robotica/nao_ws/src/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/MoveArm.idl",
+    "/home/robotica/nao_ws/src/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/StandUp.idl",
+    "/home/robotica/nao_ws/src/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetPosture.idl",
+    "/home/robotica/nao_ws/src/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/SetMode.idl",
+    "/home/robotica/nao_ws/src/build/manipulation_interfaces/rosidl_adapter/manipulation_interfaces:srv/ToggleAwareness.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "manipulation_interfaces/srv/ToggleAwareness_Request",
+      "fields": [
+        {
+          "name": "enable",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "manipulation_interfaces/srv/ToggleAwareness_Request",
+      "hash_string": "RIHS01_6329f3357df9f3066e236a1e2e297d94e75168bc931d04d6c6a77e20eda17d5c"
+    }
+  ]
+}

@@ -8,11 +8,19 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(std_msgs REQUIRED)
 
 # Generate services
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Speak.srv"
   "srv/PlaySong.srv"
+  "srv/ChangeVoice.srv"
+  "srv/ListVoices.srv"
+  "srv/SetVoiceParameters.srv"
+  "srv/LiveConversation.srv"
+  "srv/StartListening.srv"
+  "srv/RecognizeSpeech.srv"
+  DEPENDENCIES std_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)
