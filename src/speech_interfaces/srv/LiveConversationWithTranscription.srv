@@ -1,0 +1,7 @@
+# Request
+string transcription
+
+---
+# Response
+string bot_response
+bool success

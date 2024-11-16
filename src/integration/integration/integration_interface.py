@@ -3,11 +3,13 @@
 import rclpy
 from rclpy.node import Node
 from perception_interfaces.srv import DetectObjects, SetEyeColor
-from manipulation_interfaces.srv import MoveArm, StandUp, SetPosture, SetMode
+from manipulation_interfaces.srv import MoveArm, StandUp, SetPosture, SetMode, DetectHeadTouch
 from geometry_msgs.msg import Point, PoseStamped
-from speech_interfaces.srv import Speak, PlaySong, LiveConversation, StartListening, RecognizeSpeech
+from speech_interfaces.srv import Speak, PlaySong, LiveConversation, LiveConversationWithTranscription, TranscribeAudio, StartAudioRecording, StopAudioRecording
 from rclpy.action import ActionClient
 import time
+import os
+import requests
 
 """
 Steps to re-build the project and load changes to any console:
@@ -28,14 +30,17 @@ class IntegrationInterface(Node):
         self.detect_objects_client = self.create_client(DetectObjects, 'detect_objects')
 
         self.live_conversation_client = self.create_client(LiveConversation, 'live_conversation')
-        self.start_listening_client = self.create_client(StartListening, 'start_listening')
-        self.recognize_speech_client = self.create_client(RecognizeSpeech, 'recognize_speech')
         self.set_eye_color_client = self.create_client(SetEyeColor, 'set_eye_color')
+        self.live_conversation_with_transcription_client = self.create_client(LiveConversationWithTranscription, 'live_conversation_with_transcription')
 
         self.move_arm_client = self.create_client(MoveArm, 'move_arm')
         self.stand_up_client = self.create_client(StandUp, 'stand_up')
         self.set_posture_client = self.create_client(SetPosture, 'set_posture')
+        self.detect_head_touch_client = self.create_client(DetectHeadTouch, 'detect_head_touch')
 
+        self.transcribe_audio_client = self.create_client(TranscribeAudio, 'transcribe_audio')
+        self.start_audio_recording_client = self.create_client(StartAudioRecording, 'start_audio_recording')
+        self.stop_audio_recording_client = self.create_client(StopAudioRecording, 'stop_audio_recording')
         self.speak_client = self.create_client(Speak, 'speak')
         self.play_song_client = self.create_client(PlaySong, 'play_song')
 
@@ -54,9 +59,11 @@ class IntegrationInterface(Node):
             (self.stand_up_client, 'StandUp'),
             (self.set_posture_client, 'SetPosture') ,
             (self.live_conversation_client, 'LiveConversation'),
-            (self.start_listening_client, 'StartListening'),
-            (self.recognize_speech_client, 'RecognizeSpeech'),
+            (self.live_conversation_with_transcription_client, 'live_conversation_with_transcription'),
             (self.set_eye_color_client, 'SetEyeColor'),
+            (self.detect_head_touch_client, 'DetectHeadTouch'),
+            (self.start_audio_recording_client, 'StartAudioRecording'),
+            (self.stop_audio_recording_client, 'StopAudioRecording'),
         ]
 
         for client, name in services:
@@ -229,40 +236,27 @@ class IntegrationInterface(Node):
             self.get_logger().error('Failed to call live_conversation service')
             return "Error in processing."
         
-    def start_listening(self, start_word, stop_word):
-        if not self.start_listening_client.service_is_ready():
-            self.get_logger().error('StartListening service is not available.')
-            return False
-        request = StartListening.Request()
-        request.start_word = start_word
-        request.stop_word = stop_word
+    def live_conversation_with_transcription(self, transcription):
+        if not self.live_conversation_with_transcription_client.service_is_ready():
+            self.get_logger().error('LiveConversationWithTranscription service is not available.')
+            return False, "Service unavailable"
+
+        req = LiveConversationWithTranscription.Request()
+        req.transcription = transcription
 
         try:
-            future = self.start_listening_client.call_async(request)
-            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
-            return future.result().success
-        except Exception as e:
-            self.get_logger().error(f"StartListening service call failed: {e}")
-            return False
-        
-    def recognize_speech(self):
-        if not self.recognize_speech_client.service_is_ready():
-            self.get_logger().error('RecognizeSpeech service is not available.')
-            return False, ""
-        request = RecognizeSpeech.Request()
-
-        try:
-            future = self.recognize_speech_client.call_async(request)
-            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
-            if future.done():
+            future = self.live_conversation_with_transcription_client.call_async(req)
+            rclpy.spin_until_future_complete(self, future)
+            if future.result() is not None:
                 response = future.result()
-                return response.success, response.recognized_text
+                return response.success, response.bot_response
             else:
-                self.get_logger().error('RecognizeSpeech service call timed out.')
-                return False, ""
+                self.get_logger().error('Failed to call LiveConversationWithTranscription service')
+                return False, "Error in processing"
         except Exception as e:
-            self.get_logger().error(f"RecognizeSpeech service call failed: {e}")
-            return False, ""
+            self.get_logger().error(f"LiveConversationWithTranscription service call failed: {e}")
+            return False, str(e)
+
         
     def set_eye_color(self, color):
         if not self.set_eye_color_client.service_is_ready():
@@ -283,6 +277,120 @@ class IntegrationInterface(Node):
         except Exception as e:
             self.get_logger().error(f"SetEyeColor service call failed: {e}")
             return False
+        
+    def detect_head_touch(self):
+        if not self.detect_head_touch_client.service_is_ready():
+            self.get_logger().error('DetectHeadTouch service is not available.')
+            return False
+        request = DetectHeadTouch.Request()
+        try:
+            future = self.detect_head_touch_client.call_async(request)
+            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
+            if future.done():
+                response = future.result()
+                self.get_logger().info(f"Head touch detection result: {response.message}")
+                return response.success
+            else:
+                self.get_logger().error('DetectHeadTouch service call timed out.')
+                return False
+        except Exception as e:
+            self.get_logger().error(f"DetectHeadTouch service call failed: {e}")
+            return False
+        
+    def start_audio_recording(self, filename):
+        if not self.start_audio_recording_client.service_is_ready():
+            self.get_logger().error('StartAudioRecording service is not available.')
+            return False
+
+        request = StartAudioRecording.Request()
+        request.filename = filename
+
+        try:
+            future = self.start_audio_recording_client.call_async(request)
+            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
+            if future.result().success:
+                self.get_logger().info(f"Audio recording started on NAO: {filename}")
+                return True
+            else:
+                self.get_logger().error('Failed to start audio recording on NAO.')
+                return False
+        except Exception as e:
+            self.get_logger().error(f"StartAudioRecording service call failed: {e}")
+            return False
+
+
+    def stop_audio_recording(self):
+        if not self.stop_audio_recording_client.service_is_ready():
+            self.get_logger().error('StopAudioRecording service is not available.')
+            return False
+
+        request = StopAudioRecording.Request()  # No filename required
+        try:
+            future = self.stop_audio_recording_client.call_async(request)
+            rclpy.spin_until_future_complete(self, future, timeout_sec=5.0)
+            if future.result().success:
+                self.get_logger().info("Audio recording stopped successfully.")
+                return True
+            else:
+                self.get_logger().error('Failed to stop audio recording.')
+                return False
+        except Exception as e:
+            self.get_logger().error(f"StopAudioRecording service call failed: {e}")
+            return False
+
+
+    def retrieve_audio_from_nao(self, remote_filename, local_path):
+        try:
+            nao_ip = '192.168.212.6'  # IP of NAO
+            url = f"http://{nao_ip}:5000/{remote_filename}"
+
+            self.get_logger().info(f"Retrieving audio file from {url}")
+
+            response = requests.get(url, stream=True)
+            if response.status_code == 200:
+                with open(local_path, 'wb') as f:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+                self.get_logger().info(f"Audio file retrieved and saved to: {local_path}")
+                return local_path
+            else:
+                self.get_logger().error(f"Failed to retrieve file. HTTP Status: {response.status_code}")
+                return None
+        except Exception as e:
+            self.get_logger().error(f"Failed to retrieve audio file from NAO: {e}")
+            return None
+
+
+    def transcribe_audio(self, filename):
+        if not self.transcribe_audio_client.service_is_ready():
+            self.get_logger().error('TranscribeAudio service is not available.')
+            return "Transcription failed."
+
+        local_path = filename
+
+        # Retrieve audio file from NAO
+        retrieved_path = self.retrieve_audio_from_nao(filename, local_path)
+        if not retrieved_path:
+            return "Transcription failed. File retrieval error."
+
+        # Transcription request
+        request = TranscribeAudio.Request()
+        request.filepath = retrieved_path
+
+        try:
+            future = self.transcribe_audio_client.call_async(request)
+            rclpy.spin_until_future_complete(self, future, timeout_sec=10.0)
+            if future.result() is not None and future.result().success:
+                transcription = future.result().transcription
+                self.get_logger().info(f"Transcription: {transcription}")
+                return transcription
+            else:
+                self.get_logger().error('Failed to transcribe audio.')
+                return "Transcription failed."
+        except Exception as e:
+            self.get_logger().error(f"TranscribeAudio service call failed: {e}")
+            return "Transcription failed."
+
 
     def feedback_callback(self, feedback_msg):
         feedback = feedback_msg.feedback

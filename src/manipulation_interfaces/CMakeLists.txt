@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetPosture.srv"
   "srv/SetMode.srv"
   "srv/ToggleAwareness.srv"
+  "srv/DetectHeadTouch.srv"
   DEPENDENCIES geometry_msgs
 )
 

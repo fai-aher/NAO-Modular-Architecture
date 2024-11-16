@@ -1,0 +1,3 @@
+string filename  # Path to save the recorded audio
+---
+bool success     # Indicate if the recording started successfully

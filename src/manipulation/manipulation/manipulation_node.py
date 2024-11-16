@@ -2,7 +2,7 @@
 
 import rclpy
 from rclpy.node import Node
-from manipulation_interfaces.srv import MoveArm, StandUp, SetPosture, SetMode, ToggleAwareness
+from manipulation_interfaces.srv import MoveArm, StandUp, SetPosture, SetMode, ToggleAwareness, DetectHeadTouch
 from geometry_msgs.msg import Point
 import qi  # NAOqi SDK
 
@@ -14,6 +14,7 @@ class ManipulationNode(Node):
         self.set_posture_srv = self.create_service(SetPosture, 'set_posture', self.set_posture_callback)
         self.set_mode_srv = self.create_service(SetMode, 'set_mode', self.set_mode_callback)
         self.toggle_awareness_srv = self.create_service(ToggleAwareness, 'toggle_awareness', self.toggle_awareness_callback)
+        self.detect_head_touch_srv = self.create_service(DetectHeadTouch, 'detect_head_touch', self.detect_head_touch_callback)
 
         self.get_logger().info('Manipulation node started.')
 
@@ -23,13 +24,15 @@ class ManipulationNode(Node):
 
         self.session = qi.Session()
         try:
-            self.session.connect(f"tcp://{self.nao_ip}:{self.nao_port}")
+            self.session.connect(f"tcp://{self.nao_ip}:{self.nao_port}") 
             self.motion = self.session.service('ALMotion')
             self.posture = self.session.service('ALRobotPosture')
             self.autonomous_life = self.session.service('ALAutonomousLife')
+            self.memory = self.session.service("ALMemory")
             self.get_logger().info('Connected to NAOqi.')
         except RuntimeError as e:
             self.get_logger().error(f"Cannot connect to NAOqi at {self.nao_ip}:{self.nao_port}. Error: {e}")
+            self.memory = None
             raise e
 
     def move_arm_callback(self, request, response):
@@ -123,6 +126,28 @@ class ManipulationNode(Node):
 
         return response
     
+    def detect_head_touch_callback(self, request, response):
+        """Callback for head touch detection."""
+        try:
+            front_touch = self.memory.getData("Device/SubDeviceList/Head/Touch/Front/Sensor/Value")
+            middle_touch = self.memory.getData("Device/SubDeviceList/Head/Touch/Middle/Sensor/Value")
+            rear_touch = self.memory.getData("Device/SubDeviceList/Head/Touch/Rear/Sensor/Value")
+
+            if front_touch or middle_touch or rear_touch:
+                self.get_logger().info("Head touch detected.")
+                response.success = True
+            else:
+                response.success = False
+        except Exception as e:
+            self.get_logger().error(f"Head touch detection failed: {e}")
+            response.success = False
+
+        return response
+    def on_head_touched(self, eventName, value, message):
+        if value > 0:
+            self.get_logger().info("Head touch detected!")
+        self.memory.unsubscribeToEvent("FrontTactilTouched", "ManipulationNode")
+
 
 def main(args=None):
     rclpy.init(args=args)

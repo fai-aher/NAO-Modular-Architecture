@@ -20,6 +20,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/LiveConversation.srv"
   "srv/StartListening.srv"
   "srv/RecognizeSpeech.srv"
+  "srv/LiveConversationWithTranscription.srv"
+  "srv/StartAudioRecording.srv"
+  "srv/StopAudioRecording.srv"
+  "srv/TranscribeAudio.srv"
   DEPENDENCIES std_msgs
 )
 

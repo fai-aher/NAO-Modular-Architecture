@@ -3,76 +3,96 @@
 import rclpy
 from integration.integration_interface import IntegrationInterface
 from transitions import Machine
+import time
 
 class LiveConversationTask:
-    # Define states
-    states = ['idle', 'listening', 'processing', 'speaking', 'finished']
+    states = ['idle', 'waiting_for_touch', 'recording', 'processing', 'speaking', 'finished']
 
     def __init__(self):
-        # Initialize IntegrationInterface node
         self.node = IntegrationInterface()
-
-        # Initialize the state machine
         self.machine = Machine(model=self, states=LiveConversationTask.states, initial='idle')
 
         # Define transitions
-        self.machine.add_transition('start_listening', 'idle', 'listening', after='listen_for_start')
-        self.machine.add_transition('ask_question', 'listening', 'processing', after='process_question')
+        self.machine.add_transition('wait_for_touch', 'idle', 'waiting_for_touch', after='prompt_user')
+        self.machine.add_transition('start_recording', 'waiting_for_touch', 'recording', after='record_audio')
+        self.machine.add_transition('process_audio', 'recording', 'processing', after='transcribe_and_process')
         self.machine.add_transition('give_answer', 'processing', 'speaking', after='speak_response')
-        self.machine.add_transition('continue_listening', 'speaking', 'listening', after='listen_for_questions')
-        self.machine.add_transition('stop_task', '*', 'finished')
+        self.machine.add_transition('wait_for_next_touch', 'speaking', 'waiting_for_touch', after='prompt_user')
+        self.machine.add_transition('finish_task', '*', 'finished', after='cleanup')
 
     def run(self):
         try:
             self.start_task()
         except Exception as e:
             self.node.get_logger().error(f"LiveConversationTask failed: {e}")
-            self.stop_task()
+            self.finish_task()
 
     def start_task(self):
         self.node.get_logger().info("Task started.")
+        self.node.set_eye_color("blue")
+        self.node.speak("Estoy listo para conversar contigo, por favor toca mi cabeza cuando quieras preguntarme algo.", animated=True)
+        self.wait_for_touch()
 
-        self.node.set_eye_color("purple")  # Set eyes to purple
-        self.node.speak("Hola, mi nombre es NAO. Estoy listo para conversar contigo. Por favor, pregúntame lo que quieras cuando mis ojos estén de color morado y termine de hablarte.", animated=True)
-        self.start_listening()
-
-    def listen_for_start(self):
+    def prompt_user(self):
+        self.node.get_logger().info("Waiting for head touch...")
         while True:
-            success, recognized_text = self.node.recognize_speech()
-            if success:
-                if "Conversemos" in recognized_text:
-                    self.listen_for_questions()
-                    break
-                elif "Adiós" in recognized_text:
-                    self.stop_task()
-                    break
+            if self.node.detect_head_touch():
+                self.node.get_logger().info("Head touch detected. Starting audio recording...")
+                self.start_recording()
+                break
+            rclpy.spin_once(self.node, timeout_sec=0.1)
 
-    def listen_for_questions(self):
-        while True:
-            self.node.get_logger().info("Listening for questions...")
-            success, recognized_text = self.node.recognize_speech()
-            if success:
-                if "Adiós" in recognized_text:
-                    self.stop_task()
-                    break
-                else:
-                    self.node.get_logger().info(f"Question recognized: {recognized_text}")
-                    self.ask_question()
+    def record_audio(self):
+        timestamp = int(time.time())
+        remote_filename = f"question_{timestamp}.wav"  # File name for NAO's /tmp directory
+        remote_path = remote_filename
+        
+        if not self.node.start_audio_recording(remote_path):
+            self.node.get_logger().error("Failed to start audio recording.")
+            self.finish_task()
+            return
+        
+        self.node.get_logger().info("Touch head again to stop recording.")
+        time.sleep(3)
+        while not self.node.detect_head_touch():
+            rclpy.spin_once(self.node, timeout_sec=0.1)
+        
+        if not self.node.stop_audio_recording():
+            self.node.get_logger().error("Failed to stop audio recording.")
+            self.finish_task()
+            return
+        
+        self.node.get_logger().info(f"Audio recording completed: {remote_path}")
+        
+        # Trigger process_audio only once
+        self.process_audio(remote_filename)
 
-    def process_question(self):
-        self.node.get_logger().info("Processing question...")
-        response = self.node.start_live_conversation("Question received.")
-        self.node.response_text = response
-        self.give_answer()
+
+    def transcribe_and_process(self, remote_filename):
+        local_filename = f"/home/robotica/audio_recordings/{remote_filename}"
+        if not self.node.retrieve_audio_from_nao(remote_filename, local_filename):
+            self.node.get_logger().error("Failed to retrieve audio file from NAO.")
+            self.finish_task()
+            return
+
+        transcription = self.node.transcribe_audio(local_filename)
+        self.node.get_logger().info(f"Transcription: {transcription}")
+        success, response = self.node.live_conversation_with_transcription(transcription)
+        if success:
+            self.node.response_text = response
+            self.give_answer()
+        else:
+            self.node.get_logger().error("Failed to get response from GPT.")
+            self.finish_task()
 
     def speak_response(self):
         self.node.get_logger().info("Speaking response...")
         self.node.speak(self.node.response_text, animated=True)
-        self.continue_listening()
+        self.wait_for_next_touch()
 
-    def stop_task(self):
+    def cleanup(self):
         self.node.get_logger().info("Task finished.")
-        self.node.set_eye_color("white")  # Reset eye color
+        self.node.set_eye_color("white")
 
 def main(args=None):
     rclpy.init(args=args)
